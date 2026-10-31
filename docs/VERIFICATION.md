@@ -2,7 +2,7 @@
 
 ## v1.2 審查修正
 
-目前為整合驗證階段。此工作階段不執行 repository 的建置、check、smoke 或瀏覽器操作；本地僅讀取檔案、做 AST／JSON／JavaScript 語法解析與靜態比對。GitHub CI 的執行結果會另列，不與本地驗證混稱。
+已完成修正分支的 CI 整合驗證，實機畫面仍待驗收。此工作階段不執行 repository 的建置、check、smoke 或瀏覽器操作；本地僅讀取檔案、做 AST／JSON／JavaScript 語法解析與靜態比對。GitHub CI 的執行結果會另列，不與本地驗證混稱。
 
 | 項目 | 本次變更與證據範圍 |
 |---|---|
@@ -21,7 +21,7 @@
 
 ### CI 狀態
 
-待本次整合版本完成 CI 後更新。`scripts/check.mjs` 只以 JSON 解析 data.js；`smoke.mjs` 在 jsdom 中執行應用並以替身測試 lazy-load 的控制流程；`check-diagrams.mjs` 使用真正的 Mermaid parser。這些檢查不能取代視覺驗收、完整 SVG 排版驗證或 Pro Tools 實機操作。
+2026-11-01：[修正分支 CI 全部通過](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41236088325)。資料檢查確認 122 篇文章、8 頁索引、66 章、135 筆快捷鍵、103 個圖片引用、1,896 個文件連結與 1,424 個官方 PDF 連結；91 個 Mermaid 圖表皆經真正的 parser 接受。DOM 行為回歸、兩份生成網站一致性、提交檔案新鮮度及 ZIP／checksum 封裝均通過。`scripts/check.mjs` 只以 JSON 解析 data.js；`smoke.mjs` 在 jsdom 中執行應用並以替身測試 lazy-load 的控制流程；`check-diagrams.mjs` 使用真正的 Mermaid parser。這些檢查不能取代視覺驗收、完整 SVG 排版驗證或 Pro Tools 實機操作。
 
 ## 尚待實機驗收
 
