@@ -33,6 +33,6 @@
 
 ## 發布與內容範圍
 
-此 repository 已由使用者改為公開，現名為 `jaymoda88/pro-tools-learning-workbench-zh-tw`。v1.1 保留目前可見度，不建立含原書 PDF 的新版 Release 下載包；Actions 只在私人 repository 執行完整網站打包與 artifact 上傳。既有來源資料與附件未在本次介面更新中改寫。
+此 repository 已由使用者改為公開，現名為 `jaymoda88/pro-tools-learning-workbench-zh-tw`。v1.1 保留目前可見度；Release 網站包使用 `site-dist/`，來源 PDF 查閱連結指向 Avid 官方網址。Actions 只在私人 repository 執行含來源 PDF 的完整網站打包與 artifact 上傳。既有來源資料與附件未在本次介面更新中改寫。
 
 先前嘗試的 Site 部署因來源同步服務網域無法解析，尚未發布成功。`.openai/hosting.json` 保留既有 Site ID。`site-dist/` 另以 Avid 官方網址提供 PDF 連結；`dist/` 仍是既有離線資料布局。Codespaces 的預覽入口已改為新 repo 名稱；此更新未建立公開網站網址。

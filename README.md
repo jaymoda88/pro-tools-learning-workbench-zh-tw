@@ -30,7 +30,9 @@ npm start
 
 ### 下載獨立網站包
 
-目前可從 **Code → Download ZIP** 取得網站。Actions 會在每次 main 更新時執行檢查；自動產生完整網站包的步驟僅在私人 repository 執行。
+從 [Releases](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/releases/latest) 的 **Assets** 下載 `pro-tools-workbench-v1.1.0.zip`，解壓後開啟 `index.html`。搜尋、文章、快捷鍵與原創圖解已包含在網站包內；原書查閱連結指向 Avid 官網，需連線開啟。
+
+`SHA256SUMS.txt` 提供下載檔案校驗值。Actions 會在每次 main 更新時執行檢查；含來源 PDF 的完整網站 artifact 僅在私人 repository 執行打包。
 
 ## 你可以怎麼用
 
