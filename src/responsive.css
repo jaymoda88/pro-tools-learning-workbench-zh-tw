@@ -939,3 +939,16 @@ dialog p{
   .signal-hint {display:none;}
   .signal-scroll {overflow:visible;}
 }
+
+/* Keep native controls in the selected theme and explain optional render failures. */
+:root { color-scheme:light; }
+:root.dark { color-scheme:dark; }
+.reference-entry { margin-bottom:24px; }
+.diagram-block { margin:24px 0; max-width:100%; }
+.diagram-status:empty { display:none; }
+.diagram-status, .enhancement-notice { padding:12px; border:1px solid var(--line); border-radius:6px; }
+.diagram-source { margin-top:12px; }
+.diagram-source summary { cursor:pointer; min-height:44px; display:flex; align-items:center; }
+.search-tags { font-size:13px!important; margin-top:6px; }
+.reference-card .chapter-pill { min-width:42px; }
+@media print { :root, :root.dark { color-scheme:light; } }

@@ -1,0 +1,38 @@
+name: Publish versioned website release
+on:
+  push:
+    tags: ['v[0-9]*']
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install CI-only validation dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Rebuild and validate
+        run: |
+          npm run build
+          npm run check
+          git diff --exit-code -- dist site-dist
+          test -z "$(git ls-files --others --exclude-standard -- dist site-dist)"
+      - name: Package matching version
+        run: python3 scripts/package_release.py --version "${GITHUB_REF_NAME#v}"
+      - name: Publish ZIP and checksum
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            release/*.zip release/SHA256SUMS.txt \
+            --verify-tag \
+            --title "Pro Tools 工作台 $GITHUB_REF_NAME" \
+            --generate-notes

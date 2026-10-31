@@ -17,14 +17,31 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python3 scripts/build_data.py
-      - run: npm run check
-      - name: Package standalone website
-        if: github.event.repository.private == true
-        run: cd dist && zip -r ../pro-tools-workbench.zip .
-      - uses: actions/upload-artifact@v4
-        if: github.event.repository.private == true
+      - name: Install CI-only validation dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Rebuild both website editions
+        id: build
+        run: npm run build
+      - name: Validate content and application behavior
+        run: npm run check
+      - name: Verify committed generated files are current
+        run: |
+          git diff --exit-code -- dist site-dist
+          test -z "$(git ls-files --others --exclude-standard -- dist site-dist)"
+      - name: Package public website
+        run: npm run package
+      - name: Upload versioned website package
+        uses: actions/upload-artifact@v4
         with:
           name: pro-tools-workbench-website
-          path: pro-tools-workbench.zip
+          path: release/
+          if-no-files-found: error
           retention-days: 30
+      - name: Preserve generated website for review
+        if: always() && steps.build.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-website-for-review
+          path: site-dist/
+          if-no-files-found: error
+          retention-days: 7
