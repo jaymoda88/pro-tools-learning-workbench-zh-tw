@@ -7,6 +7,7 @@ const wrapper = /^window\.PT_DATA\s*=\s*([\s\S]+);\s*$/.exec(fs.readFileSync('di
 assert.ok(wrapper, 'Expected a JSON assignment');
 const data = JSON.parse(wrapper[1]);
 const dom = new JSDOM('<!doctype html><html><body></body></html>', { runScripts: 'outside-only' });
+dom.window.structuredClone = globalThis.structuredClone;
 dom.window.eval(fs.readFileSync('dist/vendor/mermaid.min.js', 'utf8'));
 const mermaid = dom.window.mermaid;
 mermaid.initialize({ startOnLoad: false, securityLevel: 'strict', suppressErrorRendering: true });
