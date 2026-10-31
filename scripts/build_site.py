@@ -50,6 +50,10 @@ def prepare(staging: Path) -> None:
             for name in PDF_NAMES:
                 text = text.replace("assets/" + name, AVID_BASE + name)
             file.write_text(text, encoding="utf-8", newline="\n")
+    # Normalize permissions as well as bytes for cross-platform Git freshness checks.
+    for file in staging.rglob("*"):
+        if file.is_file():
+            file.chmod(0o644)
     if any(file.suffix.lower() == ".pdf" for file in staging.rglob("*")):
         raise SystemExit("Public output must not contain PDF files.")
 
