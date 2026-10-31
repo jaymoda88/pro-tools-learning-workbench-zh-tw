@@ -32,6 +32,7 @@ def main() -> None:
         "整理與製作：許惟傑 Xue_hwcxx · GitHub @jaymoda88\n\n"
         "解壓後開啟 index.html。搜尋、教學筆記、Mac 快捷鍵與原創圖解已包含在網站包。\n"
         "原書查閱連結指向 Avid 官方 PDF，需要網路連線。\n"
+        "原創部分目前保留權利；第三方依各自附帶授權，詳見 LICENSE。\n"
         "若瀏覽器限制本機圖表，於此資料夾執行 python3 -m http.server 4173，\n"
         "再開啟 http://localhost:4173。收藏與閱讀進度可在設定中匯出／匯入。\n"
         "https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw\n"
@@ -39,6 +40,7 @@ def main() -> None:
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as bundle:
         entries = [(str(file.relative_to(source)).replace("\\", "/"), file.read_bytes()) for file in files]
         entries.append(("README.txt", readme.encode("utf-8")))
+        entries.append(("LICENSE", (ROOT / "LICENSE").read_bytes()))
         for name, data in sorted(entries):
             info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
             info.create_system = 3

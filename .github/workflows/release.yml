@@ -35,4 +35,4 @@ jobs:
             release/*.zip release/SHA256SUMS.txt \
             --verify-tag \
             --title "Pro Tools 工作台 $GITHUB_REF_NAME" \
-            --generate-notes
+            --notes-file "docs/releases/$GITHUB_REF_NAME.md"
