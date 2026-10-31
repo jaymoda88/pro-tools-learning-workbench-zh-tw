@@ -6,6 +6,8 @@ permissions:
   contents: read
 jobs:
   release:
+    # Rewriting an existing tag must not recreate or replace a published release.
+    if: github.event.created == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
