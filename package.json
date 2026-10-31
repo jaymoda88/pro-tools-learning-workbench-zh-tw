@@ -1,12 +1,14 @@
 {
-  "name": "pro-tools-workbench",
-  "version": "1.0.0",
+  "name": "pro-tools-learning-workbench-zh-tw",
+  "version": "1.1.0",
   "private": true,
   "description": "An interactive Traditional Chinese Pro Tools reference workbench",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "check": "node --check dist/app.js && node scripts/check.mjs",
+    "check": "node --check dist/app.js && node scripts/check.mjs && node scripts/smoke.mjs",
     "build:data": "python3 scripts/build_data.py"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

@@ -20,8 +20,10 @@ jobs:
       - run: python3 scripts/build_data.py
       - run: npm run check
       - name: Package standalone website
+        if: github.event.repository.private == true
         run: cd dist && zip -r ../pro-tools-workbench.zip .
       - uses: actions/upload-artifact@v4
+        if: github.event.repository.private == true
         with:
           name: pro-tools-workbench-website
           path: pro-tools-workbench.zip
