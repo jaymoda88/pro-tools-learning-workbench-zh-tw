@@ -44,3 +44,5 @@ v1.1.0 曾通過 Node.js、資料／連結檢查及有限 DOM fixture；其 fixt
 ## 歷史清理核對
 
 2026-11-01 經擁有者確認，改寫既有 9 筆 commit，更新 main 與三個版本 tags。隔離鏡像的全部可達物件中，沒有兩份 PDF 的路徑或 blob；清理前後目前版本的 tree 完全相同，後續僅更新清理說明與既有 tag 的發布防護。遠端 refs 與下載附件另經 API 核對。這不代表 GitHub 快取或他人 clone／fork 已清除。
+
+清理後的 main CI 已通過：[驗證紀錄](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41236770017)。重新從遠端 clone 的全部可達物件皆無 PDF，v1.0.0 Release 已無附件，舊含 PDF 的 Actions artifact 已不存在。v1.2.0 ZIP 的服務端 digest 與先前靜態檢查一致。但 GitHub 舊 SHA 的 PDF metadata 仍可讀取，平台端快取／舊物件清除尚未完成。

@@ -20,4 +20,6 @@
 | 舊 Actions 封裝 | 刪除同樣含兩份 PDF 的舊網站 artifact。 |
 | v1.1.0／v1.2.0 網站包 | 保留不含 PDF 的網站包與校驗檔。 |
 
-原本 clone 的副本仍可能保留舊歷史，建議重新 clone，避免再次推回舊 commit 或 PDF。既有 GitHub 快取、他人的 clone／fork 或已下載檔案，無法由這次遠端 refs 更新保證一併刪除；若仍可透過舊網址存取，需另向 GitHub 處理快取副本。
+原本 clone 的副本仍可能保留舊歷史，建議重新 clone，避免再次推回舊 commit 或 PDF。既有 GitHub 快取、他人的 clone／fork 或已下載檔案，無法由這次遠端 refs 更新保證一併刪除。清理後的實際核對中，GitHub 仍會回傳舊 SHA 下的 Reference Guide PDF metadata（52,909,235 bytes）；因此平台保留的舊物件尚未消失，需要另外向 GitHub 處理。沒有把這次 refs 清理宣稱為所有公開副本都已刪除。
+
+GitHub 對快取／舊物件的清除另有平台政策限制，不能預設一般文件一定能獲得人工清除；見[官方說明](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)。

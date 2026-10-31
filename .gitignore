@@ -7,3 +7,6 @@ __pycache__/
 *.py[cod]
 release/
 .site-build-*/
+
+# Source books are opened through Avid links.
+*.[pP][dD][fF]
