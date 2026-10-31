@@ -1,0 +1,14 @@
+name: 工作流程／介面建議
+description: 說明你想更容易完成的工作
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: 你想完成什麼工作？
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 現在卡在哪裡？
+      description: 請用實際情境說明，勝過只列一個按鈕名稱。

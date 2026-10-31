@@ -1,0 +1,20 @@
+name: 內容更正／補充
+description: 回報頁碼、操作、快捷鍵或概念疑義
+body:
+  - type: input
+    id: note
+    attributes:
+      label: 筆記標題／網址或快捷鍵 K 編號
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 哪裡需要更正？
+      description: 請描述目前內容與預期行為；若有原文，附上版本與頁碼。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Pro Tools 與 macOS 版本（若涉及實際操作）

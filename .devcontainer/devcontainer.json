@@ -1,0 +1,8 @@
+{
+  "name": "Pro Tools Workbench",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [4173],
+  "portsAttributes": { "4173": { "label": "Pro Tools 工作台", "onAutoForward": "openBrowser" } },
+  "postCreateCommand": "npm run check",
+  "postStartCommand": "npm start > /tmp/pro-tools-workbench.log 2>&1 &"
+}
