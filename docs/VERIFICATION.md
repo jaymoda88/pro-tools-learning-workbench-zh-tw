@@ -19,7 +19,11 @@
 | `pro-tools-workbench-v1.3.1.html` | 16,952,928 | `a3e74d1bac41131b646bf42e507d73711d3baa1807410732cee5b7d3b8eb921a` |
 | `pro-tools-workbench-v1.3.1.zip` | 7,712,594 | `358e6c5d7c5621506ba975bd883398baedd9b62439ef536498b919d401c6c31c` |
 
-正式 Release 簽章及下載後的 tag／commit／digest 核對將於發布後補記。實際手機／桌面、列印、瀏覽器儲存政策與 Pro Tools 操作仍待驗收；`file://` 各檔案的進度不保證自動共用，建議匯出／匯入。
+[v1.3.1 Release](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/releases/tag/v1.3.1) 已發布；[main CI](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41311622413) 與 [Release workflow](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41311713744) 均成功。下載正式 HTML／ZIP 後，確認與通過 CI 的兩份檔案逐位元組相同，並各自以下載的 `provenance.sigstore.json` 執行 `gh attestation verify --repo ... --bundle ... --format json` 成功。
+
+兩種格式的簽署身分皆為 `.github/workflows/release.yml`、`refs/tags/v1.3.1`、commit `d3ddbdea966b3b0b8f5a6d848379ea5a02ee6742`，signed subject 的兩個 digest 亦分別與上表相同。11,744-byte provenance bundle 的 SHA-256 為 `11490d1cafb50c88a03427d9dc2ed3f3acc297d8e2eeeb06d94addf61501845a`。
+
+實際手機／桌面、列印、瀏覽器儲存政策與 Pro Tools 操作仍待驗收；`file://` 各檔案的進度不保證自動共用，建議匯出／匯入。
 
 ## v1.3 資源、版本與來源標記升級
 

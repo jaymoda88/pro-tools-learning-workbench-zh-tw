@@ -18,3 +18,14 @@ ZIP 多檔版仍按需載入內容並保留獨立 PNG。這次發行只新增交
 MB 以 1,000,000 bytes 計算。單檔只收錄執行所需的套件，未收錄 ZIP 中未使用的 vendor 原始碼變體；功能、圖解與教材相同。
 
 [整合 CI 已通過](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41311371095)，包含兩種格式、PNG 與字型逐位元比對、完整授權、file URL 路由、搜尋、按鍵表與練習、真正的 KaTeX 公式 DOM 及 Mermaid parser。單檔測試禁止任何網路資源載入；Mermaid SVG 繪製採替身，沒有把 jsdom 當成實際瀏覽器畫面驗收。正式 Release 的簽章與下載核對另見 [驗證紀錄](VERIFICATION.md)；手機、桌面及列印的實際畫面仍待驗收。
+
+## 核對正式檔案
+
+正式 HTML 與 ZIP 均已完成下載後的 checksum 與 GitHub Attestation 驗證，簽章指向 `refs/tags/v1.3.1`。可自行使用 GitHub CLI 核對：
+
+```sh
+gh attestation verify pro-tools-workbench-v1.3.1.html -R jaymoda88/pro-tools-learning-workbench-zh-tw
+gh attestation verify pro-tools-workbench-v1.3.1.zip -R jaymoda88/pro-tools-learning-workbench-zh-tw
+```
+
+簽章用於核對來源與檔案指紋，不是防複製或所有權裁定。
