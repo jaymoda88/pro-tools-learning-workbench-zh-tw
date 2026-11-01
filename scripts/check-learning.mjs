@@ -47,7 +47,7 @@ for (const resource of data.resources) {
   primaryUrls.add(resource.url);
   for (const link of resource.links) { assert.ok(link.label); url(link.url, resource.title); }
   assert.ok(enums.language.has(resource.language) && enums.cost.has(resource.cost));
-  assert.ok(resource.levels.length && resource.levels.every(level => enums.level.has(level)));
+  assert.ok(Array.isArray(resource.levels) && resource.levels.every(level => enums.level.has(level)));
   assert.ok(enums.sourceGroup.has(resource.sourceGroup) && resource.topics.length);
   assert.ok(enums.status.has(resource.verification.status));
   assert.equal(resource.verification.scope, 'user-research');

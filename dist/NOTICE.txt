@@ -1,0 +1,18 @@
+Pro Tools 工作台 — 原創整理／未授權商用
+
+整理與製作：許惟傑 Xue_hwcxx
+GitHub：https://github.com/jaymoda88
+正式來源：https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw
+
+原創程式、教學解說、編排與自繪圖解保留所有權利。
+商業再利用、轉售、付費散布、整合為商業產品或付費內容服務，
+以及移除署名或浮水印，均須先取得作者書面同意。
+閱讀後學到的知識與操作技巧，仍可用於你自己的創作或專業工作。
+
+Avid 原文、其他機構文件、第三方套件與外部資源依其原有權利或授權；
+本聲明不代表作者擁有快捷鍵事實、軟體功能或第三方文件的權利。
+
+浮水印與來源雜湊用來標識及追溯來源，不能保證阻止複製、裁切或重寫。
+Release 的 GitHub Artifact Attestation 用來核對發布來源及檔案完整性，
+不是加密、DRM 或法院認定著作權的證明。
+詳見 repository 的 LICENSE 與 docs/PROTECTION.md。

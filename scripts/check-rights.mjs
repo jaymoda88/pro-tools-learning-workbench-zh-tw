@@ -28,7 +28,7 @@ assert.match(fs.readFileSync('dist/rights.css', 'utf8'), /pointer-events:\s*none
 assert.ok(fs.readFileSync('dist/rights.js', 'utf8').includes(owner));
 assert.ok(fs.readFileSync('dist/app.js', 'utf8').includes('PTRights?.stampArticle'));
 
-function imageMetadata(buffer, label) {
+function imageMetadata(buffer, label, required = true) {
   assert.equal(buffer.subarray(0, 8).toString('hex'), '89504e470d0a1a0a', `PNG signature: ${label}`);
   let offset = 8;
   let metadata;
@@ -49,7 +49,7 @@ function imageMetadata(buffer, label) {
     }
     offset += length + 12;
   }
-  assert.ok(metadata, `Missing pixel-attribution provenance: ${label}`);
+  if (required) assert.ok(metadata, `Missing pixel-attribution provenance: ${label}`);
   return metadata;
 }
 
@@ -60,9 +60,17 @@ for (const name of pngNames) {
   const metadata = imageMetadata(bytes, name);
   assert.equal(metadata.schemaVersion, 1);
   assert.equal(metadata.owner, owner);
-  assert.match(metadata.policy, /commercial/i);
+  assert.equal(metadata.policy, 'non-commercial-v1');
+  assert.equal(metadata.protectionVersion, 'footer-v1');
+  assert.equal(metadata.asset, name);
+  const original = fs.readFileSync(path.join('public/assets', name));
+  const sourceMetadata = imageMetadata(original, name, false);
+  assert.equal(metadata.sourceSha256, sourceMetadata ? sourceMetadata.sourceSha256 : sha256(original), `Source fingerprint mismatch: ${name}`);
   assert.match(metadata.sourceSha256, /^[a-f0-9]{64}$/);
-  assert.ok(Array.isArray(metadata.sourceSize) && metadata.sourceSize.every(Number.isInteger));
+  assert.ok(Array.isArray(metadata.sourceSize) && metadata.sourceSize.length === 2 && metadata.sourceSize.every(value => Number.isInteger(value) && value > 0));
+  assert.deepEqual(metadata.protectedSize, [bytes.readUInt32BE(16), bytes.readUInt32BE(20)]);
+  assert.deepEqual(metadata.sourceSize, sourceMetadata ? sourceMetadata.sourceSize : [original.readUInt32BE(16), original.readUInt32BE(20)]);
+  if (sourceMetadata) assert.deepEqual(original, bytes, `Protected sources must remain byte-identical: ${name}`);
   // Footer pixels must live outside the source chart's dimensions.
   assert.equal(bytes.readUInt32BE(16), metadata.sourceSize[0]);
   assert.ok(bytes.readUInt32BE(20) > metadata.sourceSize[1], `Missing image footer: ${name}`);
