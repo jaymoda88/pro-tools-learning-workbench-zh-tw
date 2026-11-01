@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "引用這份原創整理時請標註許惟傑 Xue_hwcxx；引用標識不授予商用或再散布許可，詳見 LICENSE。"
 title: "Pro Tools 工作台：繁體中文互動學習資源"
 type: software
-version: 1.3.0
+version: 1.3.1
 url: "https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw"
 authors:
   - family-names: "許"

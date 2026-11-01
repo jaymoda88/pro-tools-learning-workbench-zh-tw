@@ -32,6 +32,8 @@ jobs:
           test -z "$(git ls-files --others --exclude-standard -- dist site-dist)"
       - name: Package public website
         run: npm run package
+      - name: Validate self-contained HTML offline
+        run: npm run check:single
       - name: Upload versioned website package
         uses: actions/upload-artifact@v4
         with:

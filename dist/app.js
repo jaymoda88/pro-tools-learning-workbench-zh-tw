@@ -242,6 +242,15 @@ function loadScript(src, ready) {
   if (assetLoads.has(src)) return assetLoads.get(src);
   const promise = new Promise((resolve, reject) => {
     const script = document.createElement('script');
+    if (window.PT_OFFLINE) {
+      const embedded = window.PT_OFFLINE.scripts?.[src];
+      if (typeof embedded !== 'string') { reject(new Error('離線包缺少 ' + src)); return; }
+      script.textContent = embedded;
+      script.dataset.ptEmbedded = src;
+      document.head.append(script);
+      Promise.resolve().then(() => ready() ? resolve() : reject(new Error('離線套件未提供預期功能。')));
+      return;
+    }
     script.src = src;
     script.onload = () => ready() ? resolve() : reject(new Error('套件載入後未提供預期功能。'));
     script.onerror = () => reject(new Error('無法載入 ' + src));
@@ -254,6 +263,16 @@ function loadScript(src, ready) {
 function loadStyle(href) {
   if (assetLoads.has(href)) return assetLoads.get(href);
   const promise = new Promise((resolve, reject) => {
+    if (window.PT_OFFLINE) {
+      const embedded = window.PT_OFFLINE.styles?.[href];
+      if (typeof embedded !== 'string') { reject(new Error('離線包缺少 ' + href)); return; }
+      const style = document.createElement('style');
+      style.textContent = embedded;
+      style.dataset.ptEmbedded = href;
+      document.head.append(style);
+      resolve();
+      return;
+    }
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = href;
@@ -348,6 +367,8 @@ function hydrateReader() {
     });
   }
   root.querySelectorAll('img').forEach(image => {
+    const embedded = window.PT_OFFLINE?.assets?.[decodeId(image.getAttribute('src') || '')];
+    if (embedded) image.src = embedded;
     image.loading = 'lazy';
     image.addEventListener('error', () => { image.alt = '圖解無法載入：' + image.alt; });
   });

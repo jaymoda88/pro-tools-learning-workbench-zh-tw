@@ -7,6 +7,8 @@ import json
 from pathlib import Path
 import zipfile
 
+from build_single_file import build_single_file
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -72,7 +74,12 @@ def main() -> None:
             if len(payload) != record["size"] or hashlib.sha256(payload).hexdigest() != record["sha256"]:
                 raise SystemExit("Release provenance manifest mismatch: " + record["path"])
     digest = hashlib.sha256(archive.read_bytes()).hexdigest()
-    (output / "SHA256SUMS.txt").write_text(f"{digest}  {archive.name}\n", encoding="utf-8", newline="\n")
+    single = build_single_file(source, output / f"pro-tools-workbench-v{version}.html", version)
+    (output / "SHA256SUMS.txt").write_text(
+        f"{digest}  {archive.name}\n{single['sha256']}  {single['path']}\n",
+        encoding="utf-8", newline="\n",
+    )
+    print(f"Packaged {single['path']}: {single['size']:,} bytes; SHA256 {single['sha256']}")
     print(f"Packaged {archive.name}: {archive.stat().st_size:,} bytes; SHA256 {digest}")
 
 

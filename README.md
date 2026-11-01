@@ -26,9 +26,9 @@
 
 ## 下載與使用
 
-從 [最新 Release](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/releases/latest) 的 **Assets** 下載版本化網站 ZIP，解壓後開啟 `index.html`。教學、搜尋、練習與原創圖解包含在包內；影片、課程及官方 PDF 需連線查閱。
+從 [最新 Release](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/releases/latest) 的 **Assets** 選擇版本化 ZIP 或單檔 HTML。ZIP 解壓後開啟 `index.html`；HTML 不需解壓，下載後用瀏覽器開啟。兩種格式都包含教學、搜尋、練習與原創圖解；影片、課程及官方 PDF 需連線查閱。單檔版的離線範圍、進度匯入及手機開啟方式見[單檔離線版說明](docs/SINGLE-FILE.md)。
 
-`SHA256SUMS.txt` 可核對整個 ZIP；包內 `PROVENANCE.json` 列出其他檔案的 SHA-256。v1.3.0 的 GitHub Attestation 已建立並驗證，可依 [保護機制文件](docs/PROTECTION.md)核對發布來源。雜湊與簽章不會限制檔案被複製。
+`SHA256SUMS.txt` 可核對 Release 附件；ZIP 內的 `PROVENANCE.json` 列出其他檔案的 SHA-256。v1.3.0 的 GitHub Attestation 已建立並驗證；v1.3.1 的 HTML 與 ZIP 簽章驗證狀態以該版發布紀錄為準。可依 [保護機制文件](docs/PROTECTION.md)核對發布來源。雜湊與簽章不會限制檔案被複製。
 
 也可以下載 repository 後開啟 `dist/index.html`。若瀏覽器限制本機圖表，安裝 Node.js 20 以上，在 repo 執行：
 

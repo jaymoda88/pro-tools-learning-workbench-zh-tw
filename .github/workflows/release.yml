@@ -33,11 +33,15 @@ jobs:
           test -z "$(git ls-files --others --exclude-standard -- dist site-dist)"
       - name: Package matching version
         run: python3 scripts/package_release.py --version "${GITHUB_REF_NAME#v}"
+      - name: Validate self-contained HTML offline
+        run: npm run check:single
       - name: Sign official build provenance
         id: attest
         uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # actions/attest@v4
         with:
-          subject-path: release/*.zip
+          subject-path: |
+            release/*.zip
+            release/*.html
       - name: Preserve and verify provenance bundle
         env:
           GH_TOKEN: ${{ github.token }}
@@ -45,12 +49,13 @@ jobs:
         run: |
           cp "$BUNDLE_PATH" release/provenance.sigstore.json
           gh attestation verify release/*.zip --repo "$GITHUB_REPOSITORY"
+          gh attestation verify release/*.html --repo "$GITHUB_REPOSITORY"
       - name: Publish ZIP, checksum and signed provenance
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release create "$GITHUB_REF_NAME" \
-            release/*.zip release/SHA256SUMS.txt release/provenance.sigstore.json \
+            release/*.zip release/*.html release/SHA256SUMS.txt release/provenance.sigstore.json \
             --verify-tag \
             --title "Pro Tools 工作台 $GITHUB_REF_NAME" \
             --notes-file "docs/releases/$GITHUB_REF_NAME.md"
