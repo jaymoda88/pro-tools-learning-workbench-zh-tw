@@ -8,6 +8,9 @@ import assert from 'node:assert/strict';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { JSDOM, ResourceLoader, VirtualConsole } from 'jsdom';
 
+let phase = 'parse single-file payload';
+process.on('uncaughtExceptionMonitor', error => console.error('Single-file phase:', phase, error.name, error.message, error.stack));
+
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const site = path.join(root, 'site-dist');
 const read = (base, name) => fs.readFileSync(path.join(base, name), 'utf8');
@@ -126,13 +129,14 @@ document.head.append = (...nodes) => {
   }
   return append(...nodes);
 };
-for (const name of ['bootstrap.js', 'rights.js', 'data.js', 'app.js']) window.eval(bySource(name));
+for (const name of ['bootstrap.js', 'rights.js', 'data.js', 'app.js']) { phase = 'evaluate ' + name; window.eval(bySource(name)); }
 assert.deepEqual(JSON.parse(JSON.stringify(window.PT_DATA)), data, 'Inline data must preserve original content and URLs');
-for (const url of sourceUrls) assert.ok(JSON.stringify(window.PT_DATA).includes(url), `Lost source URL: ${url}`);
+const serializedData = JSON.stringify(window.PT_DATA);
+for (const url of new Set(sourceUrls)) assert.ok(serializedData.includes(url), `Lost source URL: ${url}`);
 assert.ok(window.PT_OFFLINE && window.PTWorkbench);
 assert.ok(document.querySelector('#main').textContent.trim(), 'Homepage should render');
 assert.ok(document.getElementById('pt-rights-watermark'), 'Rights watermark should render');
-const route = hash => { window.history.replaceState(null, '', hash); window.PTWorkbench.render(); };
+const route = hash => { phase = 'navigate ' + hash; window.history.replaceState(null, '', hash); window.PTWorkbench.render(); };
 const drain = async () => { for (let i = 0; i < 500; i++) await Promise.resolve(); };
 route('#/shortcuts');
 const routeBeforeNotice = window.location.hash;
