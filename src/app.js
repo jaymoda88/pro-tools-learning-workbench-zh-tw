@@ -172,7 +172,31 @@ function searchExcerpt(doc, query) {
   const start = Math.max(0, Math.min(...positions) - 48);
   return (start ? '…' : '') + plain.slice(start, start + 190) + (start + 190 < plain.length ? '…' : '');
 }
-function setSearchRoute(q){const dest='#/search?q='+encodeURIComponent(q);if(currentRoute().path==='/search')history.replaceState(null,'',dest);else history.pushState(null,'',dest);renderSearch(q);}
+// Some file:// environments reject History API updates even for fragments.
+// Retain native hash navigation there without rendering its queued event twice.
+const pendingHashUpdates = new Map();
+function writeHistoryRoute(hash, replace = false) {
+  try {
+    history[replace ? 'replaceState' : 'pushState'](null, '', hash);
+  } catch (error) {
+    if (location.protocol !== 'file:' || error.name !== 'SecurityError') throw error;
+    const destination = new URL(hash, location.href).href;
+    if (destination === location.href) return;
+    pendingHashUpdates.set(destination, (pendingHashUpdates.get(destination) || 0) + 1);
+    if (replace) location.replace(destination);
+    else location.hash = hash;
+  }
+}
+function handleHashChange(event) {
+  const pending = pendingHashUpdates.get(event.newURL) || 0;
+  if (pending) {
+    if (pending === 1) pendingHashUpdates.delete(event.newURL);
+    else pendingHashUpdates.set(event.newURL, pending - 1);
+    return;
+  }
+  render();
+}
+function setSearchRoute(q){const dest='#/search?q='+encodeURIComponent(q);if(currentRoute().path==='/search')writeHistoryRoute(dest, true);else writeHistoryRoute(dest);renderSearch(q);}
 function renderSearch(query) {
   renderNav('');
   const found = rankDocuments(query);
@@ -504,7 +528,7 @@ function renderResourceResults() {
   document.getElementById('resourceResultCount').textContent=filtered.length+' / '+resources.length+' 筆資源';
   root.innerHTML=(filtered.length?'<div class="resource-grid">'+filtered.map(resourceCard).join('')+'</div>':'<div class="empty-state"><h2>這組條件沒有找到資源</h2><p>試著保留語言或主題條件，清除其他篩選。</p><button class="primary" data-action="reset-resources">清除全部條件</button></div>');
   const query=new URLSearchParams();for(const [key,value] of Object.entries(resourceFilters))if(value&&value!=='all')query.set(key,value);
-  history.replaceState(null,'','#/resources'+(query.size?'?'+query.toString():''));
+  writeHistoryRoute('#/resources'+(query.size?'?'+query.toString():''), true);
 }
 function renderLearningPath(id) {
   renderNav('resources');
@@ -558,7 +582,7 @@ function renderUpdateResults() {
       +noteLinks(feature.noteIds)+'<div class="feature-sources">'+sourceLinks(feature.sources)+'</div></article>').join('')+'</div></details>').join('')+'</div>':empty('這個主題尚未收錄差異導讀','請切換其他主題或查看所有版本。','#/updates','查看全部版本'));
   const query=new URLSearchParams();for(const [key,value] of Object.entries(updateFilters))if(value!=='all')query.set(key,value);
   const anchor=currentRoute().anchor;
-  history.replaceState(null,'','#/updates'+(query.size?'?'+query.toString():'')+(anchor&&document.getElementById(anchor)?'#'+encodeURIComponent(anchor):''));
+  writeHistoryRoute('#/updates'+(query.size?'?'+query.toString():'')+(anchor&&document.getElementById(anchor)?'#'+encodeURIComponent(anchor):''), true);
 }
 
 /* Practice uses published bindings only and never captures operating-system shortcuts. */
@@ -725,7 +749,7 @@ function handleClick(event) {
   const { action, id } = control.dataset;
   switch (action) {
     case 'reset-resources':
-      history.replaceState(null,'','#/resources'); renderResources(); break;
+      writeHistoryRoute('#/resources', true); renderResources(); break;
     case 'path-check': {
       const path=learningPaths.find(item=>item.id===control.dataset.path);
       const step=path?.steps?.[Number(control.dataset.step)];
@@ -929,12 +953,12 @@ document.addEventListener('keydown',event=>{if(event.key!=='Tab'||!document.getE
 window.addEventListener('resize',()=>{if(!window.matchMedia('(max-width:760px)').matches)closeMenu();else document.getElementById('sidebar').inert=!document.getElementById('sidebar').classList.contains('open');});
 if(Array.isArray(savedState.pathChecks))for(const key of savedState.pathChecks){const normalized=normalizePathCheck(key);if(normalized)state.pathChecks.add(normalized);}
 mergePracticeRecord(savedState.practice);
-window.addEventListener('hashchange',render);applyTheme();render();
+window.addEventListener('hashchange',handleHashChange);applyTheme();render();
 systemTheme.addEventListener?.('change', event => {
   if (state.themePreference !== 'system') return;
   state.theme = event.matches ? 'dark' : 'light';
   applyTheme();
 });
-window.PTWorkbench = { data: D, state, rankNotes, rankDocuments, expandSearch, searchExcerpt, hasKey, render, featureNoteIds, resources, learningPaths, filterResources, filteredUpdates, practiceChoices, getPracticeBank, getPracticePool, trainerState, resourceLabels, routeResource, featureAnchor, canonicalPracticeKey };
+window.PTWorkbench = { writeHistoryRoute, data: D, state, rankNotes, rankDocuments, expandSearch, searchExcerpt, hasKey, render, featureNoteIds, resources, learningPaths, filterResources, filteredUpdates, practiceChoices, getPracticeBank, getPracticePool, trainerState, resourceLabels, routeResource, featureAnchor, canonicalPracticeKey };
 if(!notes.length){main.innerHTML=empty('內容資料尚未準備好','請先執行資料建置腳本，確認 data.js 與網站檔案位於同一個資料夾。');}
 })();

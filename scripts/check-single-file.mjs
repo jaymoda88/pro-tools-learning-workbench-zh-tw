@@ -136,8 +136,12 @@ for (const url of new Set(sourceUrls)) assert.ok(serializedData.includes(url), `
 assert.ok(window.PT_OFFLINE && window.PTWorkbench);
 assert.ok(document.querySelector('#main').textContent.trim(), 'Homepage should render');
 assert.ok(document.getElementById('pt-rights-watermark'), 'Rights watermark should render');
-const route = hash => { phase = 'navigate ' + hash; window.history.replaceState(null, '', hash); window.PTWorkbench.render(); };
+const route = hash => { phase = 'navigate ' + hash; window.PTWorkbench.writeHistoryRoute(hash, true); window.PTWorkbench.render(); };
 const drain = async () => { for (let i = 0; i < 500; i++) await Promise.resolve(); };
+route('#/resources');
+assert.equal(document.querySelectorAll('.resource-card').length, data.resources.length, 'Resource filters work under file URLs');
+route('#/updates');
+assert.ok(document.querySelector('.release-block'), 'Version routes work under file URLs');
 route('#/shortcuts');
 const routeBeforeNotice = window.location.hash;
 const mainBeforeNotice = document.querySelector('#main').innerHTML;
