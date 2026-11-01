@@ -83,7 +83,7 @@ Windows 請使用對應的虛擬環境啟用方式。jsdom 僅用於開發與 CI
 | `scripts/build_site.py` | 生成兩份網站並排除來源 PDF。 |
 | `scripts/check*.mjs`、`scripts/smoke.mjs` | 資料、權利標記、Mermaid 與 DOM 行為檢查。 |
 | `scripts/package_release.py` | 生成 ZIP、逐檔 manifest 與外部校驗檔。 |
-| Actions／版本 tag | 重建、檢查生成檔是否過期、封裝與發布；正式 tag Release 預計建立來源簽章。 |
+| Actions／版本 tag | 重建、檢查生成檔是否過期、封裝與發布；正式 tag Release 建立並核對來源簽章。 |
 | Issues／PR | 提交內容更正或功能建議，再審查變更。 |
 
 ## 來源與使用範圍

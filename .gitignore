@@ -10,3 +10,6 @@ release/
 
 # Source books are opened through Avid links.
 *.[pP][dD][fF]
+
+# Local build dependency environment
+.venv/
