@@ -13,7 +13,7 @@
 | 網頁署名與複製 | 12 個浮水印節點、移除後恢復、文章來源；長文加註、短字串／程式碼／輸入框／按鍵複製保留原生行為。 | 真實瀏覽器 Clipboard 與列印仍待驗收。 |
 | 圖解與內容指紋 | 132 份內容指紋、66 張 PNG 的來源 hash、署名 metadata、尺寸、既有標記重建冪等性及兩份網站位元組一致。 | 未逐張人工檢視；已抽看 Ch01、Ch06、Ch13、Ch50 的 footer 成品，沒有覆蓋原圖。 |
 | 圖表與生成檔 | 隨附 Mermaid 真正 parser 接受 91 張圖；21 個數學區塊保留，兩份網站各 158 檔；重建後 Git 差異為零。 | 不等於 SVG／公式完整視覺驗收。 |
-| ZIP | CI 封裝成功；另將下載包當資料讀取，核對 162 檔、manifest 的 161 筆大小與 SHA-256、CRC、權利文件及無 PDF。 | 官方來源簽章待正式 tag Release。 |
+| ZIP | CI 封裝成功；另將下載包當資料讀取，核對 162 檔、manifest 的 161 筆大小與 SHA-256、CRC、權利文件及無 PDF。 | 正式 tag Release 及下載後簽章亦已驗證，見下方證據。 |
 
 ### v1.3 CI／發布證據
 
@@ -23,7 +23,20 @@ CI 預備包為 `pro-tools-workbench-v1.3.0.zip`，7,712,023 bytes，SHA-256：
 3f3e455ee8037e7c86684d4fbf967497a79428c00d80ebdb6084ec3df097b18e
 ```
 
-正式 Release 的 workflow／簽章驗證結果將在發布後補上。雜湊僅驗完整性，GitHub Attestation 另驗建置來源，不能互相取代。
+正式 [v1.3.0 Release](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/releases/tag/v1.3.0) 已發布；[main CI](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41304817995) 與 [Release workflow](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41304907494) 均成功。正式 ZIP 與上述預備包逐位元組相同，下載後再次核對全部 manifest、checksum 與無 PDF。
+
+正式附件包含 ZIP、`SHA256SUMS.txt` 及 11,619-byte `provenance.sigstore.json`。先以 `gh attestation verify ZIP --repo jaymoda88/pro-tools-learning-workbench-zh-tw` 通過，再以下載的 bundle 配合 `--bundle ... --format json` 獨立驗證。核對結果：
+
+| 簽署欄位 | 已驗證值 |
+|---|---|
+| Source repository | `jaymoda88/pro-tools-learning-workbench-zh-tw` |
+| Source commit | `bce88ce596647ce22803a7182e623ada138f6dc8` |
+| Source ref | `refs/tags/v1.3.0` |
+| Workflow | `.github/workflows/release.yml` |
+| Issuer | `https://token.actions.githubusercontent.com` |
+| Subject SHA-256 | 與上方 ZIP checksum 完全相同 |
+
+`provenance.sigstore.json` 的 SHA-256 為 `ff402a318f138f578a32b3918e27539005d9f88a32b471761888e2acc2424da8`。雜湊驗完整性，GitHub Attestation 另驗建置來源；兩者都不是所有權裁定或防複製機制。
 
 ### 保護範圍
 

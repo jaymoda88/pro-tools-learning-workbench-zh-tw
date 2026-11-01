@@ -20,7 +20,7 @@
 | PNG iTXt metadata | 記錄作者與來源 hash，協助比對圖檔來源。 | iTXt 是可讀的 metadata，不是加密、盲浮水印或不能移除的證明。 |
 | 複製長文附來源 | 在文章內複製超過 120 個字元時，以純文字附上作者與來源。輸入框、短字串、「複製按鍵」操作，以及包含程式碼／命令片段的選取範圍，保留原生複製，不加這段來源。 | 剪貼簿政策可能限制此功能；一般複製仍應可用。它不阻止從原始碼或其他方式取用內容。 |
 | Release 指紋 | `PROVENANCE.json` 記錄包內其他檔案的路徑、大小與 SHA-256；`SHA256SUMS.txt` 核對整個 ZIP。 | Manifest 不雜湊自身。雜湊可檢查內容一致性，但攻擊者也能為改動後的檔案重新計算雜湊。 |
-| GitHub Artifact Attestation | 正式 Release 預計用 `actions/attest@v4` 簽署 ZIP 的建置來源，供使用者驗證。 | 必須等該次 Release workflow 簽署成功才有可驗證的紀錄；它不裁定著作權，也不限制複製。 |
+| GitHub Artifact Attestation | v1.3.0 正式 Release 已用 `actions/attest@v4` 簽署 ZIP 的建置來源，並經下載後驗證。 | 必須等該次 Release workflow 簽署成功才有可驗證的紀錄；它不裁定著作權，也不限制複製。 |
 
 原創 PNG 的標記由 `scripts/protect_assets.py` 與 Pillow 13.0.0 處理，建置需 Python 3.11 以上；CI 使用 Python 3.12。程式、PNG 像素及 metadata 的檢查結果，會另記在 [VERIFICATION.md](VERIFICATION.md)，不能只因檔案存在就宣稱完成驗證。
 
@@ -28,14 +28,14 @@
 
 先從本 repository 的 [Releases](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/releases) 取得 ZIP 與 `SHA256SUMS.txt`，核對 ZIP 的 SHA-256。包內 `PROVENANCE.json` 可再用來檢查其他檔案的大小與 hash；它是完整性清單，本身不是 GitHub 的簽章。
 
-當 v1.3.0 的來源簽章成功建立後，可使用已登入的 GitHub CLI：
+v1.3.0 來源簽章已建立並核對，可使用 GitHub CLI：
 
 ```sh
 gh attestation verify pro-tools-workbench-v1.3.0.zip \
   -R jaymoda88/pro-tools-learning-workbench-zh-tw
 ```
 
-驗證時應確認 repository、workflow、版本 tag 與下載檔案相符。簽章的作用是把檔案 digest 與建置身分關聯，不能證明內容完全原創、所有權沒有爭議，或其他人無法製作副本。若尚未產生該版 attestation，請將它視為待驗證狀態，而不是略過錯誤後宣稱通過。
+驗證時應確認 repository、workflow、版本 tag 與下載檔案相符。簽章的作用是把檔案 digest 與建置身分關聯，不能證明內容完全原創、所有權沒有爭議，或其他人無法製作副本。若其他版本尚未產生 attestation，應視為待驗證，不能略過錯誤後宣稱通過。v1.3.0 的下載、簽章身分及 digest 核對記錄見 [VERIFICATION.md](VERIFICATION.md)。
 
 ## 公開內容仍存在的限制
 

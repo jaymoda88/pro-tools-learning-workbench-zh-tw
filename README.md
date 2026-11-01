@@ -28,7 +28,7 @@
 
 從 [最新 Release](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/releases/latest) 的 **Assets** 下載版本化網站 ZIP，解壓後開啟 `index.html`。教學、搜尋、練習與原創圖解包含在包內；影片、課程及官方 PDF 需連線查閱。
 
-`SHA256SUMS.txt` 可核對整個 ZIP；包內 `PROVENANCE.json` 列出其他檔案的 SHA-256。正式 Release 的 GitHub Attestation 完成後，可依 [保護機制文件](docs/PROTECTION.md)核對發布來源。雜湊與簽章不會限制檔案被複製。
+`SHA256SUMS.txt` 可核對整個 ZIP；包內 `PROVENANCE.json` 列出其他檔案的 SHA-256。v1.3.0 的 GitHub Attestation 已建立並驗證，可依 [保護機制文件](docs/PROTECTION.md)核對發布來源。雜湊與簽章不會限制檔案被複製。
 
 也可以下載 repository 後開啟 `dist/index.html`。若瀏覽器限制本機圖表，安裝 Node.js 20 以上，在 repo 執行：
 
