@@ -1,5 +1,26 @@
 # 驗證紀錄
 
+
+## v1.3.1 單檔 HTML 與 ZIP 雙格式
+
+2026-11-01，commit `5a264f7d7e5cb005b6847aa46a3318bb964f4664` 的 [整合 CI 通過](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41311371095)。既有資料、圖表 parser、DOM 行為、權利標記、生成檔新鮮度與 ZIP 封裝驗證均保留；新增以下檢查：
+
+| 項目 | 證據與範圍 |
+|---|---|
+| 單檔自足性 | 初始 script／stylesheet 不依賴外部檔；全部 66 張 PNG、60 個字型逐位元等於多檔來源。 |
+| 離線 DOM | 以 `file://` URL 執行並拒絕資源網路請求；搜尋、資源／版本、按鍵表、練習、圖片與署名可用。 |
+| 圖表與公式 | 真正 KaTeX 產生公式 DOM，真正 Mermaid parser 接受語法；SVG 繪製在此 fixture 用替身，不宣稱視覺驗收。 |
+| 授權入口 | 頁內含原始 LICENSE、NOTICE、CITATION 與兩份第三方授權全文；展開入口不破壞當前路由。 |
+| 格式互通 | 不修改原始 PT_DATA；多檔版不載入內嵌資產，兩種形式共用同一套教材與操作邏輯。 |
+| 下載包 | CI 附件另外當資料讀取，核對雙格式 SHA-256、126 個內嵌二進位資產、ZIP 161 筆 manifest 與無 PDF。 |
+
+| 檔案 | Bytes | SHA-256 |
+|---|---:|---|
+| `pro-tools-workbench-v1.3.1.html` | 16,952,928 | `a3e74d1bac41131b646bf42e507d73711d3baa1807410732cee5b7d3b8eb921a` |
+| `pro-tools-workbench-v1.3.1.zip` | 7,712,594 | `358e6c5d7c5621506ba975bd883398baedd9b62439ef536498b919d401c6c31c` |
+
+正式 Release 簽章及下載後的 tag／commit／digest 核對將於發布後補記。實際手機／桌面、列印、瀏覽器儲存政策與 Pro Tools 操作仍待驗收；`file://` 各檔案的進度不保證自動共用，建議匯出／匯入。
+
 ## v1.3 資源、版本與來源標記升級
 
 2026-11-01，commit `814ac5fb6141a537f31ec0757c37f7ced44bd23e` 的 [整合 CI 已全部通過](https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw/actions/runs/41304614329)。本地只做讀檔、AST／JSON／JavaScript 語法解析與產物靜態比對，沒有在本機執行專案 build／check／smoke 或瀏覽器；以下執行測試發生於 GitHub Actions。
