@@ -1,0 +1,2 @@
+# Build-only dependency for ownership footers and PNG provenance metadata.
+Pillow==13.0.0

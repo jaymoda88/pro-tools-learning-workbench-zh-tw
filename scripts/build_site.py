@@ -6,8 +6,10 @@ from pathlib import Path
 import shutil
 import tempfile
 
+from protect_assets import protect_assets
+
 ROOT = Path(__file__).resolve().parents[1]
-AUTHORED_FILES = ("index.html", "app.js", "style.css", "responsive.css")
+AUTHORED_FILES = ("index.html", "app.js", "style.css", "responsive.css", "rights.js", "rights.css")
 PDF_NAMES = (
     "Pro_Tools_Reference_Guide_2023.3.pdf",
     "Pro_Tools_Shortcuts_2023.3.pdf",
@@ -38,12 +40,14 @@ def prepare(staging: Path) -> None:
         if not source.is_file():
             raise SystemExit(f"Missing authored file: {source.relative_to(ROOT)}")
         shutil.copyfile(source, staging / name)
+    shutil.copyfile(ROOT / "NOTICE.txt", staging / "NOTICE.txt")
     data = ROOT / "dist" / "data.js"
     if not data.is_file():
         raise SystemExit("Missing dist/data.js; run npm run build:data first.")
     shutil.copyfile(data, staging / "data.js")
     for directory in ("assets", "vendor"):
         copy_public(static / directory, staging / directory)
+    protect_assets(static / "assets", staging / "assets")
     for file in staging.rglob("*"):
         if file.suffix.lower() in (".html", ".js", ".css"):
             text = file.read_text(encoding="utf-8")

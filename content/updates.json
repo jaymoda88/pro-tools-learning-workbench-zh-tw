@@ -1,0 +1,1275 @@
+{
+  "schemaVersion": 1,
+  "baseline": "2023.3",
+  "documentVersion": "2026.4",
+  "checkedAt": "2026-11-01",
+  "scope": "以使用者提供的官方 PDF 選讀重要差異；原有 122 篇教學仍以 2023.3 為基準。這不是逐版完整 release notes 或全部章節更新聲明。",
+  "latestVerified": {
+    "version": "2026.4.1",
+    "releasedAt": "2026-07-09",
+    "checkedAt": "2026-11-01",
+    "sourceUrl": "https://kb.avid.com/pkb/articles/compatibility/Pro-Tools-System-Requirements"
+  },
+  "compatibilityNotes": [
+    {
+      "id": "mac-readme-snapshot",
+      "summary": "本地 2026.4 Mac Read Me 開頭記錄 macOS 14.8.x、15.7.x、26.3.x 的該版範圍，並要求以線上相容表核對受測硬體。不能把這個固定文件視為之後所有系統的支援保證。",
+      "sources": [
+        {
+          "label": "2026.4 Read Me — Mac · PDF 1",
+          "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_2026.4_Read_Me-Mac.pdf#page=1",
+          "pdfPage": 1,
+          "printedPage": "1"
+        }
+      ]
+    },
+    {
+      "id": "mac-known-issues",
+      "summary": "Mac Read Me 列出 AAX Plug-In 啟動問題可提示移往 Plugins (Unused)，以及部分 MacBook Pro 拔耳機可能中斷錄音的已知問題。遇到問題先以實際設備和 issue 編號查核，不一概套用到所有 Mac。",
+      "sources": [
+        {
+          "label": "2026.4 Read Me — Mac · PDF 2",
+          "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_2026.4_Read_Me-Mac.pdf#page=2",
+          "pdfPage": 2,
+          "printedPage": "2"
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "id": "release-2023-6",
+      "version": "2023.6",
+      "title": "把註記放回 Track，擴充空間格式",
+      "summary": "讀過 2023.3 的 Memory Location 與 Surround 基礎後，先補 Track Markers 和新增的 Immersive 路徑規則。",
+      "topics": [
+        "edit",
+        "session",
+        "spatial",
+        "atmos"
+      ],
+      "features": [
+        {
+          "id": "2023-6-track-markers",
+          "name": "Track Markers",
+          "summary": "Marker 不再只能放在共用時間尺，也能附在個別 Track。把演唱瑕疵、樂器提示或後製修剪註記留在相關音軌，回查時較容易看懂。",
+          "topics": [
+            "edit",
+            "session"
+          ],
+          "whoNeedsIt": "會在多軌工程中留下修改註記、對白提示或演奏標記的人。",
+          "steps": [
+            "顯示 Marker Controls 與 Track Marker Lane。",
+            "在相關 Track 指定 Target，再用 Add Marker 建立一筆註記。",
+            "比較 Track 上的 Marker 與主 Marker Ruler，確認註記歸屬。"
+          ],
+          "checkpoint": "把一筆只屬於人聲的修剪提醒放到人聲 Track，並能說明 Target 的作用。",
+          "editionConstraints": [
+            "這是 2023.6 文件的新增工作方式；2023.3 筆記不能直接當成 Track Markers 操作說明。",
+            "Target 一次只會落在一個 Track 或 Marker Ruler。"
+          ],
+          "noteIds": [
+            "PT-Ch13b-建立編輯與管理Track",
+            "PT-Ch39a-時間基準與Track錨定"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2023.6 · PDF 7／印刷頁 4",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.6.pdf#page=7",
+              "pdfPage": 7,
+              "printedPage": "4"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2023-6-immersive-widths",
+          "name": "Immersive Surround Formats",
+          "summary": "新增的 Track／Path widths 提供更完整的高度聲道處理與監聽配置，但較寬的 Track 並不等於 Dolby Atmos 可以接收同寬 Bed。",
+          "topics": [
+            "spatial",
+            "atmos"
+          ],
+          "whoNeedsIt": "需要配置多聲道效果、Renderer 回送或較大監聽佈局的使用者。",
+          "steps": [
+            "在測試 Session 檢查 New Track 與 I/O Setup 可用的 Immersive widths。",
+            "分開確認 Track 處理格式、監聽格式，以及送入 Renderer 的 Bed／Object 配置。",
+            "若使用新增寬格式送往 Atmos，核對文件的靜態 Object／Track Preset 做法。"
+          ],
+          "checkpoint": "能指出 7.1.2 Bed 與 7.1.4／9.1.6 Track 的概念差別。",
+          "editionConstraints": [
+            "此節適用 Studio／Ultimate；9.x 格式與部分輸出能力限 Ultimate。",
+            "文件明示 Dolby Atmos Renderer 最大 Bed 為 7.1.2；不要把新增 Track widths 直接視為新增 Bed widths。"
+          ],
+          "noteIds": [
+            "PT-Ch55-Surround設定與Channel順序",
+            "PT-Ch56-Multichannel路由與Stem",
+            "PT-Ch58a-DolbyAtmos架構與Renderer連接"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2023.6 · PDF 22／印刷頁 19",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.6.pdf#page=22",
+              "pdfPage": 22,
+              "printedPage": "19"
+            },
+            {
+              "label": "What's New 2023.6 · PDF 23／印刷頁 20",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.6.pdf#page=23",
+              "pdfPage": 23,
+              "printedPage": "20"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2023.6",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.6.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2023-9",
+      "version": "2023.9",
+      "title": "加入非線性 Sketch 與 Insert 重排",
+      "summary": "音樂構想可以先以 Clip／Scene 試排，再回到 Session；混音的 Insert 排序也多了直接插入兩個槽位之間的方式。",
+      "topics": [
+        "midi",
+        "session",
+        "process",
+        "mix"
+      ],
+      "features": [
+        {
+          "id": "2023-9-sketch",
+          "name": "Pro Tools Sketch",
+          "summary": "Sketch 提供 Audio／MIDI Clip launching、Scenes 與 Arrangement，適合先試拍點與配器組合，再決定線性時間軸的編排。",
+          "topics": [
+            "midi",
+            "session"
+          ],
+          "whoNeedsIt": "習慣先組 Loop 或試段落，再進入正式錄音編曲的人。",
+          "steps": [
+            "由 File > New 或 Dashboard 選 Sketch，命名後建立。",
+            "把 Audio 與 MIDI ideas 放入 Clip cells，先以 Scene 聽組合。",
+            "確定段落方向後再安排 Scenes，核對 Sketch 與 Session 的連結。"
+          ],
+          "checkpoint": "做出兩個不同配器的 Scene，並能辨認它們與一般 Session timeline 的分工。",
+          "editionConstraints": [
+            "2023.9 文件將 Sketch window 列為所有 tiers 可用。",
+            "iPad Sketch 固定 stereo／24-bit／48 kHz；Pro Tools 內的 Sketch 跟隨 Playback Engine。",
+            "當時的 cloud Projects collaboration 不完整支援 Sketch，不能假設可以一同分享。"
+          ],
+          "noteIds": [
+            "PT-Ch11a-建立Session與媒體格式",
+            "PT-Ch11c-Project版本與Template",
+            "PT-Ch39b-Tempo曲線與IdentifyBeat"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2023.9 · PDF 6／印刷頁 3",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.9.pdf#page=6",
+              "pdfPage": 6,
+              "printedPage": "3"
+            },
+            {
+              "label": "What's New 2023.9 · PDF 7／印刷頁 4",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.9.pdf#page=7",
+              "pdfPage": 7,
+              "printedPage": "4"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2023-9-insert-reorder",
+          "name": "Plug-in Insert Reordering by Drag and Drop",
+          "summary": "把 Plug-In 拖到兩個 Insert 之間，可以把下方的處理向後移，較容易比較不同的訊號處理順序。",
+          "topics": [
+            "process",
+            "mix"
+          ],
+          "whoNeedsIt": "會反覆調整 EQ、Compression 與其他 Inserts 順序的混音者。",
+          "steps": [
+            "在備份 Session 內把一個 Plug-In 拖到兩個 Inserts 的中間。",
+            "看到黃色插入線後再放開，檢查下方 Plug-In 的新位置。",
+            "若顯示紅線，先檢查空槽與 Routing／格式限制。"
+          ],
+          "checkpoint": "能完成一次順序調整，並解釋黃色線與紅色線代表的差別。",
+          "editionConstraints": [
+            "需要可用的 Insert 位置；不允許的 Routing 或空槽不足會阻止插入。"
+          ],
+          "noteIds": [
+            "PT-Ch51a-PlugInInsert與SideChain",
+            "PT-Ch50a-混音Track與訊號流"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2023.9 · PDF 24／印刷頁 19",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.9.pdf#page=24",
+              "pdfPage": 24,
+              "printedPage": "19"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2023.9",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.9.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2023-12",
+      "version": "2023.12",
+      "title": "Internal Renderer 與可辨識的 I/O",
+      "summary": "Atmos 不再只有外部 Renderer 的連接路線；一般 Session 也可利用 Path colors 讀懂多組輸出與效果路由。",
+      "topics": [
+        "spatial",
+        "atmos",
+        "setup",
+        "mix"
+      ],
+      "features": [
+        {
+          "id": "2023-12-atmos-internal",
+          "name": "Dolby Atmos Internal Renderer",
+          "summary": "Studio／Ultimate 加入內部 Dolby Atmos Renderer。舊的外部 Audio Bridge 流程仍有用途，但入門時應先分辨現在 Session 啟用哪一種 Renderer。",
+          "topics": [
+            "spatial",
+            "atmos"
+          ],
+          "whoNeedsIt": "準備用內建 Renderer 學 Atmos，或要開啟舊 Atmos Session 的使用者。",
+          "steps": [
+            "在測試 Session 開啟 Setup > I/O 的 Dolby Atmos 頁。",
+            "選擇 Internal Renderer，再用 Default 建立初始 Bed／Object 配置。",
+            "確認 Output 頁監聽路徑，並由 Renderer window 檢查訊號。"
+          ],
+          "checkpoint": "能指出 Session 使用 Internal 或 External Renderer，並追到實際監聽 Output。",
+          "editionConstraints": [
+            "2023.12 文件限定 Studio／Ultimate。",
+            "Internal Renderer 不支援 HDX Classic Playback Engine；硬體與方案資格仍須查目前相容表。"
+          ],
+          "noteIds": [
+            "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+            "PT-Ch58b-Object控制與空間Automation",
+            "PT-Ch58c-ADM交換與Atmos交付",
+            "PT-Ch06b-Bus監聽與特殊路徑"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2023.12 · PDF 6／印刷頁 3",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.12.pdf#page=6",
+              "pdfPage": 6,
+              "printedPage": "3"
+            },
+            {
+              "label": "What's New 2023.12 · PDF 8／印刷頁 5",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.12.pdf#page=8",
+              "pdfPage": 8,
+              "printedPage": "5"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2023-12-io-colors",
+          "name": "I/O Setup Path Color Coding",
+          "summary": "I/O Path 可以各自指定顏色，並顯示在 Input、Output、Send 與 Insert plates。顏色是辨識輔助，路徑名稱與對應關係仍要正確。",
+          "topics": [
+            "setup",
+            "mix"
+          ],
+          "whoNeedsIt": "Session 有多組監聽、效果 Sends 或硬體 Inserts 的使用者。",
+          "steps": [
+            "在 Setup > I/O 選擇需要整理的頁面。",
+            "用 Path 左側 Color selector 指定一致的配色。",
+            "回到 Edit／Mix 視窗確認 plates 顏色，另存需要的 I/O Settings。"
+          ],
+          "checkpoint": "用顏色分出 Main Output 與效果回送，仍能不用顏色讀出路徑名稱。",
+          "editionConstraints": [
+            "Dolby Atmos 頁仍受 Studio／Ultimate 資格限制。",
+            "Path colors 隨相應路徑與 Session／.pio 設定保存，不能取代跨硬體的映射檢查。"
+          ],
+          "noteIds": [
+            "PT-Ch06a-I-O與Path地圖",
+            "PT-Ch06b-Bus監聽與特殊路徑",
+            "PT-Ch50b-Sends與混音視窗操作",
+            "PT-Ch51c-HardwareInsert與數位Clock"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2023.12 · PDF 38／印刷頁 34",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.12.pdf#page=38",
+              "pdfPage": 38,
+              "printedPage": "34"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2023.12",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2023.12.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2024-3",
+      "version": "2024.3",
+      "title": "MIDI 處理鏈與可浮動的 ARA 視窗",
+      "summary": "Instrument Track 的 Inserts 可以處理 MIDI；Melodyne／Clip Effects 的工作區也可以拆成獨立視窗。",
+      "topics": [
+        "midi",
+        "process",
+        "edit"
+      ],
+      "features": [
+        {
+          "id": "2024-3-midi-plugins",
+          "name": "MIDI Plug-ins",
+          "summary": "MIDI Plug-In 會即時改變播放或現場輸入的 MIDI。它和 Virtual Instrument、Audio effect 的工作位置不同，適合用處理鏈理解，而不只是多一個音色外掛。",
+          "topics": [
+            "midi",
+            "process"
+          ],
+          "whoNeedsIt": "想做 Note stacking、Velocity 處理或即時 MIDI 編曲的人。",
+          "steps": [
+            "在 Instrument Track 的 Inserts 選 MIDI Plug-in 子選單。",
+            "在 MIDI 處理之後放置 Virtual Instrument，或確認要送往的外部 MIDI 裝置。",
+            "播放同一段 MIDI，比較處理前後的音符與表現。"
+          ],
+          "checkpoint": "能說明 MIDI Plug-In 改變事件，Virtual Instrument 產生聲音的順序。",
+          "editionConstraints": [
+            "此整合方式適用 Instrument Tracks；不要照舊習慣把 MIDI effects 當作 Audio effects。",
+            "個別外掛的內容與授權應查該版 Audio and MIDI Plugins Guide。"
+          ],
+          "noteIds": [
+            "PT-Ch10-MIDIStudio與AudioBridge",
+            "PT-Ch35a-MIDI音符輸入與選取",
+            "PT-Ch35c-Quantize與RealTimeProperties",
+            "PT-Ch51a-PlugInInsert與SideChain"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2024.3 · PDF 7／印刷頁 4",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.3.pdf#page=7",
+              "pdfPage": 7,
+              "printedPage": "4"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2024-3-floating-ara",
+          "name": "Melodyne (ARA) and Clip Effects Floating Windows",
+          "summary": "Melodyne 與 Clip Effects 可分別脫離 Edit window 下方工作區。使用雙螢幕時，可保留時間軸視野並在另一處編輯細節。",
+          "topics": [
+            "edit",
+            "process"
+          ],
+          "whoNeedsIt": "會一邊修音一邊對照整段編排，或使用多螢幕工作的人。",
+          "steps": [
+            "先對需要的 Audio Track 啟用相應處理。",
+            "由 Window > ARA Plug-Ins > Melodyne 或 Window > Clip Effects 開啟視窗。",
+            "依需求設定 Keep Window on Top，再與 Edit timeline 對照操作。"
+          ],
+          "checkpoint": "能讓 Melodyne 與 Edit timeline 同時可見，並能重新開關該浮動視窗。",
+          "editionConstraints": [
+            "浮動視窗不等於增加 Melodyne 功能或授權等級；實際編輯能力仍由相應授權決定。"
+          ],
+          "noteIds": [
+            "PT-Ch46-Melodyne整合與Audio轉MIDI",
+            "PT-Ch51a-PlugInInsert與SideChain"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2024.3 · PDF 16／印刷頁 13",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.3.pdf#page=16",
+              "pdfPage": 16,
+              "printedPage": "13"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2024.3",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.3.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2024-6",
+      "version": "2024.6",
+      "title": "擴充 ARA 與精準挑選匯入 Track",
+      "summary": "需要音訊修復時有更多整合 ARA 選項；合併 Session 時則能按 Track attributes 先縮小處理範圍。",
+      "topics": [
+        "process",
+        "post",
+        "session",
+        "mix"
+      ],
+      "features": [
+        {
+          "id": "2024-6-ara-rx",
+          "name": "Integrated ARA Plug-ins / RX Spectral Editor",
+          "summary": "RX Spectral Editor 讓頻譜修復進入 ARA 工作流程；同版也支援其他廠牌的 ARA 整合。支援、附贈與試用是不同條件，不能互相代換。",
+          "topics": [
+            "process",
+            "post"
+          ],
+          "whoNeedsIt": "需要處理 click、hum 或局部頻譜噪訊的人。",
+          "steps": [
+            "先在短片段副本上選 Clip > RX Spectral Editor > Edit，或使用對應 ARA selector。",
+            "選到要修復的 Clip，再在 RX Spectral Editor 工作區檢查頻譜。",
+            "比較前後結果，確認修復範圍及未處理聲音沒有被誤改。"
+          ],
+          "checkpoint": "能區分只分析選定 Clip 與對整條 Track 指派 ARA 的差別。",
+          "editionConstraints": [
+            "2024.6 文件列 RX Spectral Editor 隨 Artist／Studio／Ultimate 提供；Intro 當時為試用。",
+            "其他支援 ARA 外掛可能需另購或只有試用，須逐項查廠商文件。",
+            "此 RX Spectral Editor 整合為 ARA 2.0，不是完整獨立版 RX 的所有功能。"
+          ],
+          "noteIds": [
+            "PT-Ch46-Melodyne整合與Audio轉MIDI",
+            "PT-Ch47a-Commit固定處理與交接",
+            "PT-Ch51a-PlugInInsert與SideChain"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2024.6 · PDF 9／印刷頁 5",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.6.pdf#page=9",
+              "pdfPage": 9,
+              "printedPage": "5"
+            },
+            {
+              "label": "What's New 2024.6 · PDF 10／印刷頁 6",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.6.pdf#page=10",
+              "pdfPage": 10,
+              "printedPage": "6"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2024-6-import-filter",
+          "name": "Import Session Data: Filter Track Attributes",
+          "summary": "來源 Session 很大時，可先按 Audio、Instrument、Folder、Frozen 等屬性篩出相關 Track，再處理對應關係。被暫時濾掉的 Track 仍保留原先 mapping，需整體複查。",
+          "topics": [
+            "session",
+            "mix"
+          ],
+          "whoNeedsIt": "需要匯入另一版工程、挑選 Bus／Folder 或合併大型 Session 的人。",
+          "steps": [
+            "由 File > Import > Session Data 選來源 Session。",
+            "用 Filter 選擇這次需要的 Track attributes。",
+            "完成 Match／New Track 設定後取消篩選，檢查先前 mapping 是否仍符合預期。"
+          ],
+          "checkpoint": "只匯入需要的 Track 類型，並能說明為何取消篩選後還要再查目的地。",
+          "editionConstraints": [
+            "篩選控制可見範圍，並不自動清除不可見項目原先的 mapping。"
+          ],
+          "noteIds": [
+            "PT-Ch21b-Import-Session-Data精準合併",
+            "PT-Ch13b-建立編輯與管理Track"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2024.6 · PDF 20／印刷頁 16",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.6.pdf#page=20",
+              "pdfPage": 20,
+              "printedPage": "16"
+            },
+            {
+              "label": "What's New 2024.6 · PDF 21／印刷頁 17",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.6.pdf#page=21",
+              "pdfPage": 21,
+              "printedPage": "17"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2024.6",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.6.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2024-10",
+      "version": "2024.10",
+      "title": "MIDI Playlists 與更清楚的資料匯入",
+      "summary": "MIDI 可以比照 Audio 保留不同演奏版本；新監聽與補償選項則必須按現場演奏或同步需求選擇。",
+      "topics": [
+        "session",
+        "midi",
+        "edit",
+        "record",
+        "setup"
+      ],
+      "features": [
+        {
+          "id": "2024-10-import-independent",
+          "name": "Independent Selection in Import Session Data",
+          "summary": "Source list 的選取可與 Destination 指派分離，再用 Clear、Add、Match 批次處理。選到 Track 不應直接被當成已決定匯入方式。",
+          "topics": [
+            "session"
+          ],
+          "whoNeedsIt": "大量挑選來源 Track，並需要精確控制覆蓋／新增的人。",
+          "steps": [
+            "在 Import Session Data 理解目前 Unlink 是否啟用。",
+            "先選來源 Track，再明確檢查 Destination 是 none、New Track 或既有 Track。",
+            "使用 Clear／Add／Match 後，再逐項核對來源與目的地。"
+          ],
+          "checkpoint": "選取來源 Track 時能預測是否會自動變成 New Track。",
+          "editionConstraints": [
+            "啟用 Unlink 時不會因選取而自動指定 Destination；每個選中 Track 仍須指定目的地。"
+          ],
+          "noteIds": [
+            "PT-Ch21b-Import-Session-Data精準合併"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2024.10 · PDF 10／印刷頁 6",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.10.pdf#page=10",
+              "pdfPage": 10,
+              "printedPage": "6"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2024-10-midi-playlists",
+          "name": "MIDI Playlists",
+          "summary": "Instrument 與 MIDI Tracks 可用 Playlists 留下演奏版本。它把版本管理延伸到 MIDI，適合比較律動、音符與 Controller 表現。",
+          "topics": [
+            "midi",
+            "edit"
+          ],
+          "whoNeedsIt": "想在同一音色上比較多個 MIDI Take 或編曲版本的人。",
+          "steps": [
+            "在 Instrument／MIDI Track 建立另一個 Playlist。",
+            "切換 Playlist view，留存不同的 MIDI 演奏或編排。",
+            "比較聽到的版本與正在編輯的 Playlist／Automation lanes。"
+          ],
+          "checkpoint": "保留兩個 MIDI 版本，並能辨認 Main、選中與 Audition Playlist 的顯示關係。",
+          "editionConstraints": [
+            "Automation lanes 隨選中 Playlist 更新；Audition 的 MIDI Automation 可用綠色背景作比較參照。"
+          ],
+          "noteIds": [
+            "PT-Ch26a-MIDI錄音與Merge-Replace",
+            "PT-Ch33a-用Playlist保留版本與合成Take",
+            "PT-Ch35a-MIDI音符輸入與選取"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2024.10 · PDF 19／印刷頁 15",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.10.pdf#page=19",
+              "pdfPage": 19,
+              "printedPage": "15"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2024-10-midi-monitoring",
+          "name": "Instrument Input Monitoring / MIDI Delay Compensation",
+          "summary": "Instrument Track 可不經 Record Enable 直接監聽輸入；MIDI Delay Compensation 則是另一個取捨，適合需要和 Beat Clock／內建 sequencer 對齊的情況。",
+          "topics": [
+            "midi",
+            "record",
+            "setup"
+          ],
+          "whoNeedsIt": "會彈奏 Virtual Instrument，也會使用帶內建 sequencer 外掛的人。",
+          "steps": [
+            "在 Instrument Track 啟用 Input Monitoring，確認 MIDI 裝置與音色鏈。",
+            "先以未啟用 MIDI Delay Compensation 的狀態試彈。",
+            "需要精準同步的內建 sequencer 再測試啟用補償，記錄延遲與對齊的差別。"
+          ],
+          "checkpoint": "能說明現場演奏低延遲與播放同步補償為何不是同一目標。",
+          "editionConstraints": [
+            "文件預設 MIDI Delay Compensation 為停用，並建議現場演奏維持停用。",
+            "藍色 Input Monitoring 代表監聽與補償皆開啟；綠色代表監聽開啟、補償停用。",
+            "MIDI Input Monitoring Follows Selected Track 取代舊 Default Thru Instrument 偏好。"
+          ],
+          "noteIds": [
+            "PT-Ch24b-Input-Monitoring與Latency",
+            "PT-Ch35b-Controller與外部MIDI排查",
+            "PT-Ch50d-DelayCompensation與Dither"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2024.10 · PDF 23／印刷頁 19",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.10.pdf#page=23",
+              "pdfPage": 23,
+              "printedPage": "19"
+            },
+            {
+              "label": "What's New 2024.10 · PDF 24／印刷頁 20",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.10.pdf#page=24",
+              "pdfPage": 24,
+              "printedPage": "20"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2024.10",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2024.10.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2025-6",
+      "version": "2025.6",
+      "title": "素材搜尋、語音轉錄與 Playlist 延伸",
+      "summary": "新增的素材與文字入口，讓製作與對白剪輯可以少做一些在工具之間搬運的工作。",
+      "topics": [
+        "session",
+        "midi",
+        "edit",
+        "post",
+        "process"
+      ],
+      "features": [
+        {
+          "id": "2025-6-splice",
+          "name": "Splice Integration",
+          "summary": "Splice 可在 Pro Tools 內以獨立視窗或 Clip List 區域的分頁操作，先搜尋與試聽再把合適素材帶入工程。",
+          "topics": [
+            "session",
+            "midi"
+          ],
+          "whoNeedsIt": "會尋找 Loop、One-shot 與其他製作素材的人。",
+          "steps": [
+            "由 Window > Splice 或 SPLICE 分頁開啟。",
+            "用自己的帳號登入，按描述、Key、BPM 等條件搜尋。",
+            "先確認素材與授權／帳號可用範圍，再匯入 Session 試排。"
+          ],
+          "checkpoint": "能把素材搜尋與 Session 內的試聽／匯入分開核對。",
+          "editionConstraints": [
+            "Splice 服務需要網路與相應帳號；整合功能不等於所有素材可免費取得。",
+            "個別素材的取得與使用條件仍以 Splice 帳號條款為準。"
+          ],
+          "noteIds": [
+            "PT-Ch18a-Workspace素材庫與搜尋",
+            "PT-Ch18b-Workspace預聽與Tempo",
+            "PT-Ch21a-Audio與MIDI匯入匯出"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2025.6 · PDF 10／印刷頁 5",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.6.pdf#page=10",
+              "pdfPage": 10,
+              "printedPage": "5"
+            },
+            {
+              "label": "What's New 2025.6 · PDF 11／印刷頁 6",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.6.pdf#page=11",
+              "pdfPage": 11,
+              "printedPage": "6"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2025-6-transcription",
+          "name": "Transcription / Speech to Text",
+          "summary": "轉錄把語音與對應音訊位置連在一起，適合用文字找訪談段落或對白。它是剪輯線索，仍要靠聆聽檢查語意、切點與語氣。",
+          "topics": [
+            "edit",
+            "post"
+          ],
+          "whoNeedsIt": "處理訪談、Podcast、對白、廣播剪輯或帶語音素材的人。",
+          "steps": [
+            "確認 Pro Tools Speech to Text Engine 已另行安裝。",
+            "在 Track Name plate 啟用 Keep Track Transcribed，或轉錄選定素材。",
+            "在 Transcription lane／Transcript window 用文字定位，再聽音訊確認剪輯。"
+          ],
+          "checkpoint": "能用一句話找到對應音訊，並在剪輯前核對實際聲音。",
+          "editionConstraints": [
+            "2025.6 文件限定 Studio／Ultimate。",
+            "轉錄引擎需另外安裝；文件明示轉錄本身不需要網路。",
+            "分析以整個 Audio file 為單位，時間可能長於目前顯示的短 Clip；轉錄文字不保證正確。"
+          ],
+          "noteIds": [
+            "PT-Ch18a-Workspace素材庫與搜尋",
+            "PT-Ch32a-Fade形狀與Crossfade判斷",
+            "PT-Ch63a-Video匯入與AVE設定"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2025.6 · PDF 22／印刷頁 17",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.6.pdf#page=22",
+              "pdfPage": 22,
+              "printedPage": "17"
+            },
+            {
+              "label": "What's New 2025.6 · PDF 33／印刷頁 28",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.6.pdf#page=33",
+              "pdfPage": 33,
+              "printedPage": "28"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2025-6-playlist-workflow",
+          "name": "Playlist Improvements",
+          "summary": "Playlists 的新增位置、跨 Track 移動與 Instrument Playlist 轉 Audio 操作更完整。保留 MIDI 原始版本與 Render 結果時，兩者用途要分清楚。",
+          "topics": [
+            "midi",
+            "edit",
+            "process"
+          ],
+          "whoNeedsIt": "常做 Comping、保留多版本，或把 Instrument 演奏變成 Audio 的人。",
+          "steps": [
+            "在 Editing Preferences 選擇新 Playlist 放上方或下方。",
+            "在 Playlist view 整理需要跨 Track 移動的版本。",
+            "把 Instrument Playlist 的 Clip 拖到 Audio Track 時，核對新生成的 Audio 與原 MIDI。"
+          ],
+          "checkpoint": "能保留 MIDI 版本並識別拖入 Audio Track 後的 Render 結果。",
+          "editionConstraints": [
+            "Instrument Playlist Clip 拖到 Audio Track 會依 Instrument Track 的輸出轉成 Audio，不是單純複製 MIDI。"
+          ],
+          "noteIds": [
+            "PT-Ch33a-用Playlist保留版本與合成Take",
+            "PT-Ch33b-Target與Matches的進階工作流",
+            "PT-Ch26b-MIDI轉Audio與Retrospective-Record",
+            "PT-Ch47a-Commit固定處理與交接"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2025.6 · PDF 38／印刷頁 33",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.6.pdf#page=38",
+              "pdfPage": 38,
+              "printedPage": "33"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2025.6",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.6.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2025-10",
+      "version": "2025.10",
+      "title": "從素材庫轉錄到自動化與工程相容",
+      "summary": "文字入口延伸到 Workspace；SoundFlow 更容易進入工作流程；更重要的是理解新 Pan 資料保留方式與舊版回存風險。",
+      "topics": [
+        "session",
+        "post",
+        "edit",
+        "automation",
+        "mix",
+        "spatial"
+      ],
+      "features": [
+        {
+          "id": "2025-10-workspace-transcription",
+          "name": "Transcribe in the Workspace",
+          "summary": "不必先把所有 Audio 匯入 Session，Workspace 就能對單檔、選定檔案或資料夾做轉錄。轉錄資料也可以修正文詞，方便建立可用的語音素材庫。",
+          "topics": [
+            "session",
+            "post",
+            "edit"
+          ],
+          "whoNeedsIt": "需要先整理大量訪談、場錄或對白素材，再決定使用哪些片段的人。",
+          "steps": [
+            "在 Workspace 選檔案或資料夾，再使用相應 Transcribe 操作。",
+            "用轉錄內容查找素材；遇到辨識錯字時使用 Edit Word／Join Words。",
+            "將合適片段加入 Session，重新聽音訊以確認用字與時間位置。"
+          ],
+          "checkpoint": "不開新 Session 也能先建立一份可搜尋的語音素材轉錄。",
+          "editionConstraints": [
+            "Transcription 仍受 Studio／Ultimate 功能資格限制。",
+            "對不可寫入的檔案，Workspace 在 Session 外產生的分析資料放在共用的 AnalysisData.ptadb，匯入 Session 後另處理快取。",
+            "重新分詞的時間位置可能是近似值，不能把文字邊界當作絕對剪輯切點。"
+          ],
+          "noteIds": [
+            "PT-Ch18a-Workspace素材庫與搜尋",
+            "PT-Ch18c-Relink與背景任務",
+            "PT-Ch21a-Audio與MIDI匯入匯出"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2025.10 · PDF 28／印刷頁 23",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.10.pdf#page=28",
+              "pdfPage": 28,
+              "printedPage": "23"
+            },
+            {
+              "label": "What's New 2025.10 · PDF 29／印刷頁 24",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.10.pdf#page=29",
+              "pdfPage": 29,
+              "printedPage": "24"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2025-10-soundflow",
+          "name": "SoundFlow Integration",
+          "summary": "SoundFlow 在 Edit window 內提供 Macros／Flows 入口，適合把重複但容易漏步的工作集中成可檢查流程。整合入口不代表所有自動化方案都免費。",
+          "topics": [
+            "automation",
+            "mix"
+          ],
+          "whoNeedsIt": "已熟悉手動步驟，想減少重複點選的使用者。",
+          "steps": [
+            "由 Window > SoundFlow 或右側面板開啟。",
+            "以自己的 Avid／SoundFlow 帳號確認可用功能。",
+            "先在備份 Session 測試單一 Macro，對照實際改動，再考慮串成 Flow。"
+          ],
+          "checkpoint": "能指出自動化前後改動了哪些 Track／Clip／Automation，而不是只看到命令執行完畢。",
+          "editionConstraints": [
+            "2025.10 PDF 將完整 Flows 與 SoundFlow subscription 連結；實際免費／付費範圍需查現行方案。",
+            "此導讀不會安裝或執行任何 Macro，也不把課程資源當成已連線服務。"
+          ],
+          "noteIds": [
+            "PT-Ch13b-建立編輯與管理Track",
+            "PT-Ch53b-Automation錄寫與保護",
+            "PT-Ch53d-WriteTo快照與Preview工作流"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2025.10 · PDF 35／印刷頁 30",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.10.pdf#page=35",
+              "pdfPage": 35,
+              "printedPage": "30"
+            },
+            {
+              "label": "What's New 2025.10 · PDF 36／印刷頁 31",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.10.pdf#page=36",
+              "pdfPage": 36,
+              "printedPage": "31"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2025-10-pan-data",
+          "name": "Pan Automation Retention",
+          "summary": "更換或移除 Track Output 時，Pan 資料可以保留，待回到相容 Output 再恢復。這降低重新路由時的資料流失風險，但回存較舊版本仍要小心。",
+          "topics": [
+            "mix",
+            "automation",
+            "spatial"
+          ],
+          "whoNeedsIt": "會在不同 Output widths、Stem 與交付配置之間切換的人。",
+          "steps": [
+            "先備份 Session，記錄目前 Output 與 Pan Automation。",
+            "改到不相容的 Output，再切回可支援的 Output 檢查資料。",
+            "交接舊版前另存副本，清楚記錄對方的 Pro Tools 版本。"
+          ],
+          "checkpoint": "能辨認暫時無法套用的資料仍被保留，與真正刪除 Send 的差別。",
+          "editionConstraints": [
+            "在 2025.6.1 或更舊版本開啟並儲存，可能丟棄新版保留的不相容／未使用 Pan 資料。",
+            "明確刪除 Send 仍會刪除其 Pan 資料；把 Send 拖到另一個既有 Send 也可能覆蓋 Pan 資料。"
+          ],
+          "noteIds": [
+            "PT-Ch13c-路由Solo與Track狀態",
+            "PT-Ch50b-Sends與混音視窗操作",
+            "PT-Ch53a-Automation模式與資料層",
+            "PT-Ch58b-Object控制與空間Automation"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2025.10 · PDF 41／印刷頁 36",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.10.pdf#page=41",
+              "pdfPage": 41,
+              "printedPage": "36"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2025.10",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.10.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2025-12",
+      "version": "2025.12",
+      "title": "Audio Vivid 成為另一條 Renderer 路線",
+      "summary": "新增的 Immersive 格式有自己的安裝、Object 指派與輸出規則，不能把 Atmos 的操作習慣直接照搬。",
+      "topics": [
+        "spatial",
+        "atmos"
+      ],
+      "features": [
+        {
+          "id": "2025-12-audio-vivid",
+          "name": "UWA Audio Vivid",
+          "summary": "Studio／Ultimate 在 macOS 可使用 Audio Vivid 的空間製作整合。先選 Renderer，再按該格式的 Object／Bed 規則建立路由。",
+          "topics": [
+            "spatial",
+            "atmos"
+          ],
+          "whoNeedsIt": "交付目標明確要求 Audio Vivid，或需要比較不同 Immersive Renderer 架構的人。",
+          "steps": [
+            "先確認安裝 Audio Vivid Production Suite。",
+            "在 Setup > I/O > Renderer 或 Edit window Renderer controls 選 Audio Vivid。",
+            "把測試 Track 指派為 Object，再核對 Renderer 與相應輸出格式。"
+          ],
+          "checkpoint": "能說明 Audio Vivid Object 是由 Track Output 指派，而非直接沿用 Atmos 的 I/O Object 命名方式。",
+          "editionConstraints": [
+            "2025.12 文件限定 macOS 的 Studio／Ultimate。",
+            "需另安裝相應 Production Suite。",
+            "Audio Vivid Object 指派為每 Track 排他，不能同時指派多個 Outputs；不要和 Atmos 的 I/O 配置混為一談。"
+          ],
+          "noteIds": [
+            "PT-Ch56-Multichannel路由與Stem",
+            "PT-Ch57-SurroundPanner與移動聲像",
+            "PT-Ch58a-DolbyAtmos架構與Renderer連接"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2025.12 · PDF 9／印刷頁 5",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.12.pdf#page=9",
+              "pdfPage": 9,
+              "printedPage": "5"
+            },
+            {
+              "label": "What's New 2025.12 · PDF 10／印刷頁 6",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.12.pdf#page=10",
+              "pdfPage": 10,
+              "printedPage": "6"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2025.12",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2025.12.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2026-4",
+      "version": "2026.4",
+      "title": "固定重點 Track，延伸文字剪輯與 Renderer",
+      "summary": "大型 Session 的導航、語音剪輯資料延續與其他 Immersive 格式整合，是這版值得補讀的工作流程。",
+      "topics": [
+        "session",
+        "edit",
+        "post",
+        "process",
+        "spatial",
+        "automation"
+      ],
+      "features": [
+        {
+          "id": "2026-4-track-pinning",
+          "name": "Track Pinning",
+          "summary": "將重要 Track 的 alias 固定在 Edit window 上方，捲動大工程時仍能看見。Alias 與來源共用資料，但可有自己的檢視設定。",
+          "topics": [
+            "session",
+            "edit"
+          ],
+          "whoNeedsIt": "大型編曲、混音或後製 Session 中需要一直看見人聲、Guide 或控制 Track 的人。",
+          "steps": [
+            "在 Edit window 對 Track name 按右鍵，選 Pin。",
+            "替固定區與來源設定不同的顯示方式或 Track height。",
+            "編輯其中一處，核對另一處同步變更；需要替換整組時再用 Pin and Replace。"
+          ],
+          "checkpoint": "能解釋固定的是同一 Track 的 alias，而不是新複製的一條 Track。",
+          "editionConstraints": [
+            "Track Pinning 適用各 tiers；實際版本仍以 2026.4 之後為前提。",
+            "Pinned Folder 以平面 Track 顯示，內部成員仍需在原 Folder 區域查看。",
+            "Pin and Replace 會取代固定區現有的全部 Tracks，不只一個。"
+          ],
+          "noteIds": [
+            "PT-Ch12a-主要視窗與Transport",
+            "PT-Ch13b-建立編輯與管理Track"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2026.4 · PDF 10／印刷頁 5",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf#page=10",
+              "pdfPage": 10,
+              "printedPage": "5"
+            },
+            {
+              "label": "What's New 2026.4 · PDF 11／印刷頁 6",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf#page=11",
+              "pdfPage": 11,
+              "printedPage": "6"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2026-4-transcription-render",
+          "name": "Transcription with Rendered Audio",
+          "summary": "Consolidate、AudioSuite、Commit 或 Bounce Track 產生新 Audio 時，轉錄資料可以隨結果延續；在 Track 上也能按字、句或說話者分割已轉錄素材。",
+          "topics": [
+            "post",
+            "edit",
+            "process"
+          ],
+          "whoNeedsIt": "會清理語音後再 Consolidate／Render，或需要批次拆分對白的人。",
+          "steps": [
+            "用已轉錄的短片段建立測試副本。",
+            "做一次 Consolidate 或 Track Commit，核對新 Audio 的轉錄仍存在。",
+            "選取已轉錄 Clips，從 Transcription 子選單按需要選 Word／Sentence／Speaker 分割，再逐段聆聽。"
+          ],
+          "checkpoint": "Render 後仍能以文字找到片段，並能檢查自動分割是否保留呼吸與語意。",
+          "editionConstraints": [
+            "限 Studio／Ultimate 的 Transcription 功能。",
+            "Track 上的分割操作作用於選取範圍，可跨多個 Clips／Tracks；不是只處理畫面上看到的一個字。",
+            "辨識與分割結果仍須聆聽確認。"
+          ],
+          "noteIds": [
+            "PT-Ch32a-Fade形狀與Crossfade判斷",
+            "PT-Ch47a-Commit固定處理與交接",
+            "PT-Ch47b-Freeze與TrackBounce的使用時機"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2026.4 · PDF 18／印刷頁 13",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf#page=18",
+              "pdfPage": 18,
+              "printedPage": "13"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2026-4-mpeg-h",
+          "name": "Fraunhofer MPEG-H Audio Renderer",
+          "summary": "MPEG-H 帶來可互動的物件與個人化音訊交付。只有目的規格需要它時，才應增加這條 Renderer 路線。",
+          "topics": [
+            "spatial",
+            "post"
+          ],
+          "whoNeedsIt": "製作廣播、互動語音或指定 MPEG-H 交付的空間內容。",
+          "steps": [
+            "確認 Session sample rate 與相應 MPEG-H Renderer 安裝。",
+            "由 Setup > I/O > Renderer 選 MPEG-H，確認監聽與 Renderer 設定。",
+            "在測試 Session 建立 Object／Bed，依指定交付文件核對輸出。"
+          ],
+          "checkpoint": "能在設定之前先確認 48 kHz 限制與目的端要求，而不是只看可選的格式名稱。",
+          "editionConstraints": [
+            "Studio／Ultimate 支援；需要安裝 MPEG-H Renderer 元件。",
+            "此 Renderer 僅相容 48 kHz Session。",
+            "互動控制與輸出能力須按 Fraunhofer 文件及實際交付規格確認，不沿用 Atmos 假設。"
+          ],
+          "noteIds": [
+            "PT-Ch55-Surround設定與Channel順序",
+            "PT-Ch56-Multichannel路由與Stem",
+            "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+            "PT-Ch58c-ADM交換與Atmos交付"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2026.4 · PDF 22／印刷頁 17",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf#page=22",
+              "pdfPage": 22,
+              "printedPage": "17"
+            },
+            {
+              "label": "What's New 2026.4 · PDF 24／印刷頁 19",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf#page=24",
+              "pdfPage": 24,
+              "printedPage": "19"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        },
+        {
+          "id": "2026-4-immersive-panner",
+          "name": "Pro Tools Immersive Panner",
+          "summary": "新的 Immersive Panner 用 Anchor 與每聲道控制組合出空間位置，並可觀察 Composite Pan lanes。這不是替換所有既有 Surround／Atmos Panner 的通用介面。",
+          "topics": [
+            "spatial",
+            "automation"
+          ],
+          "whoNeedsIt": "使用 MPEG-H 或 Audio Vivid Objects，需要較複雜多聲道空間移動的人。",
+          "steps": [
+            "先確認 Session 正在使用支援的 AAX Renderer 與 Object。",
+            "在 Panner 區分 Anchor／meta controls 與個別 source channel 的參數。",
+            "寫入短段 Automation，檢查 Composite Pan lanes 的結果位置。"
+          ],
+          "checkpoint": "能說明整體 Anchor 與各聲道 offset 如何共同決定位置。",
+          "editionConstraints": [
+            "限定 Studio／Ultimate，且僅支援 AAX Renderer plugins 中的對應 Object panning。",
+            "文件明示不適用 Dolby Atmos Renderers 或一般 Pro Tools mixer；不要期待在 Atmos Bed 上出現相同介面。",
+            "Mono source 的控制較少，Anchor 會隱藏。"
+          ],
+          "noteIds": [
+            "PT-Ch57-SurroundPanner與移動聲像",
+            "PT-Ch58b-Object控制與空間Automation",
+            "PT-Ch53a-Automation模式與資料層"
+          ],
+          "sources": [
+            {
+              "label": "What's New 2026.4 · PDF 31／印刷頁 26",
+              "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf#page=31",
+              "pdfPage": 31,
+              "printedPage": "26"
+            }
+          ],
+          "verification": {
+            "method": "local-pdf-read",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "What's New in Pro Tools 2026.4",
+          "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf"
+        }
+      ]
+    },
+    {
+      "id": "release-2026-4-1",
+      "version": "2026.4.1",
+      "title": "M5 支援屬於修正版的相容性更新",
+      "summary": "保留 2026.4 功能導讀，同時把修正版與硬體支援資格分開記錄。",
+      "topics": [
+        "setup"
+      ],
+      "features": [
+        {
+          "id": "2026-4-1-m5",
+          "name": "Apple silicon M5 support",
+          "summary": "M5 系統的官方支援出現在 2026.4.1 修正版，不能只因持有 2026.4 PDF 就推定基礎版已支援。升級前也要分開核對 AAX Plug-Ins、Audio Interface 與 macOS。",
+          "topics": [
+            "setup"
+          ],
+          "whoNeedsIt": "使用 M5 系列 Mac，或正準備從較早版本升級的人。",
+          "steps": [
+            "在 Pro Tools 的版本資訊確認完整版本號。",
+            "到官方相容表核對目前 Mac／macOS 與 Audio Interface 條件。",
+            "以備份 Session 測試啟動、播放與常用 AAX Plug-Ins，再安排正式工程遷移。"
+          ],
+          "checkpoint": "能說出軟體版本為 2026.4 還是 2026.4.1，並保留對應的官方相容性來源。",
+          "editionConstraints": [
+            "這是 2026.4.1 修正版的支援資訊，不是本次對該 Mac／AAX／Interface 組合的實機認證。",
+            "官方 release notes 另列 launch crash 修正 PT-357233；不要用文件版本號代替修正版號。"
+          ],
+          "noteIds": [
+            "PT-Ch07a-PlaybackEngine與低延遲",
+            "PT-Ch07b-HardwareClock與效能診斷"
+          ],
+          "sources": [
+            {
+              "label": "Avid Pro Tools 2026.4／2026.4.1 Release Notes",
+              "url": "https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-2026-4-Release-Notes"
+            },
+            {
+              "label": "Avid System Requirements（查核快照 2026-11-01）",
+              "url": "https://kb.avid.com/pkb/articles/compatibility/Pro-Tools-System-Requirements"
+            }
+          ],
+          "verification": {
+            "method": "primary-web-checked-by-project-research",
+            "checkedAt": "2026-11-01"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "label": "Avid Pro Tools 2026.4／2026.4.1 Release Notes",
+          "url": "https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-2026-4-Release-Notes"
+        },
+        {
+          "label": "Avid System Requirements（查核快照 2026-11-01）",
+          "url": "https://kb.avid.com/pkb/articles/compatibility/Pro-Tools-System-Requirements"
+        }
+      ]
+    }
+  ]
+}

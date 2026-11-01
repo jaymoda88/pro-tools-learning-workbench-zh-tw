@@ -35,6 +35,11 @@ const avidBase = 'https://resources.avid.com/SupportFiles/PT/';
 const officialPdfNames = new Set([
   'Pro_Tools_Reference_Guide_2023.3.pdf',
   'Pro_Tools_Shortcuts_2023.3.pdf',
+  'Pro_Tools_Reference_Guide_2026.4.pdf',
+  'Pro_Tools_Shortcuts_2026.4.pdf',
+  'Whats_New_in_Pro_Tools_2026.4.pdf',
+  'Whats_New_in_Pro_Tools_2024.3.pdf',
+  'Whats_New_in_Pro_Tools_2024.10.pdf',
 ]);
 let assetReferences = 0;
 let documentLinks = 0;

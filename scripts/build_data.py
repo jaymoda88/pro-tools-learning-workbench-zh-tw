@@ -6,6 +6,7 @@ labels, browser routes, official source URLs, and no plugin-only queries.
 
 import argparse
 import html
+import hashlib
 import json
 import re
 import sys
@@ -56,11 +57,13 @@ def read_document(path):
         raise ValueError(f"Missing document title: {path.name}")
     summary = re.search(r"^> (?!\[!)(.+)", body, flags=re.M)
     chapter = re.search(r"^chapter:\s*(\d+)", raw, flags=re.M)
+    version = re.search(r'^source_version:\s*["\']?([0-9]+\.[0-9]+(?:\.[0-9]+)?)', raw, flags=re.M)
     return {
         "id": path.stem,
         "title": title_match.group(1),
         "summary": summary.group(1).replace("**", "") if summary else "",
         "chapter": int(chapter.group(1)) if chapter else 0,
+        "sourceVersion": version.group(1) if version else "2023.3",
         "_body": body,
     }
 
@@ -289,6 +292,52 @@ def navigation(notes):
     return workflows, {name: exact("PT-Ch" + prefix + "-") for name, prefix in features.items()}
 
 
+
+def learning_data(source, note_ids):
+    """Load source-backed resource, release and shortcut evidence catalogues."""
+    from build_resources import load_catalogue
+
+    catalogue = load_catalogue(source / "resources.json", note_ids=note_ids)
+    bridge = json.loads((source / "updates.json").read_text(encoding="utf-8"))
+    evidence = json.loads((source / "shortcut-evidence.json").read_text(encoding="utf-8"))
+    releases = []
+    for release in bridge["releases"]:
+        features = []
+        for item in release.get("items", release.get("features", [])):
+            features.append({
+                "id": item["id"],
+                "name": item.get("title", item.get("name", "")),
+                "summary": item["summary"],
+                "topics": item.get("topics", []),
+                "whoNeedsIt": item.get("whoNeedsIt", ""),
+                "steps": item.get("steps", []),
+                "checkpoint": item.get("checkpoint", ""),
+                "editionConstraints": item.get("constraints", item.get("editionConstraints", "")),
+                "noteIds": item.get("relatedNoteIds", item.get("noteIds", [])),
+                "verification": item.get("verification", "local-pdf-read"),
+                "sources": [{**reference, "label": reference.get("label", reference.get("title", "官方來源"))}
+                            for reference in item.get("sources", [])],
+            })
+        releases.append({
+            "id": release.get("id", "release-" + release["version"].replace(".", "-")),
+            "version": release["version"],
+            "title": release["title"],
+            "summary": release["summary"],
+            "topics": sorted({topic for feature in features for topic in feature["topics"]}),
+            "features": features,
+            "sources": release.get("sources", [{"label": "官方版本文件", "url": release.get("sourceUrl", "")}]),
+        })
+    return {
+        "resources": catalogue["resources"],
+        "learningPaths": catalogue["learningPaths"],
+        "resourceMeta": {key: value for key, value in catalogue.items() if key not in ("resources", "learningPaths")},
+        "updates": releases,
+        "versionMeta": {key: value for key, value in bridge.items() if key != "releases"},
+        "shortcutEvidence": evidence["entries"],
+        "shortcutEvidenceMeta": {key: value for key, value in evidence.items() if key != "entries"},
+    }
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=ROOT / "content")
@@ -312,12 +361,21 @@ def main():
         "categories": [{"id": category[0], "name": category[1], "english": category[2]} for category in CATEGORIES],
         "sourceDocuments": {name: PDF_BASE + name for name in PDF_TITLES},
     }
+    for document in notes + pages:
+        document["contentDigest"] = hashlib.sha256((document["title"] + "\n" + document["html"]).encode("utf-8")).hexdigest()
+    data["rights"] = {"owner": "許惟傑 Xue_hwcxx", "handle": "jaymoda88",
+                      "policy": "All rights reserved; commercial reuse requires written permission",
+                      "notice": "NOTICE.txt", "repository": "https://github.com/jaymoda88/pro-tools-learning-workbench-zh-tw",
+                      "scope": "Original code, teaching expression, selection, arrangement and original figures; third-party rights are separate"}
+    data.update(learning_data(args.source, {note["id"] for note in notes}))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
         "window.PT_DATA = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n",
         encoding="utf-8",
     )
-    print(f"Built {len(notes)} notes, {len(pages)} references, {len(shortcuts)} shortcuts, {len(workflows)} workflows.")
+    print(f"Built {len(notes)} notes, {len(pages)} references, {len(shortcuts)} shortcuts, "
+          f"{len(data['resources'])} resources, {len(data['updates'])} releases, "
+          f"{len(data['shortcutEvidence'])} version-evidenced shortcuts.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,6351 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-11-01",
+  "sourceRecordCount": 124,
+  "resourceCount": 123,
+  "provenance": {
+    "kind": "user-research",
+    "description": "由使用者提供的 Pro Tools 學習資源筆記整理；驗證欄保留原清單記錄，本次未逐一觀看影片、試用課程或重新審核素材授權。",
+    "sourceFiles": [
+      {
+        "file": "01-Avid官方資源.md",
+        "sha256": "dcaf5859da07a6f9c8bf97ebc7aea2e25dbe25eb3b9d08007cf3fccc2f1a7659"
+      },
+      {
+        "file": "02-英文影片與課程.md",
+        "sha256": "f412e5ede09b7c26f7000ace9839c7014eb377532feed429ab2e13803050fc85"
+      },
+      {
+        "file": "03-中文資源.md",
+        "sha256": "62101ce607b7f815f8c3a92f33f9dd66ec9a396b92ebb0c4df59bc1e606b3d33"
+      },
+      {
+        "file": "04-練習素材與進階資源.md",
+        "sha256": "6ef96950997161239a51072ffd2238ac5d714209e98be114c4e93475617e498e"
+      }
+    ],
+    "liveAvailabilityChecked": false
+  },
+  "resources": [
+    {
+      "id": "resource-db863bc88b",
+      "title": "Pro Tools Documentation（官方文件總頁）",
+      "url": "https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-Documentation",
+      "links": [],
+      "provider": "Avid Knowledge Base",
+      "format": "index",
+      "formatLabel": "文件索引",
+      "language": "en",
+      "languageLabel": "英文（部分舊版附日文 PDF）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "2022.4 至 2026.4；頁面標示最後更新 2026-04-28",
+      "summary": "逐版列出 Reference Guide、What's New、Shortcuts、Read Me 的直連，是追蹤新版文件最可靠的入口。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "一、核心文件",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Documentation（官方文件總頁）"
+        }
+      ]
+    },
+    {
+      "id": "resource-4aaa47e57c",
+      "title": "Pro Tools Reference Guide 2026.4",
+      "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_Reference_Guide_2026.4.pdf",
+      "links": [],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "文件（PDF）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "2026.4；檔案修改日 2026-04-07",
+      "summary": "與筆記依據的 2023.3 版同系列，最適合逐章比對要改哪幾篇。總頁另列 2025.12.1 版（83.9 MB）可做中間比對。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（HEAD 200、application/pdf，文件總頁有列出；未讀內文）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "一、核心文件",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Reference Guide 2026.4"
+        }
+      ]
+    },
+    {
+      "id": "resource-c71521a8ab",
+      "title": "Pro Tools Shortcuts Guide 2026.4",
+      "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_Shortcuts_2026.4.pdf",
+      "links": [],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "文件（PDF，92 頁）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "檔名標 2026.4；內頁標示 2026-04-07 建立、REV A",
+      "summary": "可直接取代筆記依據的 2023.3 快捷鍵版本。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（看過封面與法律聲明頁）。注意：此網址未列在文件總頁，是依命名規則試出並確認存在。",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "一、核心文件",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Shortcuts Guide 2026.4"
+        }
+      ]
+    },
+    {
+      "id": "resource-d06bce435c",
+      "title": "What's New in Pro Tools 2026.4 與 Read Me",
+      "url": "https://resources.avid.com/SupportFiles/PT/Whats_New_in_Pro_Tools_2026.4.pdf",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_2026.4_Read_Me-Mac.pdf"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_2026.4_Read_Me-Win.pdf"
+        }
+      ],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "文件（PDF）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "2026.4；內頁標示 2026-04-07 建立、REV A",
+      "summary": "目錄涵蓋 Track Pinning、轉錄改進、MPEG-H 等，有操作細節。Read Me 則列已知問題與相容性。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（看過法律聲明與目錄）；Read Me 僅 HEAD 200",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "一、核心文件",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "What's New in Pro Tools 2026.4 與 Read Me"
+        }
+      ]
+    },
+    {
+      "id": "resource-07410a08b9",
+      "title": "Audio and MIDI Plugins Guide 2024.10 與 Cell 系列外掛指南",
+      "url": "https://resources.avid.com/SupportFiles/PT/Audio_and_MIDI_Plugins_Guide_2024.10.pdf",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://resources.avid.com/SupportFiles/PT/PlayCell_Plug-in_Guide_2023.7.pdf"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://resources.avid.com/SupportFiles/PT/GrooveCell_Plug-in_Guide_2023.7.pdf"
+        },
+        {
+          "label": "延伸連結 3",
+          "url": "https://resources.avid.com/SupportFiles/PT/SynthCell_Plug-in_Guide_2023.7.pdf"
+        }
+      ],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "文件（PDF）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "2024.10（文件總頁列為目前版本）；Cell 系列為 2023.7",
+      "summary": "內建外掛的主要參考，且已納入 MIDI 外掛，涵蓋 2023.3 筆記沒有的部分。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（HEAD 200，總頁有列出；未讀內文）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "midi",
+        "process"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch51b-Preset與MultiMono控制",
+        "PT-Ch44b-ClipEffects與片段處理鏈"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "一、核心文件",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Audio and MIDI Plugins Guide 2024.10 與 Cell 系列外掛指南"
+        }
+      ]
+    },
+    {
+      "id": "resource-434c36938e",
+      "title": "Quick Reference Guide 與 Sketch Guide",
+      "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_Quick_Reference_Guide.pdf",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://resources.avid.com/SupportFiles/PT/Using_Pro_Tools_Sketch_Guide.pdf"
+        }
+      ],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "文件（PDF）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "不標版本；Quick Reference 檔案修改日 2025-05-20，Sketch Guide 2024-02-27",
+      "summary": "Quick Reference 適合做筆記的總覽；Sketch 是 2023.9 才加入的功能，2023.3 筆記不會涵蓋。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（HEAD 200，總頁有列出；未讀內文）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "一、核心文件",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Quick Reference Guide 與 Sketch Guide"
+        }
+      ]
+    },
+    {
+      "id": "resource-a1e1c30665",
+      "title": "Pro Tools HDX Card Guide 與 Sync X Guide",
+      "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_HDX_Guide.pdf",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://resources.avid.com/SupportFiles/PT/Pro_Tools_Sync_X_Guide_v3.pdf"
+        }
+      ],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "文件（PDF）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "HDX 檔案修改日 2023-08-28；Sync X v3 為 2022-09-06",
+      "summary": "涵蓋 HDX 卡與驅動安裝、Sync X 連接。只有 Ultimate 支援 HDX／HD Native／Sync X，用不到這些硬體可略過。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（HEAD 200；內容描述來自搜尋摘要，未讀內文）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch07b-HardwareClock與效能診斷",
+        "PT-Ch06c-跨系統映射與AuxIO",
+        "PT-Ch51c-HardwareInsert與數位Clock"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "二、HD／HDX／MTRX 與 Dolby Atmos",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools HDX Card Guide 與 Sync X Guide"
+        }
+      ]
+    },
+    {
+      "id": "resource-b9858c2124",
+      "title": "Pro Tools MTRX Support 與 MTRX II／MTRX Studio Guide 5.8",
+      "url": "https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-MTRX-Support",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://resources.avid.com/SupportFiles/MTRX/Pro_Tools_MTRX_II_Guide_5.8.pdf"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://resources.avid.com/SupportFiles/MTRX/Pro_Tools_MTRX_Studio_Guide_5.8.pdf"
+        },
+        {
+          "label": "延伸連結 3",
+          "url": "https://resources.avid.com/SupportFiles/MTRX/Pro_Tools_MTRX_II_Guide_JP.pdf"
+        },
+        {
+          "label": "延伸連結 4",
+          "url": "https://resources.avid.com/SupportFiles/MTRX/DADman_v5.8.2.2_Release_Notes.pdf"
+        }
+      ],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "網站＋文件（PDF）",
+      "language": "en",
+      "languageLabel": "英文（MTRX II 另有日文版）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "支援頁更新於 2026-01-28；MTRX II Guide 5.8 檔案修改日 2025-05-13",
+      "summary": "集中列出安裝與操作指南、DADman 說明。要選檔名含 5.8 的版本，無版本號的舊檔仍可存取但較舊。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（支援頁已讀；PDF 僅 HEAD 200）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "spatial"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch07b-HardwareClock與效能診斷",
+        "PT-Ch06c-跨系統映射與AuxIO",
+        "PT-Ch51c-HardwareInsert與數位Clock"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "二、HD／HDX／MTRX 與 Dolby Atmos",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools MTRX Support 與 MTRX II／MTRX Studio Guide 5.8"
+        }
+      ]
+    },
+    {
+      "id": "resource-be882344c7",
+      "title": "Pro Tools and the Dolby Atmos Renderer FAQ",
+      "url": "https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-and-the-Dolby-Atmos-Renderer-FAQ",
+      "links": [],
+      "provider": "Avid Knowledge Base",
+      "format": "document",
+      "formatLabel": "文件（FAQ）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "更新於 2026-04-28",
+      "summary": "內部與外部 Renderer 的差異、re-render、遷移到 2023.12 以後的變更都整理在這裡。2023.3 之後 Atmos 工作流程改動很大，是更新筆記的重點。延伸閱讀：Dolby Headphone Personalization（https://www.avid.com/resource-center/dolby-headphone-personalization，已開啟確認）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "二、HD／HDX／MTRX 與 Dolby Atmos",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools and the Dolby Atmos Renderer FAQ"
+        }
+      ]
+    },
+    {
+      "id": "resource-43642b3896",
+      "title": "What's New in Pro Tools",
+      "url": "https://www.avid.com/pro-tools/whats-new",
+      "links": [],
+      "provider": "Avid",
+      "format": "website",
+      "formatLabel": "網站",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "2023.3 至 2026.4.1",
+      "summary": "同一頁看完每版重點，並連到各版深入文章，適合先掌握全貌。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（瀏覽器；一般擷取會被 Cloudflare 擋）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "三、版本追蹤",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "What's New in Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-e4373d5d15",
+      "title": "Pro Tools Release Notes（總索引）",
+      "url": "https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-Release-Notes",
+      "links": [],
+      "provider": "Avid Knowledge Base",
+      "format": "index",
+      "formatLabel": "文件索引",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "2023.6 至 2026.4.1 皆有連結",
+      "summary": "比行銷頁完整，有修錯與小改動，適合核對細節。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "三、版本追蹤",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Release Notes（總索引）"
+        }
+      ]
+    },
+    {
+      "id": "resource-35b30d89f2",
+      "title": "Pro Tools Software Updates（版本與支援期限表）",
+      "url": "https://kb.avid.com/pkb/articles/download/en355241",
+      "links": [],
+      "provider": "Avid Knowledge Base",
+      "format": "document",
+      "formatLabel": "文件（表格）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "9.0 至 2026.4.1",
+      "summary": "可確認每版發布日與支援結束日，新版只修錯還是有新功能也一目了然。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "三、版本追蹤",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Software Updates（版本與支援期限表）"
+        }
+      ]
+    },
+    {
+      "id": "resource-9d1f7fc5b5",
+      "title": "Pro Tools System Requirements and Compatibility",
+      "url": "https://kb.avid.com/pkb/articles/compatibility/Pro-Tools-System-Requirements",
+      "links": [],
+      "provider": "Avid Knowledge Base",
+      "format": "document",
+      "formatLabel": "文件",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "2026.4.1；頁面更新於 2026-10-22",
+      "summary": "系統需求是筆記最容易過時的部分。目前 macOS 支援 Tahoe、Sequoia、Sonoma，Windows 為 11（25H2／24H2），需 16 GB RAM。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "三、版本追蹤",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools System Requirements and Compatibility"
+        }
+      ]
+    },
+    {
+      "id": "resource-ebc6e4cd6f",
+      "title": "Getting Started with Pro Tools",
+      "url": "https://www.avid.com/pro-tools/getting-started",
+      "links": [],
+      "provider": "Avid",
+      "format": "video",
+      "formatLabel": "影片教學集",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示；內容已含 Speech-to-Text，屬近期更新",
+      "summary": "依安裝、介面、做音樂、音訊後製分類，每支多為 1–20 分鐘，另有 60 分鐘實作速成課。頁面連到的 Reference Guide 仍是 2025.10 版。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "四、官方教學與社群",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Getting Started with Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-a29f2d28bd",
+      "title": "Pro Tools User Guide（線上版）",
+      "url": "https://www.avid.com/pro-tools/user-guide",
+      "links": [],
+      "provider": "Avid",
+      "format": "website",
+      "formatLabel": "網站（分主題教學）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示",
+      "summary": "依工作流程拆成單一主題短文（如 Smart Tool、Clip Gain、Playlists），可當筆記對應的補充連結。這與 PDF 版 Reference Guide 是不同文件。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "四、官方教學與社群",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools User Guide（線上版）"
+        }
+      ]
+    },
+    {
+      "id": "resource-c4091ede86",
+      "title": "Avid Pro Tools 官方 YouTube 頻道與播放清單",
+      "url": "https://www.youtube.com/@avid.protools/playlists",
+      "links": [],
+      "provider": "Avid Pro Tools（Avid 官網另連到 https://www.youtube.com/user/avid）",
+      "format": "video",
+      "formatLabel": "影片",
+      "language": "en",
+      "languageLabel": "英文（字幕語言未確認）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "依影片而異",
+      "summary": "Installation & Support（https://www.youtube.com/playlist?list=PLHR-I1ePgHJyndMrmpSRoVYtaBq6wJKVr）適合新手；Quick Tips: Audio Post Workflows（https://www.youtube.com/playlist?list=PLHR-I1ePgHJzDwbm0VrVpz0fFB7YMfPZV）適合後製。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頻道頁可開但清單未渲染；以下兩個清單由 Avid 官網連結與 YouTube oEmbed 確認作者）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "四、官方教學與社群",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Avid Pro Tools 官方 YouTube 頻道與播放清單"
+        }
+      ]
+    },
+    {
+      "id": "resource-29c564e0b7",
+      "title": "Avid Resource Center",
+      "url": "https://www.avid.com/resource-center",
+      "links": [],
+      "provider": "Avid",
+      "format": "video",
+      "formatLabel": "網站（文章與影片）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "持續更新；文章附日期",
+      "summary": "各版新功能的深入文章都在這裡，如 2026.4（https://www.avid.com/resource-center/whats-new-in-pro-tools-20264）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（首頁文章清單未渲染；個別文章可開）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "四、官方教學與社群",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Avid Resource Center"
+        }
+      ]
+    },
+    {
+      "id": "resource-d9e704c37c",
+      "title": "Pro Tools Support（Knowledge Base 入口）",
+      "url": "https://www.avid.com/pro-tools/support",
+      "links": [],
+      "provider": "Avid",
+      "format": "website",
+      "formatLabel": "網站",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "頁內文章日期至 2025-10-21",
+      "summary": "授權、iLok、安裝、相容性問題的入口。此頁的快捷鍵連結是舊的 2023.3 版，請改用 Shortcuts Guide 2026.4。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "四、官方教學與社群",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Support（Knowledge Base 入口）"
+        }
+      ]
+    },
+    {
+      "id": "resource-39e385e6c0",
+      "title": "Avid Pro Audio Community（DUC 官方討論區）",
+      "url": "https://duc.avid.com/",
+      "links": [],
+      "provider": "Avid（使用者社群）",
+      "format": "community",
+      "formatLabel": "討論區",
+      "language": "en",
+      "languageLabel": "英文為主",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "持續更新",
+      "summary": "可查技術公告與實務問題，Intro 使用者也只有社群支援。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "unverified",
+        "label": "原清單記錄：未驗證（Cloudflare 安全驗證擋下，未嘗試繞過；Avid 官網有連結，搜尋結果可見 2026.4.1 公告串）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "四、官方教學與社群",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Avid Pro Audio Community（DUC 官方討論區）"
+        }
+      ]
+    },
+    {
+      "id": "resource-fb61eeebd8",
+      "title": "Avid Certification 與 User Certifications FAQ",
+      "url": "https://www.avid.com/learning/certification",
+      "links": [],
+      "provider": "Avid",
+      "format": "website",
+      "formatLabel": "網站",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "unknown",
+      "costLabel": "費用待確認",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "未標示",
+      "summary": "認證階梯為 Specialist → Professional（Music／Post）→ Expert。舊稱 User 與 Operator 已改名，部分網址仍用舊名。考試 50 題、60 分鐘、不可查資料（FAQ：https://www.avid.com/learning/certification/user-certifications-faq）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "五、認證與課程",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Avid Certification 與 User Certifications FAQ"
+        }
+      ]
+    },
+    {
+      "id": "resource-3aa6688785",
+      "title": "Avid Certified Specialist: Pro Tools",
+      "url": "https://www.avid.com/certifications/pro-tools-specialist",
+      "links": [],
+      "provider": "Avid",
+      "format": "website",
+      "formatLabel": "認證說明",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "unknown",
+      "costLabel": "費用待確認",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示",
+      "summary": "入門認證需完成 PT101 與 PT110 並通過考試，且課程須在官方學習夥伴完成。進階頁：Music（https://www.avid.com/certifications/pro-tools-operator-music）、Post（https://www.avid.com/certifications/pro-tools-professional-post）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "五、認證與課程",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Avid Certified Specialist: Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-4eae7251f7",
+      "title": "PT101 與 PT110 官方課程",
+      "url": "https://www.avid.com/courses/pt101-pro-tools-fundamentals-i",
+      "links": [],
+      "provider": "Avid",
+      "format": "course",
+      "formatLabel": "課程",
+      "language": "en",
+      "languageLabel": "英文（其他語言依學習夥伴而定，未確認）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示",
+      "summary": "PT101 為線上 14 小時或實體 16 小時；PT110（https://www.avid.com/courses/pt110-pro-tools-fundamentals-ii）為線上 20 小時或實體 24 小時。學習目標可當筆記的完整度檢核表。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頁內 PT101 目錄 PDF 連結回 404）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "五、認證與課程",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "PT101 與 PT110 官方課程"
+        }
+      ]
+    },
+    {
+      "id": "resource-45a2cbcd59",
+      "title": "Pro Tools Fundamentals I（PT101）官方 eBook",
+      "url": "https://www.avid.com/products/pro-tools-fundamentals-i-pt101",
+      "links": [],
+      "provider": "Avid",
+      "format": "book",
+      "formatLabel": "電子書",
+      "language": "en",
+      "languageLabel": "英文（2022 版另有日文、西班牙文）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "列出的最新版為 2023",
+      "summary": "官方課程教材，附練習用媒體與 session，可補足筆記缺少的實作。內容不含 2023 之後的新功能，且需 Adobe Digital Editions 閱讀。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "五、認證與課程",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Fundamentals I（PT101）官方 eBook"
+        }
+      ]
+    },
+    {
+      "id": "resource-fe3d2cdb4f",
+      "title": "Find an Avid Learning Partner",
+      "url": "https://www.avid.com/learning/find-an-avid-learning-partner",
+      "links": [],
+      "provider": "Avid",
+      "format": "website",
+      "formatLabel": "名錄",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "unknown",
+      "costLabel": "費用待確認",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "未標示",
+      "summary": "Avid 的學習夥伴查詢入口，可按地區尋找機構；原清單未取得 Taiwan 的完整查詢結果。課程招生頁的授權自述仍需在此名錄核對。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：名錄頁已開啟，台灣機構名單未取得；機構授權狀態仍需送出查詢核對。",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official",
+        "chinese"
+      ],
+      "sourceSection": "五、認證與課程",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Find an Avid Learning Partner"
+        },
+        {
+          "file": "03-中文資源.md",
+          "heading": "Avid 官方學習夥伴（ALP）名錄"
+        }
+      ]
+    },
+    {
+      "id": "resource-b597b452ff",
+      "title": "Pro Tools | Dolby Atmos Production I + II",
+      "url": "https://www.avid.com/courses/pro-tools-dolby-atmos-production-i-ii",
+      "links": [],
+      "provider": "Avid（與 Dolby 合作開發）",
+      "format": "course",
+      "formatLabel": "課程",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "未標示",
+      "summary": "線上講師課 38 小時或實體 44 小時，對應 Avid Certified Professional: Pro Tools | Dolby Atmos 認證。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "五、認證與課程",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools | Dolby Atmos Production I + II"
+        }
+      ]
+    },
+    {
+      "id": "resource-49a6336b58",
+      "title": "Pro Tools 方案與比較表",
+      "url": "https://www.avid.com/pro-tools/comparison",
+      "links": [],
+      "provider": "Avid",
+      "format": "website",
+      "formatLabel": "網站",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "unknown",
+      "costLabel": "費用待確認",
+      "levels": [
+        "beginner"
+      ],
+      "version": "比較表已含 2026 年內容",
+      "summary": "逐項列出功能差異。音軌數依序 8／32／512／2,048，同時錄音輸入 4／16／64／最多 256；內建 Atmos Renderer 僅 Studio 與 Ultimate。另有永久授權升級頁（https://www.avid.com/pro-tools/pricing/perpetual）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "六、版本與方案",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools 方案與比較表"
+        }
+      ]
+    },
+    {
+      "id": "resource-81cf6895dd",
+      "title": "Pro Tools Intro FAQ 與 Getting Started with Pro Tools Intro",
+      "url": "https://kb.avid.com/pkb/articles/en_US/Knowledge/Pro-Tools-Intro-FAQ",
+      "links": [],
+      "provider": "Avid Knowledge Base",
+      "format": "document",
+      "formatLabel": "文件",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "FAQ 更新於 2022-09-28（偏舊）；Getting Started 更新於 2025-08-15（https://kb.avid.com/pkb/articles/en_US/Knowledge/Getting-Started-with-Pro-Tools-Intro）",
+      "summary": "說明免費版的限制：音訊、樂器、MIDI 各 8 軌，開大型 session 只載入前 8 軌，僅社群支援。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "六、版本與方案",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Intro FAQ 與 Getting Started with Pro Tools Intro"
+        }
+      ]
+    },
+    {
+      "id": "resource-5e72642a63",
+      "title": "Pro Tools Scripting SDK（PTSL）",
+      "url": "https://developer.avid.com/scripting/",
+      "links": [],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "SDK 與文件",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "自 2022.12 起；說明文章最後列到 2023.9（https://www.avid.com/resource-center/Pro-Tools-Scripting-SDK）；FAQ 更新於 2023-06-08",
+      "summary": "可用任何支援 gRPC 與 Protocol Buffers 的語言控制 Pro Tools，附 C++ 參考用戶端，Intro 也能用。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（介紹頁與 FAQ）；SDK 下載與文件本身未驗證，位於 my.avid.com，對自動請求回 403",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "automation"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch11b-儲存備份與工程交接",
+        "PT-Ch13b-建立編輯與管理Track",
+        "PT-Ch22-媒體管理與跨版本相容性"
+      ],
+      "sourceGroup": "official",
+      "sourceGroups": [
+        "official"
+      ],
+      "sourceSection": "七、開發與自動化",
+      "sourceRefs": [
+        {
+          "file": "01-Avid官方資源.md",
+          "heading": "Pro Tools Scripting SDK（PTSL）"
+        }
+      ]
+    },
+    {
+      "id": "resource-a681ffa6bd",
+      "title": "Avid Pro Tools Tutorials",
+      "url": "https://www.youtube.com/playlist?list=PLmU_WKhWy-n1YogYT9gVCI-Ac0d-quxVg",
+      "links": [],
+      "provider": "Audio Sorcerer（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，38 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "片單未標示版本；上次更新 2023-10-24，影片約 3–6 年前",
+      "summary": "片單順序從安裝、建立 session、I/O、視窗、音軌類型，一路到錄音、MIDI、編輯模式、群組與 Elastic Audio，可以直接從頭學。依片單標題判斷，每部影片各講一個主題，很適合對照筆記查閱。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record",
+        "edit",
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Avid Pro Tools Tutorials"
+        }
+      ]
+    },
+    {
+      "id": "resource-c59ecb540c",
+      "title": "Pro Tools First Pro - Free Pro Tools First/Intro Course",
+      "url": "https://www.youtube.com/playlist?list=PLZWGTnpapianMeaUICagRTh1Xh4Hjg5w_",
+      "links": [],
+      "provider": "Joe at Claricast（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，15 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "以已停止提供的 Pro Tools First 教學，片單說明指內容也適用於 Pro Tools Intro；上次更新 2026-01-03，影片約 4 年前。安裝與授權步驟已不適用，介面、錄音、編輯、MIDI、外掛、匯出等流程概念仍可參考",
+      "summary": "這是明確設計成課程的片單，可見 Part 1–13 依序排列，涵蓋設定、Edit／Mix 視窗、錄音、編輯、MIDI、外掛、人聲混音到匯出。單集短，適合第一次完整走過流程。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "edit",
+        "midi",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools First Pro - Free Pro Tools First/Intro Course"
+        }
+      ]
+    },
+    {
+      "id": "resource-000164e514",
+      "title": "Pro Tools Primer Course",
+      "url": "https://www.youtube.com/playlist?list=PLwPiS-sJG4SpAttWfnCwUihxuQTjfJV_2",
+      "links": [],
+      "provider": "Matt Cheney／KULT Media（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，81 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "片單未標示版本；上次更新 2024-02-14，影片約 3 年前",
+      "summary": "作者定位為 Podcast 編輯與音訊後製的新手課，並依章節編號細拆介面元件（工具列、音軌清單、尺標、Clip List 等）與選單。結構和參考手冊相近，適合想逐項看到畫面的人。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "edit",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Primer Course"
+        }
+      ]
+    },
+    {
+      "id": "resource-08931bad42",
+      "title": "Learn Pro Tools in 30 Minutes — Complete Beginner Tutorial",
+      "url": "https://www.youtube.com/watch?v=oM4AwbnhnB4",
+      "links": [],
+      "provider": "Wayne.wav（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（單支，31:08）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "2026-08-27 發布；版本未標示",
+      "summary": "這是查到最新的免費入門影片，依說明會從建立 session 走到錄人聲、編輯、編排、基礎混音與匯出。適合先建立整體流程感，再回筆記查細節。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record",
+        "edit",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Learn Pro Tools in 30 Minutes — Complete Beginner Tutorial"
+        }
+      ]
+    },
+    {
+      "id": "resource-1c06382935",
+      "title": "Pro Tools 101 - The Basics | Part 1, Getting Started",
+      "url": "https://www.youtube.com/watch?v=iyjgzyPR1uo",
+      "links": [],
+      "provider": "Adam Steel（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（單支，56:11）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "2022-12-19 發布；版本未標示",
+      "summary": "依說明涵蓋安裝、發聲設定、錄音訊與 MIDI，以及基本編輯。這是一支長篇連續示範，可以看到實際操作的節奏，不是剪成短片的技巧集。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "record",
+        "edit",
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools 101 - The Basics | Part 1, Getting Started"
+        }
+      ]
+    },
+    {
+      "id": "resource-e13c02c98f",
+      "title": "Pro Tools Basics Series",
+      "url": "https://www.youtube.com/playlist?list=PLflTG42sviHibIa9yDAmHlSp7Gh-A_gd3",
+      "links": [],
+      "provider": "Emily Bowie - Beyond the Row（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，11 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "片單未標示版本；上次更新 2024-10-15，前 4 部約 5 年前，後段約 2–3 年前",
+      "summary": "前 4 集講工具列、編輯與混音工具、錄音 session、混音前準備，後面補人聲修音、comping、自製範本等主題。份量小，適合想快速看過錄音到混音前準備的人。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record",
+        "edit",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Basics Series"
+        }
+      ]
+    },
+    {
+      "id": "resource-fb1269fe08",
+      "title": "Pro Tools Basics（Coursera／Berklee）",
+      "url": "https://www.coursera.org/learn/protools",
+      "links": [],
+      "provider": "Berklee（Coursera 平台，講師 Chrissy Tignor）",
+      "format": "course",
+      "formatLabel": "課程",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "mixed",
+      "costLabel": "部分免費／試用",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示版本；課程以 Pro Tools 與 Pro Tools First 教學，頁面已註明 First 停止提供。查不到最後更新日",
+      "summary": "這是查到最有結構的免費入門課，四個單元涵蓋介面與 session、MIDI 與軟體樂器、錄音與 AudioSuite、混音與母帶。Coursera 頁面顯示 4.7 星（617 則評論），但版本可能偏舊。需要註冊帳號才能學習。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record",
+        "midi",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Basics（Coursera／Berklee）"
+        }
+      ]
+    },
+    {
+      "id": "resource-3f348c25de",
+      "title": "Pro Tools Explained®",
+      "url": "https://www.groove3.com/products/Pro-Tools-Explained",
+      "links": [],
+      "provider": "Groove3（講師 Eli Krantzberg）",
+      "format": "course",
+      "formatLabel": "課程（49 部影片，5 小時 9 分）",
+      "language": "en",
+      "languageLabel": "英文（頁面標示有隱藏字幕）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "Pro Tools 2022（頁面說明）",
+      "summary": "這門課是 Groove3 的 Pro Tools 主要入門課，章節依基礎操作、錄音與編輯等順序排列，版本與你的 2023.3 筆記最接近。可先看頁面上的試看片段，再決定是否購買。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "record",
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Explained®"
+        }
+      ]
+    },
+    {
+      "id": "resource-717e373084",
+      "title": "Avid Pro Tools: Beginner to Advanced",
+      "url": "https://www.udemy.com/course/avid-pro-tools-beginner-to-advanced/",
+      "links": [],
+      "provider": "David Lauritsen（Udemy）",
+      "format": "course",
+      "formatLabel": "課程（61 堂，11 小時 40 分）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "最近更新 2025/10；未明確標示版本。頁面文字出現 Pro Tools 11、12，但無法確定是否指本課",
+      "summary": "課綱包含音樂 session 的編輯與混音、數位音訊理論、音訊格式與 Dolby Atmos，是查到更新較近且內容較完整的付費選項。Udemy 頁面顯示 4.6 星（254 則評分）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "edit",
+        "process",
+        "mix",
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Avid Pro Tools: Beginner to Advanced"
+        }
+      ]
+    },
+    {
+      "id": "resource-6598c793b5",
+      "title": "Pro Tools 101（Berklee Online）",
+      "url": "https://online.berklee.edu/courses/pro-tools-101",
+      "links": [],
+      "provider": "Berklee Online（課號 OMPRD-180）",
+      "format": "course",
+      "formatLabel": "課程（學分課，12 個單元）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "Pro Tools 2023.6 Studio 或 Ultimate 以上（可接受 2020.12 以上），不接受 First、Intro、Artist；下次開課頁面寫 January 11，未標年份",
+      "summary": "教材是 Avid 的 Pro Tools Fundamentals I（2023 版），並含 Pro Tools 101 考試，可以得到老師回饋與結構化作業。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "一、入門操作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools 101（Berklee Online）"
+        }
+      ]
+    },
+    {
+      "id": "resource-396028c36c",
+      "title": "Pro Tools 11 Video Tutorial Series",
+      "url": "https://www.youtube.com/playlist?list=PLXmi76euGSyzXIKjigLhxJ_sWDwod0eYi",
+      "links": [],
+      "provider": "MusicTechHelpGuy（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，31 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "Pro Tools 11；上次更新 2016-04-07，影片約 10–11 年前。太舊，但編輯工具、編輯模式、群組、Playlist comping、Elastic Audio、Beat Detective 的觀念與多數操作仍可參考；介面外觀、選單位置與新功能需對照筆記",
+      "summary": "這份片單對編輯的拆解很細，例如編輯工具分 4 集、Elastic Audio 與 Pitch 分 5 集，正好是讀手冊時最需要看示範的部分。頻道仍在更新（最新約 3 個月前），但目前以 Logic Pro 為主，看起來不再更新 Pro Tools 系列。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "二、編輯",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools 11 Video Tutorial Series"
+        }
+      ]
+    },
+    {
+      "id": "resource-f90b633097",
+      "title": "Pro Tools | A Complete Guide（Quick Tips 精選）",
+      "url": "https://www.youtube.com/playlist?list=PL_AI3aaUDnLK0BVBupKa276BdiX1ECUI4",
+      "links": [],
+      "provider": "Puremix（YouTube，頻道 @PuremixAudioTutorials）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，25 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "版本未標示；上次更新 2021-04-29，影片約 5–15 年前。工作流程思路仍適用，快速鍵與選單需對照目前版本",
+      "summary": "雖然片名叫完整指南，內容其實是短技巧合輯，包括 session 整理、Smart Tool 編輯、Keyboard Focus、VCA 與鼓編輯。適合已會基礎操作、想看專業工程師工作習慣的人。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "二、編輯",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools | A Complete Guide（Quick Tips 精選）"
+        }
+      ]
+    },
+    {
+      "id": "resource-dd07504711",
+      "title": "Pro Tools Editing Tips & Tricks",
+      "url": "https://www.groove3.com/products/Pro-Tools-Editing-Tips-and-Tricks",
+      "links": [],
+      "provider": "Groove3（講師 Patrick Coffin）",
+      "format": "course",
+      "formatLabel": "課程（12 部影片，1 小時 41 分）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "未明確標示；頁面可見評論約 5 年前，推測至少是 5 年以上的內容。編輯邏輯仍可參考",
+      "summary": "這門短課專攻編輯，從 Edit 視窗基礎講到實務技巧。如果已經訂閱 All-Access Pass，可以順便看。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "二、編輯",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Editing Tips & Tricks"
+        }
+      ]
+    },
+    {
+      "id": "resource-1db22da2c0",
+      "title": "Pro Tools Tutorials with WTLMix Academy",
+      "url": "https://www.youtube.com/@wtlmixacademy",
+      "links": [],
+      "provider": "WTLMix Academy（YouTube，頻道自述為 Certified Pro Tools Specialist）",
+      "format": "video",
+      "formatLabel": "影片（頻道，229 部）",
+      "language": "en",
+      "languageLabel": "英文（另有西語片單）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "持續更新，最新影片約 3 個月前（查詢日 2026-11-01）",
+      "summary": "這是查到仍在更新且專攻 Pro Tools 混音的頻道，有 Behind the Mix、Mix in Process、Mix Feedback 等片單。訂閱數不多（約 405），外部評價難以判斷；近期多為 T-RackS 外掛內容，請挑片單看。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "三、混音",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Tutorials with WTLMix Academy"
+        }
+      ]
+    },
+    {
+      "id": "resource-5d7248ae8a",
+      "title": "Mixing with Pro Tools",
+      "url": "https://www.groove3.com/products/Mixing-with-Pro-Tools-2019",
+      "links": [],
+      "provider": "Groove3（講師 Kenny Gioia）",
+      "format": "course",
+      "formatLabel": "課程（16 部影片，2 小時 14 分）",
+      "language": "en",
+      "languageLabel": "英文（頁面標示有隱藏字幕）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "Pro Tools 2019（頁面標題）；混音方法大多仍適用，新增的外掛與 Mix 視窗功能則未涵蓋",
+      "summary": "頁面將對象定為已會操作、想看專業混音流程的人，可以銜接筆記中的混音章節。可先看試看片段。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "三、混音",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Mixing with Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-abd8e3820d",
+      "title": "Spatial Mixing in Dolby Atmos using Pro Tools",
+      "url": "https://www.linkedin.com/learning/spatial-mixing-in-dolby-atmos-using-pro-tools",
+      "links": [],
+      "provider": "LinkedIn Learning（講師 Evan Sutton）",
+      "format": "course",
+      "formatLabel": "課程（2 小時 42 分）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "mixed",
+      "costLabel": "部分免費／試用",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "2023-03-09 推出；版本未標示",
+      "summary": "專講用 Pro Tools 與 Dolby Atmos 製作沉浸式音樂混音的基礎。LinkedIn 頁面顯示 4.8 星（93 則評分），但 Atmos 工作流程在之後版本有變化，需留意。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix",
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "三、混音",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Spatial Mixing in Dolby Atmos using Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-5ace0ed81f",
+      "title": "Mixing and Mastering with Pro Tools（Berklee Online）",
+      "url": "https://online.berklee.edu/courses/mixing-and-mastering-with-pro-tools",
+      "links": [],
+      "provider": "Berklee Online（課號 OMPRD-380）",
+      "format": "course",
+      "formatLabel": "課程（學分課）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "Pro Tools 11 以上（建議 Studio，不接受 Intro、Artist），另需 iZotope Ozone 11 以上；下次開課頁面寫 January 11，未標年份",
+      "summary": "課綱涵蓋增益結構、EQ、動態、並聯壓縮、殘響、自動化，以及 LUFS 與母帶交付格式，適合想要有人批改作業的人。除學費外還要加上軟體成本。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix",
+        "automation"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "三、混音",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Mixing and Mastering with Pro Tools（Berklee Online）"
+        }
+      ]
+    },
+    {
+      "id": "resource-098cfd1f6e",
+      "title": "How to Record in Pro Tools (Step-By-Step for Beginners)",
+      "url": "https://www.youtube.com/watch?v=1k-PFSDwRKI",
+      "links": [],
+      "provider": "Help Me Devvon（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（單支，23:35）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "2025-06-08 發布；版本未標示",
+      "summary": "影片有章節標記，從 Dashboard、取樣率、session 資料夾、匯入伴奏到路由與錄音，可以直接跳到要看的步驟。內容較新，介面應接近你目前會看到的畫面。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record",
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "四、錄音",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "How to Record in Pro Tools (Step-By-Step for Beginners)"
+        }
+      ]
+    },
+    {
+      "id": "resource-44f58d2800",
+      "title": "Pro Tools Artist | Recording Essentials",
+      "url": "https://www.youtube.com/playlist?list=PLuDFQV6enkkX86LGMCXo1OF0HrJ5ONaH5",
+      "links": [],
+      "provider": "WTLMix Academy（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，25 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "以 Pro Tools Artist 為主；上次更新 2026-06-22，影片約 7–9 個月以上前",
+      "summary": "這是查到較新的完整流程片單，後段可見人聲混音、Mix Bus 與匯出，並以 Artist 版的範本為主軸，很貼近個人錄唱的需求。片單觀看數很低，請先試看一兩集。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "record",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "四、錄音",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Artist | Recording Essentials"
+        }
+      ]
+    },
+    {
+      "id": "resource-2200bd271f",
+      "title": "Recording Sessions in Pro Tools",
+      "url": "https://www.linkedin.com/learning/recording-sessions-in-pro-tools",
+      "links": [],
+      "provider": "LinkedIn Learning（講師 Mikaelin Bluespruce）",
+      "format": "course",
+      "formatLabel": "課程（1 小時 32 分）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "mixed",
+      "costLabel": "部分免費／試用",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "2022-08-30 推出；版本未標示",
+      "summary": "這門課聚焦如何規劃並順利進行一場錄音 session，補的是手冊比較少談的實務環節。LinkedIn 頁面顯示 4.8 星（152 則評分）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "record"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "四、錄音",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Recording Sessions in Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-1c70e9e3bd",
+      "title": "Pro Tools Tutorials for Music Production",
+      "url": "https://www.youtube.com/playlist?list=PLo3EE2a7U3vmLtqZRYBMBvk4AVrHYSMqv",
+      "links": [],
+      "provider": "Wayne.wav（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，125 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "片單約 5 天前更新（查詢日 2026-11-01）；抽看前 25 部，多為 4–9 年前的影片",
+      "summary": "內容集中在家庭錄音、人聲混音、Stem 匯出與延遲排除等實用問題，片單仍持續維護。這不是依序安排的課程，適合遇到問題時查找，偏嘻哈與 R&B 人聲。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "五、音樂製作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Tutorials for Music Production"
+        }
+      ]
+    },
+    {
+      "id": "resource-26015ca6e1",
+      "title": "First Song with Pro Tools",
+      "url": "https://www.groove3.com/products/First-Song-with-Pro-Tools",
+      "links": [],
+      "provider": "Groove3（講師 Marcus Huyskens）",
+      "format": "course",
+      "formatLabel": "課程（12 部影片，2 小時 44 分）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "頁面未標示；Production Expert 2018 年的發表文稱為 Pro Tools 2018 系列。製作與編排流程仍適用，內建外掛與音色可能已不同",
+      "summary": "從空白 session 開始，只用內建外掛與音源完成一首歌並做編排，能補手冊缺少的整體創作流程。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "process"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "五、音樂製作",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "First Song with Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-d1f3b7c025",
+      "title": "Pro Tools Midi Editing",
+      "url": "https://www.youtube.com/playlist?list=PLiu0gQeWw8qbOMiZICj5Nyp1kQSEHPBGK",
+      "links": [],
+      "provider": "Pete Calandra（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，10 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "版本未標示；上次更新 2020-09-30，影片約 6–7 年前。MIDI Editor 與編輯概念仍可參考",
+      "summary": "這是查到少數專講 Pro Tools MIDI 的免費片單，從 MIDI Editor 入門、進階編輯講到管弦樂器編寫，正好補筆記中不易想像的操作部分。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "edit",
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "六、MIDI",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Midi Editing"
+        }
+      ]
+    },
+    {
+      "id": "resource-9c0b98c859",
+      "title": "Pro Tools MIDI Explained®",
+      "url": "https://www.groove3.com/products/pro-tools-midi-explained",
+      "links": [],
+      "provider": "Groove3（講師 Eli Krantzberg）",
+      "format": "course",
+      "formatLabel": "課程（33 部影片，3 小時 43 分）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "Pro Tools 8（頁面說明），非常舊。MIDI 錄製、編輯與事件操作的基本觀念仍適用；介面、內建樂器與新版 MIDI 功能都已不同，建議搭配 2024.10 更新課與新版筆記",
+      "summary": "這是查到內容最深入的 Pro Tools MIDI 專課，但版本很舊，只建議在免費片單不夠用、且已訂閱 All-Access Pass 時再看。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "六、MIDI",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools MIDI Explained®"
+        }
+      ]
+    },
+    {
+      "id": "resource-149cedafb8",
+      "title": "Audio Post Production 101",
+      "url": "https://www.youtube.com/playlist?list=PLk55CEmjflkbEK-P8jag5pqZ1CpbjaVwZ",
+      "links": [],
+      "provider": "Thomas Boykin（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，35 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "版本未標示；上次更新 2024-12-26，主系列約 5 年前，後續單集約 2–4 年前",
+      "summary": "片單說明是從空白 session 做到整部劇情片的最終混音，包含對白、環境音、音效、Foley、混音、交付、Conform 與響度，還談到報價與客戶溝通。這是查到最完整的免費後製流程，觀看數也高（約 15.8 萬）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "process",
+        "mix",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "七、後製",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Audio Post Production 101"
+        }
+      ]
+    },
+    {
+      "id": "resource-26c0f251f1",
+      "title": "Post-Production Audio Workflow Series",
+      "url": "https://www.youtube.com/playlist?list=PLtd33xI5KTmfqU7Vh8TiNZ_xIwXViRPmD",
+      "links": [],
+      "provider": "Film Sound Tutorials（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（播放清單，18 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "版本未標示；上次更新 2020-06-16，前段約 10 年前。AAF／OMF 匯入、對白、ADR、VCA、Stem 等流程邏輯仍適用，介面與響度工具需對照新版",
+      "summary": "教學編號依序排列，從開 session、整理音軌、匯入 Picture Lock，一路到最終混音與輸出 Stem，步驟比 Boykin 的片單更像課程。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "process",
+        "mix",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "七、後製",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Post-Production Audio Workflow Series"
+        }
+      ]
+    },
+    {
+      "id": "resource-0e068d1b5f",
+      "title": "Paul Maunder（頻道）",
+      "url": "https://www.youtube.com/@paulmaunder3007",
+      "links": [],
+      "provider": "Paul Maunder（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（頻道，39 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "最新影片約 4 年前，頻道已近停更",
+      "summary": "內容主軸是 Pro Tools 與後製，例如 Clip Gain 完整指南、對白 EQ 與壓縮、後製範本與降噪。題目聚焦，適合查特定主題。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "七、後製",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Paul Maunder（頻道）"
+        }
+      ]
+    },
+    {
+      "id": "resource-6d5f4c18d7",
+      "title": "AuO2 Tutorials（頻道）",
+      "url": "https://www.youtube.com/@AuO2Tutorials",
+      "links": [],
+      "provider": "AuO2 Studio／Sreejesh Nair（YouTube）",
+      "format": "video",
+      "formatLabel": "影片（頻道，6 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "最新影片約 1 年前；其他約 3–6 年前",
+      "summary": "內容包含 Dolby Atmos 電影混音範本導覽、Atmos 音樂混音大師班與響度說明，依標題判斷是混音師本人拆解實際案子，有機會看到專業的 session 結構。數量少但主題明確。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "process",
+        "mix",
+        "spatial",
+        "post",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "七、後製",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "AuO2 Tutorials（頻道）"
+        }
+      ]
+    },
+    {
+      "id": "resource-6d74d3d3b9",
+      "title": "Boom Box Post Sound Design Blog（Pro Tools 標籤）",
+      "url": "https://www.boomboxpost.com/blog/tag/pro+tools",
+      "links": [],
+      "provider": "Boom Box Post（音效後製團隊的部落格）",
+      "format": "website",
+      "formatLabel": "網站（部落格）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "最新 Pro Tools 文章 2026-07-21；文章 2016–2026，發文頻率不規律",
+      "summary": "內容是實際做後製音效的編輯所寫的工作技巧，例如 Match Tracks 匯入、Sync Points、Speech to Text 實測，補的是手冊不會提的現場習慣。文字為主，較舊的快速鍵要留意版本差異。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "七、後製",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Boom Box Post Sound Design Blog（Pro Tools 標籤）"
+        }
+      ]
+    },
+    {
+      "id": "resource-caacdc43ee",
+      "title": "Pro Tools Basics - Sound Design and Mixing for Film",
+      "url": "https://www.udemy.com/course/pro-tools-basics-sound-design-and-mixing-for-film/",
+      "links": [],
+      "provider": "Philip Clements（Udemy）",
+      "format": "course",
+      "formatLabel": "課程（19 堂，4 小時 9 分）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "最近更新 2025/10；版本未標示",
+      "summary": "這是以影像音效為主軸的新手課，涵蓋檔案結構、session 設定、基礎混音與輸出。Udemy 頁面顯示 4.8 星，但只有 28 則評分，樣本偏少。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "process",
+        "mix",
+        "spatial",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "七、後製",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Basics - Sound Design and Mixing for Film"
+        }
+      ]
+    },
+    {
+      "id": "resource-63b5379fad",
+      "title": "Audio Post Production for Film and TV（Berklee Online）",
+      "url": "https://online.berklee.edu/courses/audio-post-production-for-film-and-tv",
+      "links": [],
+      "provider": "Berklee Online（課號 OMPRD-389）",
+      "format": "course",
+      "formatLabel": "課程（學分課）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "Pro Tools 10 以上（不接受 Intro、Artist）；下次開課頁面寫 January 11，未標年份",
+      "summary": "課綱涵蓋現場收音、音效庫、對白與 ADR、Foley、配樂、Pre-dub、M&E 到交付與歸檔，是查到最完整的付費後製課。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "mix",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "七、後製",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Audio Post Production for Film and TV（Berklee Online）"
+        }
+      ]
+    },
+    {
+      "id": "resource-3368190582",
+      "title": "Production Expert（原 Pro Tools Expert）",
+      "url": "https://www.production-expert.com/free-pro-tools-video-tutorials",
+      "links": [],
+      "provider": "Production Expert（網站，另有 YouTube 頻道 https://www.youtube.com/@ProductionExpert ）",
+      "format": "video",
+      "formatLabel": "網站＋影片",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "mixed",
+      "costLabel": "部分免費／試用",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "持續更新，網站最新文章 2026-10-31，YouTube 最新影片約 1 天前（2,625 部，約 16.3 萬訂閱）；免費教學頁文章跨 2019–2026",
+      "summary": "這是追蹤 Pro Tools 新版本與專業流程最活躍的英文來源，主題涵蓋 Track Preset、Window Configuration、Atmos 與後製。YouTube 的「Audio Post Production」片單（https://www.youtube.com/playlist?list=PL31EyfdbzAT5GXiD0e7b732Jjoq7ddfTq ，110 部，2026-08-06 更新）可當後製補充，但混有產品評測。舊文可從 Pro Tools Expert 文章庫查（2011–2022）。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "spatial",
+        "post",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "八、綜合與版本更新",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Production Expert（原 Pro Tools Expert）"
+        }
+      ]
+    },
+    {
+      "id": "resource-bc7e9b6164",
+      "title": "Pro Tools Answers（頻道）",
+      "url": "https://www.youtube.com/@ProToolsAnswers",
+      "links": [],
+      "provider": "Pro Tools Answers（頻道自述由三位 Avid 認證專家主持）",
+      "format": "video",
+      "formatLabel": "影片（頻道，161 部）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "最新一集 PTA #127 談 Pro Tools 2024.6，約 2 年前，看起來已停更",
+      "summary": "這是問答型節目，例如 Instrument Track 沒聲音、32-bit float、群組成員關係，對應的都是使用者實際卡住的問題，適合在讀筆記時有疑問再搜尋。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "八、綜合與版本更新",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools Answers（頻道）"
+        }
+      ]
+    },
+    {
+      "id": "resource-91696048be",
+      "title": "Sound On Sound Pro Tools 專欄",
+      "url": "https://www.soundonsound.com/daw-software/pro-tools",
+      "links": [],
+      "provider": "Sound On Sound（雜誌，近期文章作者為 Julian Rodgers）",
+      "format": "website",
+      "formatLabel": "網站（每月專欄）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "mixed",
+      "costLabel": "部分免費／試用",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "持續更新，最新為 2026 年 11 月號的 Record Modes；近期包含 2026.4 的 Track Pinning",
+      "summary": "這是每月一題的深入解說（VCA、Playlist、Atmos、ARA 與 AAX、側鏈），主題和你的筆記可以逐篇對照，也能補上 2023.3 之後的功能。文字為主，不提供大量操作影片。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "八、綜合與版本更新",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Sound On Sound Pro Tools 專欄"
+        }
+      ]
+    },
+    {
+      "id": "resource-c5e18ac9d6",
+      "title": "Pro Tools 2024.10 Update Explained®",
+      "url": "https://www.groove3.com/products/Pro-Tools-202410-Update-Explained",
+      "links": [],
+      "provider": "Groove3（講師 Eli Krantzberg）",
+      "format": "course",
+      "formatLabel": "課程（9 部影片，59 分 36 秒）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "Pro Tools 2024.10。目錄另有 2024.3、2024.6 更新課，但這兩門我只在分類頁看到",
+      "summary": "專講該版本的新外掛、MIDI 與流程改善，可以從 2023.3 筆記往後補一段。這是查到最接近的版本差異課；2025 以後的更新課沒有查到。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "midi",
+        "process"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "english",
+      "sourceGroups": [
+        "english"
+      ],
+      "sourceSection": "八、綜合與版本更新",
+      "sourceRefs": [
+        {
+          "file": "02-英文影片與課程.md",
+          "heading": "Pro Tools 2024.10 Update Explained®"
+        }
+      ]
+    },
+    {
+      "id": "resource-7ebcc68de8",
+      "title": "中國文化大學推廣教育部：Pro Tools 101 錄音工程國際認證班",
+      "url": "https://www.sce.pccu.edu.tw/courses/1X52B5090",
+      "links": [],
+      "provider": "中國文化大學推廣教育部（課程代碼 1X52B5090）",
+      "format": "course",
+      "formatLabel": "課程（實體加線上，含認證考試）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣（台北建國校區）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "頁面未標示軟體版本；本期 2026-10-07 至 2026-12-16，共 40.5 小時（線上 13.5、實體 24、考試 3）",
+      "summary": "這是這次查到唯一確定開班、日期也最新的台灣 PT101 班，還含兩次考試機會。本期已開課，想報名要等下一期。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "一、台灣實體與認證課程",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "中國文化大學推廣教育部：Pro Tools 101 錄音工程國際認證班"
+        }
+      ]
+    },
+    {
+      "id": "resource-6e6efbaf34",
+      "title": "中國文化大學推廣教育部：Pro Tools 110 錄音工程國際認證班",
+      "url": "https://www.sce.pccu.edu.tw/class_detail.aspx?id=1X49sample&CataId=1703&ProdId=1X49sample",
+      "links": [],
+      "provider": "中國文化大學推廣教育部",
+      "format": "course",
+      "formatLabel": "課程（實體，含認證考試）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣（台北）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "未標示；頁面上的 2007 年日期明顯不是實際班期，時數 47 小時",
+      "summary": "涵蓋外接控制器、進階 MIDI 與進階混音，須先取得 101 證照，適合走認證路線的人。音樂類課程列表目前只看到 101，要先問清楚有沒有下一期。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（課程介紹頁有效；2026 年班期未查到）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record",
+        "midi",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "一、台灣實體與認證課程",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "中國文化大學推廣教育部：Pro Tools 110 錄音工程國際認證班"
+        }
+      ]
+    },
+    {
+      "id": "resource-6b1964b180",
+      "title": "1500 聲量音創學院：Avid / Pro Tools 專業錄音工程國際認證課",
+      "url": "https://1500soundacademy.com.tw/avid_pro_tools_/",
+      "links": [],
+      "provider": "台北 1500 聲量音創學院（1500 Sound Academy）",
+      "format": "course",
+      "formatLabel": "課程（實體）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣（台北）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "版本未標示；頁面發布於 2025-02-04。班期 09/25 起沒寫年份，依星期推算應是 2025 年，新班期要另外問",
+      "summary": "把認證內容綁進人聲錄音與 Demo 製作，正好補手冊筆記缺少的實作。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（「官方授權」為該校自述，未能從 Avid 名錄核對）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "一、台灣實體與認證課程",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "1500 聲量音創學院：Avid / Pro Tools 專業錄音工程國際認證課"
+        }
+      ]
+    },
+    {
+      "id": "resource-6d3f10cb36",
+      "title": "1500 聲量音創學院：Pro Tools 進階課程（Specialist、Dolby Atmos、Professional）",
+      "url": "https://1500soundacademy.com.tw/course-category/prodution/?tutor-course-filter-category=443",
+      "links": [],
+      "provider": "台北 1500 聲量音創學院",
+      "format": "course",
+      "formatLabel": "課程（線上與實體）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "未標示；列表未列開課日期",
+      "summary": "這次查到少數列出 Atmos 與 Professional 層級的繁中課程。學費高，建議先確認班期與師資。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（開課狀況未確認）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "一、台灣實體與認證課程",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "1500 聲量音創學院：Pro Tools 進階課程（Specialist、Dolby Atmos、Professional）"
+        }
+      ]
+    },
+    {
+      "id": "resource-aff40d5a09",
+      "title": "南臺科技大學 Avid Pro Tools 國際錄音認證教學中心",
+      "url": "https://www.facebook.com/Pro.Tools.Training.Center.Taiwan/",
+      "links": [],
+      "provider": "南臺科技大學相關單位的 Facebook 粉絲專頁",
+      "format": "community",
+      "formatLabel": "社群頁／大專院校課程資訊",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣（台南）",
+      "cost": "unknown",
+      "costLabel": "費用待確認",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "未標示。專頁自述自 2005 年起；未登入可見一則 9 月 11 日的貼文，未標年份",
+      "summary": "南部少見的 Pro Tools 專門單位。校內曾開 3 學分的 PT101 證照輔導課，課綱有 18 週（105 學年度課綱），但年代較舊，開課現況要向校方確認。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（目前是否為 Avid 授權中心未確認）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "record"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "一、台灣實體與認證課程",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "南臺科技大學 Avid Pro Tools 國際錄音認證教學中心"
+        }
+      ]
+    },
+    {
+      "id": "resource-fd2e5679f9",
+      "title": "帝米數位音樂：一對一編曲錄音課程",
+      "url": "https://studio.dimi.tw/archives/5498",
+      "links": [],
+      "provider": "帝米數位音樂（DIMI STUDIO）",
+      "format": "course",
+      "formatLabel": "課程（一對一，實體）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣（台中）",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示；站內文章列表日期為 2024-01-10",
+      "summary": "中部的一對一選項，費用比認證班低，也可以帶自己的電腦上課。但 Pro Tools 只是可選軟體之一，沒有專屬課綱，也不是認證課。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "record",
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "一、台灣實體與認證課程",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "帝米數位音樂：一對一編曲錄音課程"
+        }
+      ]
+    },
+    {
+      "id": "resource-6c3ac2c2d4",
+      "title": "INDIE MONSTER：Pro Tools 混音入門課程",
+      "url": "https://www.yottau.com.tw/course/intro/674",
+      "links": [],
+      "provider": "YOTTAU 平台；講師柯小名",
+      "format": "course",
+      "formatLabel": "課程（線上錄播）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "講師使用 2018 版，頁面寫不限版本；未標上架日",
+      "summary": "約 10.5 小時，從訊號流程、動態、EQ 講到空間效果，最後完成一首混音，補的是手冊不教的混音判斷。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "二、繁中線上課程（付費）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "INDIE MONSTER：Pro Tools 混音入門課程"
+        }
+      ]
+    },
+    {
+      "id": "resource-dee1f042e2",
+      "title": "音樂球：全球專業錄音室都在使用的 Pro Tools，你也能迅速上手",
+      "url": "https://learn.theball.com.tw/courses/%E5%85%A8%E7%90%83%E5%B0%88%E6%A5%AD%E9%8C%84%E9%9F%B3%E5%AE%A4%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8%E7%9A%84pro-tools%EF%BC%8C%E4%BD%A0%E4%B9%9F%E8%83%BD%E8%BF%85%E9%80%9F%E4%B8%8A%E6%89%8B/",
+      "links": [],
+      "provider": "音樂球線上課程（這球音樂團隊）；講師為 GBH Studio 錄音師 KEVIN CHEN",
+      "format": "course",
+      "formatLabel": "課程（線上錄播）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示",
+      "summary": "28 單元、111 分鐘，價格低，可以看錄音師實際怎麼操作。內容與筆記重疊多，適合想快速看一次示範的人。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "二、繁中線上課程（付費）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "音樂球：全球專業錄音室都在使用的 Pro Tools，你也能迅速上手"
+        }
+      ]
+    },
+    {
+      "id": "resource-406159f49b",
+      "title": "Mixodus：Pro Tools 入門線上課程",
+      "url": "https://mixodus-music-production.teachable.com/courses/pro-tools-online-course/lectures/30422621",
+      "links": [],
+      "provider": "Mixodus Music Production",
+      "format": "course",
+      "formatLabel": "課程（線上錄播）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中介面、粵語授課（依其 YouTube 宣傳片 標題）；應為香港，可線上購買",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "涵蓋 Pro Tools Intro 與標準版；未標日期",
+      "summary": "10 個章節，含 Elastic Audio、Comping、MIDI 與 Automation，並標明哪些單元限標準版。不聽粵語的人不適合。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（課綱頁有效，價格未確認）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "edit",
+        "midi",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "二、繁中線上課程（付費）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "Mixodus：Pro Tools 入門線上課程"
+        }
+      ]
+    },
+    {
+      "id": "resource-f6e2a94af5",
+      "title": "昊奇音樂：Pro Tools 教學｜從零開始 101 段教學",
+      "url": "https://www.youtube.com/playlist?list=PLbyqFdplyBitKY7ziUZsybkYrkRPuYIdo",
+      "links": [],
+      "provider": "昊奇音樂（原作者官方頻道）",
+      "format": "video",
+      "formatLabel": "影片播放清單（101 支）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中標題，語音未逐支確認（應為國語）；台灣",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "源自該站的「Pro Tools 11 從零開始」課程，清單最後更新 2021-04-05",
+      "summary": "這是最完整的免費繁中系統教學，原本是付費課程，作者不再新增 Pro Tools 課程後才公開。一支只講一個功能，很適合和筆記對照著看；版本舊，新功能要以手冊為準。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "三、繁中免費影片",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "昊奇音樂：Pro Tools 教學｜從零開始 101 段教學"
+        }
+      ]
+    },
+    {
+      "id": "resource-309c49029a",
+      "title": "昊奇音樂：Pro Tools 教學｜混音插件深入剖析",
+      "url": "https://www.youtube.com/playlist?list=PLbyqFdplyBitk3T3et2bTsG2r77ATOBJH",
+      "links": [],
+      "provider": "昊奇音樂（原作者官方頻道）",
+      "format": "video",
+      "formatLabel": "影片播放清單（48 支）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中標題，語音未逐支確認（應為國語）；台灣",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "未標示；清單最後更新 2021-04-05",
+      "summary": "逐一講解 EQ、Compressor、Delay、Reverb 等內建外掛，並有前後對比示範。文字手冊給不了聽感，這是它最能補足的地方。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch51b-Preset與MultiMono控制",
+        "PT-Ch44b-ClipEffects與片段處理鏈"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "三、繁中免費影片",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "昊奇音樂：Pro Tools 教學｜混音插件深入剖析"
+        }
+      ]
+    },
+    {
+      "id": "resource-ee6c5d5f13",
+      "title": "普渡眾聲",
+      "url": "https://www.youtube.com/channel/UCRkfYIVjX4QpFl8tuOE25PQ/videos",
+      "links": [],
+      "provider": "普渡眾聲（台灣混音師柯小名的頻道）",
+      "format": "video",
+      "formatLabel": "影片頻道",
+      "language": "zh-Hant",
+      "languageLabel": "繁中，語音未確認（應為國語）；台灣",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "未標示；持續性頻道，最新上片日未確認",
+      "summary": "內容是混音、錄音經驗與外掛評介，不是 Pro Tools 專門頻道，適合補製作觀念。第三方推薦文可參考大禾音樂的介紹。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "三、繁中免費影片",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "普渡眾聲"
+        }
+      ]
+    },
+    {
+      "id": "resource-52a8925963",
+      "title": "中山大學音樂產製中心：Pro Tools 使用系列",
+      "url": "https://www.youtube.com/watch?v=nl9V-kvu2Gc",
+      "links": [],
+      "provider": "中山大學音樂產製中心（頻道；計畫主持人王溪泉教授）",
+      "format": "course",
+      "formatLabel": "影片（大學開放課程）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中，語音未確認（應為國語）；台灣",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示；約 12 年前上傳，頻道說明標註文化部 102、103 年度補助",
+      "summary": "有基本編輯與 Mix 等單元，由國立大學製作，來源清楚。內容偏舊，作為補充即可。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頻道已開啟；單支影片的標題與上傳者取自 YouTube 搜尋資料）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "三、繁中免費影片",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "中山大學音樂產製中心：Pro Tools 使用系列"
+        }
+      ]
+    },
+    {
+      "id": "resource-f9dce14506",
+      "title": "錄音 Chris：錄音混音教學與直播",
+      "url": "https://www.youtube.com/@recordingchris",
+      "links": [],
+      "provider": "錄音 Chris",
+      "format": "video",
+      "formatLabel": "影片頻道",
+      "language": "zh-Hant",
+      "languageLabel": "繁中標題、粵語（依標題用字判斷）；應為香港",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "未標示；教學約 8 年前，直播教學為 2022 年",
+      "summary": "有處理口水聲、齒音等具體修音示範，這類實務小技巧在中文資源中不多見。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頻道已開啟；影片資訊取自 YouTube 搜尋資料）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "三、繁中免費影片",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "錄音 Chris：錄音混音教學與直播"
+        }
+      ]
+    },
+    {
+      "id": "resource-bb6d3f07f9",
+      "title": "Taiwan Access：Pro Tools 新手教學基礎入門篇（一）至（四）",
+      "url": "https://www.taiwanaccess.com.tw/blog/posts/avid-pro-tools-101-basic-1",
+      "links": [],
+      "provider": "Taiwan Access（台北音訊器材零售商，有販售 Pro Tools）；作者為音樂製作人一森",
+      "format": "article",
+      "formatLabel": "文章系列",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "Pro Tools 2021.6.0；2021-09-24 至 2022-04-18",
+      "summary": "這是這次查到版本最新的繁中圖文入門，有講 Buffer、Bus 與 Send 的概念。第四篇還解釋了為何建議用英文介面，對你的用語選擇有參考價值。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（第一篇與第四篇已開啟；第二、三篇只確認連結存在。第四篇預告的下一篇未查到）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "四、繁中文章",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "Taiwan Access：Pro Tools 新手教學基礎入門篇（一）至（四）"
+        }
+      ]
+    },
+    {
+      "id": "resource-1f17ac5e36",
+      "title": "乐绘派后期技术：Pro Tools 軟體入門教程",
+      "url": "https://www.bilibili.com/video/BV1mgZHYZEmf/",
+      "links": [],
+      "provider": "乐绘派后期技术（頁面自述為講師兼錄音師）",
+      "format": "video",
+      "formatLabel": "影片合集",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國（Bilibili，其他地區通常也能看）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "前兩部分用 12.5，後兩部分用 2026.4.1，仍在更新；合集頁顯示 119/121；2025-04-01 發布",
+      "summary": "這是這次查到版本最新的中文系統教學，除了基本操作，還規劃了翻唱後期、有聲書後期和多軌混音的實例。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（無「原創」標籤，但聲明未經作者許可禁止轉載，且為作者自己的教學與輔導服務；未發現搬運跡象）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "process",
+        "mix",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "五、簡中影片與教學",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "乐绘派后期技术：Pro Tools 軟體入門教程"
+        }
+      ]
+    },
+    {
+      "id": "resource-515128a53d",
+      "title": "杜比 Dolby：杜比全景聲音樂製作快速上手",
+      "url": "https://www.bilibili.com/video/BV1Lp421o7pa/",
+      "links": [],
+      "provider": "杜比 Dolby（頁面簡介為杜比實驗室；該系列由其音訊技術專家主講）",
+      "format": "video",
+      "formatLabel": "影片系列",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "這一集講 Pro Tools 2023.12 內建渲染器，2024-02-05 發布；第二期為 2021-10-22",
+      "summary": "這是這次查到最可靠的中文全景聲資源，但以音樂混音為主，不涵蓋影視後期。內建渲染器的內容也新於你筆記依據的 2023.3 版。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（帳號簡介與內容相符，頁面未顯示官方認證標章）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix",
+        "spatial",
+        "post",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "五、簡中影片與教學",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "杜比 Dolby：杜比全景聲音樂製作快速上手"
+        }
+      ]
+    },
+    {
+      "id": "resource-720bd85d3d",
+      "title": "半音學院 HUKO：49 分鐘學會 Pro Tools",
+      "url": "https://www.bilibili.com/video/BV11V411H76Y/",
+      "links": [],
+      "provider": "hukoboss（半音學院，廣州的製作人兼錄混音師）",
+      "format": "video",
+      "formatLabel": "影片",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "Pro Tools 2021；2021-07-12 發布",
+      "summary": "作者不照功能逐項講，而是依實際錄混音工作流挑常用功能。讀完手冊後看它，可以幫你分出什麼功能真正常用。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "五、簡中影片與教學",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "半音學院 HUKO：49 分鐘學會 Pro Tools"
+        }
+      ]
+    },
+    {
+      "id": "resource-262855ca65",
+      "title": "蝙蝠音樂：Pro Tools 使用與音樂混音入門教程",
+      "url": "https://www.youtube.com/playlist?list=PLwLKauBhj2qLrMh1Wng7I21HGK6nEeMAT",
+      "links": [],
+      "provider": "蝙蝠音樂（出品方官方頻道）",
+      "format": "video",
+      "formatLabel": "影片播放清單（18 支）",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國（YouTube 版）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示；清單最後更新 2022-08-24",
+      "summary": "篇幅短，從安裝到混音入門有完整路線，還有剪一首歌的實戰。注意官網提供的 First 安裝包要透過微信公眾號取得，並非 Avid 官方管道，請只從 Avid 取得軟體。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "五、簡中影片與教學",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "蝙蝠音樂：Pro Tools 使用與音樂混音入門教程"
+        }
+      ]
+    },
+    {
+      "id": "resource-bd016b1e7b",
+      "title": "云倾少：Pro Tools 操作類視頻教程（零基礎）",
+      "url": "https://www.bilibili.com/video/av38936001/",
+      "links": [],
+      "provider": "云倾少",
+      "format": "video",
+      "formatLabel": "影片系列",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示；此集 2018-12-24 發布",
+      "summary": "對術語和操作解釋得細，適合比對簡中慣用譯名。版本舊，基本操作可參考。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頁面有「原創」標記；只開啟第十一課）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "五、簡中影片與教學",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "云倾少：Pro Tools 操作類視頻教程（零基礎）"
+        }
+      ]
+    },
+    {
+      "id": "resource-3c842a369e",
+      "title": "Midifan：Pro Tools 小貼士，真正的大師是這樣玩快捷鍵的",
+      "url": "https://m.midifan.com/article_body.php?id=5985",
+      "links": [],
+      "provider": "Midifan（刊於 Midifan 雜誌 2017 年 11 月第 140 期）",
+      "format": "article",
+      "formatLabel": "文章",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "Pro Tools 8 以後；2017-12-04",
+      "summary": "示範怎麼把 Playlist、循環錄音和編修快捷鍵串成工作流，可補 Shortcuts Guide 只列按鍵的不足。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頁面標為譯文，原文出自 SonicScoop；未能確認是否取得授權，有疑慮。抓取內容部分亂碼，譯者姓名未確認）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "midi"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch26a-MIDI錄音與Merge-Replace",
+        "PT-Ch35a-MIDI音符輸入與選取",
+        "PT-Ch36-MIDIEditor多軌編輯工作台"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "五、簡中影片與教學",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "Midifan：Pro Tools 小貼士，真正的大師是這樣玩快捷鍵的"
+        }
+      ]
+    },
+    {
+      "id": "resource-8d11ecbd07",
+      "title": "《Pro Tools 錄音與混音必備手冊》",
+      "url": "http://www.tup.tsinghua.edu.cn/booksCenter/book_02768101.html",
+      "links": [],
+      "provider": "清華大學出版社；作者盧小旭、湯楠、吳正江等；ISBN 9787302167150",
+      "format": "book",
+      "formatLabel": "書籍（簡中，415 頁，附光碟）",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "Pro Tools 7.0／7.3；2008 年",
+      "summary": "有流行歌曲的混音案例，但版本已落後近 20 年，只適合當混音思路的參考。不必優先購買。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認（書目另見 Midifan 上市介紹）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "六、中文書籍（只列書目）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "《Pro Tools 錄音與混音必備手冊》"
+        }
+      ]
+    },
+    {
+      "id": "resource-94264a547d",
+      "title": "《Pro Tools 音樂製作從入門到精通》",
+      "url": "https://baike.baidu.com/item/Pro%20Tools%E9%9F%B3%E4%B9%90%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/6984190",
+      "links": [],
+      "provider": "人民郵電出版社；作者虞志勇；ISBN 9787115204455",
+      "format": "book",
+      "formatLabel": "書籍（簡中，340 頁，附光碟）",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "Pro Tools 7.4；2009 年 5 月",
+      "summary": "內容含視訊同期配樂和 Elastic Audio，比同期其他書多一點。同樣過舊，當歷史參考即可。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認（書目來源為百度百科，非出版社頁面）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "六、中文書籍（只列書目）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "《Pro Tools 音樂製作從入門到精通》"
+        }
+      ]
+    },
+    {
+      "id": "resource-b50ebf9a0f",
+      "title": "《專業級音樂製作理論與實踐 Pro Tools：從入門到應用》",
+      "url": "https://m.fbs.qq.com/detail/1000688582",
+      "links": [],
+      "provider": "電子工業出版社；編著者董旻",
+      "format": "book",
+      "formatLabel": "書籍（簡中，共七章）",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "unknown",
+      "costLabel": "費用待確認",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "版本未標示；頁面上架日為 2008-04-01，實際出版年未確認",
+      "summary": "是早期少數的中文專書之一。資訊有限，除非在圖書館找得到，否則不必特別找。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（只看書目頁，未閱讀內文；ISBN 未查到）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "六、中文書籍（只列書目）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "《專業級音樂製作理論與實踐 Pro Tools：從入門到應用》"
+        }
+      ]
+    },
+    {
+      "id": "resource-bba9b3ae02",
+      "title": "《Pro Tools 中文指導手冊》",
+      "url": "https://www.taaze.tw/products/11100522458.html",
+      "links": [],
+      "provider": "作者王道明；頁面的出版社欄為 N/A；ISBN 9789574104086",
+      "format": "book",
+      "formatLabel": "書籍（平裝）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣",
+      "cost": "unknown",
+      "costLabel": "費用待確認",
+      "levels": [],
+      "version": "版本未標示；2002-07-01",
+      "summary": "這是這次唯一查到以 Pro Tools 為題的繁中專書，但出版已 24 年。TAAZE 頁面附公共圖書館借閱查詢，只建議用來對照早期譯名。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（出版社未查到）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "六、中文書籍（只列書目）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "《Pro Tools 中文指導手冊》"
+        }
+      ]
+    },
+    {
+      "id": "resource-ae40003af3",
+      "title": "《圖解錄音混音全書》",
+      "url": "https://www.books.com.tw/products/0010852324",
+      "links": [],
+      "provider": "易博士出版社；作者杉山勇司，譯者黃大旺；ISBN 9789864801138",
+      "format": "book",
+      "formatLabel": "書籍（非 Pro Tools 專書）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "不針對特定版本；2020-04-16",
+      "summary": "市面上買得到、也較新的繁中錄混音書。補的是器材與聲音觀念，也能當繁中術語的參考，但不會教 Pro Tools 操作。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（書店頁文字未提及 Pro Tools）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "六、中文書籍（只列書目）",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "《圖解錄音混音全書》"
+        }
+      ]
+    },
+    {
+      "id": "resource-7646d5da82",
+      "title": "Avid 知識庫：Pro Tools 10 Translated Documents",
+      "url": "https://kb.avid.com/pkb/articles/user_guide/Pro-Tools-10-Translated-Documents",
+      "links": [],
+      "provider": "Avid",
+      "format": "document",
+      "formatLabel": "官方文件清單",
+      "language": "zh-Hans",
+      "languageLabel": "有簡中，無繁中；各地區可看",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "Pro Tools 10；頁面標示最後更新 2026-01-27",
+      "summary": "簡中清單含 Shortcuts、EUCON Guide、What's New 等，是取得官方簡中譯名的少數來源，可以拿來校對筆記用語。內容停在 Pro Tools 10，後來新增的功能查不到。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（未下載任何文件）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "七、官方中文文件與術語對照",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "Avid 知識庫：Pro Tools 10 Translated Documents"
+        }
+      ]
+    },
+    {
+      "id": "resource-cb4e813bc3",
+      "title": "喝咖啡聊音樂：數位器材、音樂製作專有名詞對照表",
+      "url": "https://rickmidi.blogspot.com/2006/11/blog-post_15.html",
+      "links": [],
+      "provider": "Rick KY Hwang（瑞克）個人部落格",
+      "format": "article",
+      "formatLabel": "術語對照文章",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣用語（依內容判斷）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "不針對版本；2006-11-15",
+      "summary": "依字母排列 ADSR、DAW、EQ 等詞條的繁中說明，是這次查到最像樣的繁中對照表。作者自己也說是學習筆記、不一定正確，且詞條不含 Pro Tools 專屬功能。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "七、官方中文文件與術語對照",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "喝咖啡聊音樂：數位器材、音樂製作專有名詞對照表"
+        }
+      ]
+    },
+    {
+      "id": "resource-2c642c1c09",
+      "title": "PTT DigitalMusic 看板",
+      "url": "https://www.ptt.cc/bbs/DigitalMusic/index.html",
+      "links": [],
+      "provider": "批踢踢實業坊使用者",
+      "format": "community",
+      "formatLabel": "社群（公開看板）",
+      "language": "zh-Hant",
+      "languageLabel": "繁中；台灣",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "持續更新；列表可見 10/31 的文章",
+      "summary": "看板仍有人發文，但多為器材買賣，Pro Tools 討論不多。2015 年這篇討論談繁中介面譯名的問題，例如 Aux track，可供你決定筆記用語時參考；該文的回文也質疑原文有行銷意味，宜保留判斷。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "八、中文社群",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "PTT DigitalMusic 看板"
+        }
+      ]
+    },
+    {
+      "id": "resource-1b5e60f0fd",
+      "title": "音頻應用論壇（AudioApp）ProTools 版",
+      "url": "https://www.audioapp.cn/forum.php",
+      "links": [],
+      "provider": "音頻應用（audioapp.cn）",
+      "format": "community",
+      "formatLabel": "社群（論壇）",
+      "language": "zh-Hans",
+      "languageLabel": "簡中；中國",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "持續性論壇；例如一篇 2022 年的安裝教學",
+      "summary": "有獨立的 ProTools 版，可以看簡中使用者實際遇到的問題。站上有資源分享類公告，是否涉及破解無法判斷，只建議看討論、不要從這裡取得軟體。",
+      "rights": "提供者保留原始內容權利；查閱與使用請依來源條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（抓取內容部分亂碼；版面名稱依可辨識文字判斷）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "chinese",
+      "sourceGroups": [
+        "chinese"
+      ],
+      "sourceSection": "八、中文社群",
+      "sourceRefs": [
+        {
+          "file": "03-中文資源.md",
+          "heading": "音頻應用論壇（AudioApp）ProTools 版"
+        }
+      ]
+    },
+    {
+      "id": "resource-e6ba1ab759",
+      "title": "Mixing Secrets Free Multitrack Download Library（Cambridge-MT）",
+      "url": "https://cambridge-mt.com/ms3/mtk/",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://cambridge-mt.com/ms/mtk-faq/"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://cambridge-mt.com/ms/mtk-newbies/"
+        }
+      ],
+      "provider": "Mike Senior／Cambridge Music Technology",
+      "format": "practice",
+      "formatLabel": "素材（multitrack）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "未標示；各 DAW 皆可匯入",
+      "summary": "摘要稱有 500 多個各曲風專案，是最常被推薦的混音練習庫。附屬論壇 discussion.cambridge-mt.com 可以貼混音互評（同樣未開啟確認）。",
+      "rights": "依搜尋摘要，僅供教學用途，未經版權人許可不得商用。不得包裝成付費教學產品。混音放進作品集宣傳自己的服務原則上不允許，需逐一取得藝人同意，少數專案（如 Trybes、Angelo Boltini）已事先同意，但有附帶條件。非營利教學影片在 FAQ 中屬可接受。YouTube、SoundCloud 公開發布的完整答案未讀到，請看原始條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "unverified",
+        "label": "原清單記錄：未驗證（官方網站擋下自動讀取，內容來自搜尋索引）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Mixing Secrets Free Multitrack Download Library（Cambridge-MT）"
+        }
+      ]
+    },
+    {
+      "id": "resource-0834fd8b1f",
+      "title": "TELEFUNKEN Multitracks／Live From The Lab",
+      "url": "https://www.telefunken-elektroakustik.com/pages/multitracks",
+      "links": [],
+      "provider": "TELEFUNKEN Elektroakustik",
+      "format": "practice",
+      "formatLabel": "素材（multitrack，現場與錄音室）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "未標示；頁面列出 23 個 session",
+      "summary": "條款寫得清楚，而且部分 session 附影片，可以看到實際收音方式。下載前要填姓名、email 並同意條款，需要你自己操作。",
+      "rights": "僅限家用錄音室與教學，明文禁止商用。非商業再利用需附官方指定的聲明文字。是否可上傳公開平台，頁面未明說，請看原始條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "TELEFUNKEN Multitracks／Live From The Lab"
+        }
+      ]
+    },
+    {
+      "id": "resource-d23988c7e3",
+      "title": "Noisy Post 151（對白剪輯練習 AAF）",
+      "url": "https://www.travsonic.com/practice-production-for-audio-post-production-noisy-post-aaf-pro-tools/",
+      "links": [],
+      "provider": "Travsonic（製作者本人的網站）",
+      "format": "practice",
+      "formatLabel": "素材（後製練習）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "文章 2023-09-12，頁面更新 2026-01-04；未指定 Pro Tools 版本",
+      "summary": "這是這次唯一找到的真實對白剪輯流程素材，包含原始對白與 NAT Sound 的 AAF、參考影片和 2.0／5.1 Pro Tools 範本。不含音效設計與 Foley，正好練對白清理。",
+      "rights": "頁面沒有明確條款，請看原始條款。頁面對是否含音樂分軌的說法前後矛盾，購買前請確認。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（文章頁；商店頁與條款未查到）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "edit",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Noisy Post 151（對白剪輯練習 AAF）"
+        }
+      ]
+    },
+    {
+      "id": "resource-f182416d21",
+      "title": "LibriVox 公共領域有聲書（旁白剪輯練習用）",
+      "url": "https://librivox.org/pages/public-domain/",
+      "links": [],
+      "provider": "LibriVox（志工錄音計畫）",
+      "format": "practice",
+      "formatLabel": "素材（語音）",
+      "language": "en",
+      "languageLabel": "英文為主",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner"
+      ],
+      "version": "未標示",
+      "summary": "這不是專為 Pro Tools 設計的素材。不過志工在家錄的旁白雜訊與水準不一，很適合練換氣剪輯、口誤修正、clip gain 與降噪（此用途是我的建議，不是官方說明）。",
+      "rights": "在美國屬公共領域，其他國家不一定，官方提醒美國以外使用者先查當地版權狀態，台灣使用者也要注意。可自由使用，不強制署名，但官方希望註明來源。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "LibriVox 公共領域有聲書（旁白剪輯練習用）"
+        }
+      ]
+    },
+    {
+      "id": "resource-35b6a21795",
+      "title": "Tears of Steel（Blender 開放電影，配音效與重混練習）",
+      "url": "https://mango.blender.org/download/",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://mango.blender.org/production/soundtrack-files-released/"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://mango.blender.org/sharing/"
+        }
+      ],
+      "provider": "Blender Foundation",
+      "format": "practice",
+      "formatLabel": "素材（影片與音軌）",
+      "language": "en",
+      "languageLabel": "英文（有多語字幕）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "2012-09-26",
+      "summary": "可以拿影片自己重做音效與環境音，練 sound-to-picture。官方下載頁沒有對白分軌，「配音用音軌」標示為無，所以無法練原始對白剪輯。下載連結是 2012 年的，頁面提醒部分可能失效。",
+      "rights": "配樂為 CC BY-ND，可商用但不可拆解或重混（官方文章確認；作曲者表示可另行書面申請）。影片本體為 CC BY 3.0 來自搜尋摘要，我開啟的頁面沒有寫明，授權頁也未開啟，請看原始條款。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（下載頁與配樂文章；影片授權未確認）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Tears of Steel（Blender 開放電影，配音效與重混練習）"
+        }
+      ]
+    },
+    {
+      "id": "resource-209be0631e",
+      "title": "Freesound",
+      "url": "https://freesound.org/",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://freesound.org/help/faq/"
+        }
+      ],
+      "provider": "Universitat Pompeu Fabra（Music Technology Group）",
+      "format": "practice",
+      "formatLabel": "素材（音效庫）",
+      "language": "en",
+      "languageLabel": "英文介面",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "持續更新，最新上傳為 2026-10-31，共 738,618 個音效",
+      "summary": "數量最多，而且條款依音效標示。FAQ 有署名格式範例，也有已下載檔案的署名清單功能。",
+      "rights": "每個音效各自標示。CC0 可自由使用（不可自稱作者）；CC BY 需署名；CC BY-NC 需署名且不可營利。下載前要登入帳號。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Freesound"
+        }
+      ]
+    },
+    {
+      "id": "resource-5a236a067c",
+      "title": "BBC Sound Effects Archive",
+      "url": "https://sound-effects.bbcrewind.co.uk/",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://sound-effects.bbcrewind.co.uk/licensing"
+        }
+      ],
+      "provider": "BBC",
+      "format": "practice",
+      "formatLabel": "素材（音效庫）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "未標示；首頁稱超過 30,000 個音效",
+      "summary": "檔案庫音效的品質與多樣性很好，適合私下練習。但帶有這些音效的作品不要公開發布，這是它和 Sonniss、CC0 素材最大的差別。",
+      "rights": "RemArc 條款。僅限非商業的個人或研究用途，以及學校、大學師生的正式教育用途。要標示 BBC 版權。明文禁止上傳社群網站（分享連結可以）。工作上使用、商用與 AI 訓練都要另行取得許可；商用授權由 Pro Sound Effects 辦理。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認（讀到條款全文前段，約 6,000 字後截斷）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "BBC Sound Effects Archive"
+        }
+      ]
+    },
+    {
+      "id": "resource-ce63638771",
+      "title": "Sonniss GDC Game Audio Bundle",
+      "url": "https://gdc.sonniss.com/",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://sonniss.com/gameaudiogdc/"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://sonniss.com/gdc-bundle-license/"
+        }
+      ],
+      "provider": "Sonniss",
+      "format": "practice",
+      "formatLabel": "素材（音效庫）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "GDC 2026（7.47 GB 以上、347 個以上檔案）；2025 年沒有推出",
+      "summary": "這份素材裡對公開發布作品最友善。可以放心用在要放上網的練習作品，只要不把音效本身拿去散布。官方提供分卷 zip、Google Drive 鏡像與官方 torrent。",
+      "rights": "免版稅，個人與商業專案都可用，不需署名。不可將音效本身（含修改版）單獨散布或販售。禁止用於 AI／ML 訓練。可隨完成的作品一併發布。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "一、練習素材",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Sonniss GDC Game Audio Bundle"
+        }
+      ]
+    },
+    {
+      "id": "resource-a33de98d74",
+      "title": "Power Tools for Pro Tools 10",
+      "url": "https://www.mixonline.com/?p=45691",
+      "links": [],
+      "provider": "Hal Leonard；作者 Glenn Lorbecki",
+      "format": "book",
+      "formatLabel": "書籍",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "Pro Tools 10，2012 年",
+      "summary": "系列最新只查到 PT10，零售商標示 2018 年起絕版，只適合從圖書館或二手通路查閱進階編輯觀念，優先度低。ISBN 來源有衝突：新聞稿 9781458400352（272 頁），2012 春季目錄 9781458414199（200 頁、附 DVD-ROM）。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "unverified",
+        "label": "原清單記錄：未驗證（Mix、ProSoundWeb、零售商頁面都回 403，內容來自搜尋索引）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch29a-Edit Mode與Grid的選擇",
+        "PT-Ch32a-Fade形狀與Crossfade判斷",
+        "PT-Ch33a-用Playlist保留版本與合成Take",
+        "PT-Ch34b-多軌鼓對拍與接縫平滑"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "二、英文書籍",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Power Tools for Pro Tools 10"
+        }
+      ]
+    },
+    {
+      "id": "resource-fba3edd835",
+      "title": "Dialogue Editing for Motion Pictures and Television（第 3 版）",
+      "url": "https://www.routledge.com/Dialogue-Editing-for-Motion-Pictures-and-Television-A-Guide-to-the-Invisible-Art/Pereira/p/book/9781032963365",
+      "links": [],
+      "provider": "Routledge；作者 Korey Pereira（承接 John Purcell 的著作）",
+      "format": "book",
+      "formatLabel": "書籍",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "© 2026（Routledge 另一列表標示 2026-06-18），476 頁",
+      "summary": "對白剪輯的標準參考書出了新版，書名多了「and Television」，新增電視對白剪輯與生成式 AI 章節。不要買到 2013 年 Purcell 的第 2 版（ISBN 9780415828178）。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit",
+        "midi",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "二、英文書籍",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Dialogue Editing for Motion Pictures and Television（第 3 版）"
+        }
+      ]
+    },
+    {
+      "id": "resource-b7edd95ae7",
+      "title": "Mixing Secrets for the Small Studio（第 3 版）",
+      "url": "https://www.routledge.com/Mixing-Secrets-for-the-Small-Studio/Senior/p/book/9781032840451",
+      "links": [],
+      "provider": "Focal Press（Routledge）；作者 Mike Senior",
+      "format": "book",
+      "formatLabel": "書籍",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "© 2026，Routledge 列表標示 2025-09-16，482 頁；不限 DAW",
+      "summary": "和 Cambridge-MT 練習庫是同一位作者，可以邊讀邊練。新版加入響度正規化、stem 混音等主題，每章有作業。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "二、英文書籍",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Mixing Secrets for the Small Studio（第 3 版）"
+        }
+      ]
+    },
+    {
+      "id": "resource-906a676b08",
+      "title": "Modern Recording Techniques（第 10 版）",
+      "url": "https://www.routledge.com/Modern-Recording-Techniques-A-Practical-Guide-to-Modern-Music-Production/Huber-Caballero-Runstein/p/book/9781032197159",
+      "links": [],
+      "provider": "Focal Press（Routledge）；作者 David Miles Huber、Emiliano Caballero、Robert Runstein",
+      "format": "book",
+      "formatLabel": "書籍",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "© 2024（其他 Routledge 來源標示 2023-10），680 頁；不限 DAW",
+      "summary": "系統性補錄音原理、麥克風與訊號流，這些都是 Pro Tools 手冊不教的內容。新版有 Dolby Atmos 製作章節。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "spatial",
+        "atmos",
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "二、英文書籍",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Modern Recording Techniques（第 10 版）"
+        }
+      ]
+    },
+    {
+      "id": "resource-9c562cb84f",
+      "title": "Mastering Audio: The Art and the Science（第 3 版）",
+      "url": "https://www.routledge.com/Mastering-Audio-The-Art-and-the-Science/Katz/p/book/9780240818962",
+      "links": [],
+      "provider": "Routledge；作者 Bob Katz",
+      "format": "book",
+      "formatLabel": "書籍",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "頁面標示 © 2015（零售商多寫 2014）；未見更新版",
+      "summary": "母帶領域的經典參考書。版本較舊，串流平台的響度現況要另外對照本文的標準文件。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "process",
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "二、英文書籍",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Mastering Audio: The Art and the Science（第 3 版）"
+        }
+      ]
+    },
+    {
+      "id": "resource-9d19888535",
+      "title": "The Sound Effects Bible",
+      "url": "https://mwp.com/product/the-sound-effects-bible-how-to-create-and-record-hollywood-style-sound-effects/",
+      "links": [],
+      "provider": "Michael Wiese Productions；作者 Ric Viers",
+      "format": "book",
+      "formatLabel": "書籍",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "paid",
+      "costLabel": "付費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "頁面未標示；圖書館紀錄為 2008 年",
+      "summary": "從錄製到編輯、設計音效的實務入門。年代較舊，但收音與設計觀念不太受軟體版本影響。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "edit",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "二、英文書籍",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "The Sound Effects Bible"
+        }
+      ]
+    },
+    {
+      "id": "resource-ad25b1b39e",
+      "title": "Gearspace Post Production Forum",
+      "url": "https://gearspace.com/forums/post-production-forum.97/",
+      "links": [],
+      "provider": "Gearspace",
+      "format": "community",
+      "formatLabel": "社群",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "搜尋摘要可見 2026 年 3、6、8 月的討論串，判斷仍活躍",
+      "summary": "適合問後製流程與對白剪輯，例如 AAF 交換、歐美剪輯差異。全站也有混音、母帶相關版區，但發言品質不一，要自行判斷。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "unverified",
+        "label": "原清單記錄：未驗證（對自動工具回 403）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "edit",
+        "process",
+        "mix",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "三、社群",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Gearspace Post Production Forum"
+        }
+      ]
+    },
+    {
+      "id": "resource-69910df908",
+      "title": "Reddit r/protools",
+      "url": "https://www.reddit.com/r/protools/",
+      "links": [],
+      "provider": "Reddit 使用者社群",
+      "format": "community",
+      "formatLabel": "社群",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "未確認",
+      "summary": "一般認知上適合快速的入門問題與操作疑難，但這點本次沒有查證。請使用者自行開啟看最近貼文日期。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "unverified",
+        "label": "原清單記錄：未驗證（Reddit 不開放此環境的抓取與搜尋，無法確認成員數與最新貼文，活躍度也未確認）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "三、社群",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Reddit r/protools"
+        }
+      ]
+    },
+    {
+      "id": "resource-07128e734d",
+      "title": "EBU R 128 與 Tech 3343",
+      "url": "https://tech.ebu.ch/publications/r128",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://tech.ebu.ch/publications/tech3343"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://tech.ebu.ch/files/live/sites/tech/files/shared/r/r128v5_0.pdf"
+        },
+        {
+          "label": "延伸連結 3",
+          "url": "https://tech.ebu.ch/files/live/sites/tech/files/shared/tech/tech3343.pdf"
+        }
+      ],
+      "provider": "European Broadcasting Union",
+      "format": "standard",
+      "formatLabel": "標準",
+      "language": "en",
+      "languageLabel": "英文（英文為官方版；網站另託管譯本，EBU 不保證譯文）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "R 128 v5.0、Tech 3343 v4.0，都是 2023-11-21",
+      "summary": "歐洲廣播響度的原始文件。R 128 是規範，Tech 3343 是實務指南，新手建議先讀後者。",
+      "rights": "頁面沒有授權條款，請看原始條款",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頁面與 HEAD；PDF 內文未讀）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "mix",
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50d-DelayCompensation與Dither",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "四、標準與交付規格",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "EBU R 128 與 Tech 3343"
+        }
+      ]
+    },
+    {
+      "id": "resource-f22de08a49",
+      "title": "ATSC A/85:2026-07",
+      "url": "https://www.atsc.org/atsc-documents/a85-techniques-for-establishing-and-maintaining-audio-loudness-for-digital-television/",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://www.atsc.org/wp-content/uploads/2026/07/A85-2026-07.pdf"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://www.atsc.org/wp-content/uploads/2026/07/A85-2026-07-Annex-M.pdf"
+        }
+      ],
+      "provider": "Advanced Television Systems Committee",
+      "format": "standard",
+      "formatLabel": "標準（建議實務）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "A/85:2026-07，2026-07-08 核准；ATSC 公告稱這是大幅修訂",
+      "summary": "很多教材還在引用 2013 版，今年已有新版。Annex M 是響度與 True Peak 的快速對照，很適合做小抄。",
+      "rights": "頁面沒有授權條款，請看原始條款",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頁面與 HEAD；PDF 內文未讀，因此這裡不列響度數值）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "mix",
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50d-DelayCompensation與Dither",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "四、標準與交付規格",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "ATSC A/85:2026-07"
+        }
+      ]
+    },
+    {
+      "id": "resource-703cc458a6",
+      "title": "ITU-R BS.1770-5",
+      "url": "https://www.itu.int/rec/R-REC-BS.1770",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-5-202311-I!!PDF-E.pdf"
+        }
+      ],
+      "provider": "International Telecommunication Union",
+      "format": "standard",
+      "formatLabel": "標準",
+      "language": "en",
+      "languageLabel": "英文（其他語言未確認）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "BS.1770-5（2023-11），現行有效。搜尋摘要另見 2026-10-01 的修訂草案，屬受限文件，尚未發布。",
+      "summary": "LUFS／LKFS 與 True Peak 的量測演算法出處，R 128 與 A/85 都建立在這個基礎上。偏技術，想理解儀表原理時再讀。",
+      "rights": "請看原始條款",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（頁面與 HEAD；PDF 內文未讀）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "mix",
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50d-DelayCompensation與Dither",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "四、標準與交付規格",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "ITU-R BS.1770-5"
+        }
+      ]
+    },
+    {
+      "id": "resource-a82d4cdb50",
+      "title": "Netflix Sound Mix Specifications & Best Practices（品牌內容）",
+      "url": "https://studiopartner.netflix.net/studio/branded-sound-mix-spec-and-best-practices",
+      "links": [],
+      "provider": "Netflix",
+      "format": "standard",
+      "formatLabel": "標準（交付規格）",
+      "language": "zh-Hant",
+      "languageLabel": "開啟時顯示繁體中文（語系可能依瀏覽器設定而變）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "頁面可見內容未顯示版本號（修訂紀錄區塊未展開）；舊的 partnerhelp 網址會轉到此頁",
+      "summary": "可以看到真實串流平台的交付要求：對白門限響度 -27 LKFS ±2 LU、峰值不超過 -2 dB True Peak、48 kHz／24-bit。只適用 Netflix 品牌內容，授權內容另有規格。",
+      "rights": "不適用（Netflix 公開規格文件，請看原始條款）",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "mix",
+        "post"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50d-DelayCompensation與Dither",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "四、標準與交付規格",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Netflix Sound Mix Specifications & Best Practices（品牌內容）"
+        }
+      ]
+    },
+    {
+      "id": "resource-e5c4a546b5",
+      "title": "Dolby Atmos Pro Tools 入門影片與 Dolby 學習資源",
+      "url": "https://professionalsupport.dolby.com/s/article/Dolby-Atmos-Music-Getting-Started-with-Pro-Tool-Ultimate?language=en_US",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://learning.dolby.com/"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://professional.dolby.com/music/Professional-resources/"
+        },
+        {
+          "label": "延伸連結 3",
+          "url": "https://professional.dolby.com/siteassets/music/music-pillar-page/pro-resources/content-creation-quick-start-202376.pdf"
+        }
+      ],
+      "provider": "Dolby",
+      "format": "course",
+      "formatLabel": "教學影片／線上課程",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "version": "入門文章 2025-09-25；需 Pro Tools Studio 或 Ultimate",
+      "summary": "官方提供的 Pro Tools 專屬路線，戴耳機就能跟著做。學習平台分 Pro Tools 與 Logic 兩條課程。",
+      "rights": "工具與文件請看 Dolby 原始條款。Renderer 另有 90 天試用（頁面資訊）。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（進階課程要登入才看得到，未註冊）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "五、專業領域：Atmos 與混音",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Dolby Atmos Pro Tools 入門影片與 Dolby 學習資源"
+        }
+      ]
+    },
+    {
+      "id": "resource-8dc7ba395d",
+      "title": "Pro Tools: Getting Started In Atmos（Sound On Sound）",
+      "url": "https://www.soundonsound.com/node/4934884",
+      "links": [],
+      "provider": "Sound On Sound；作者 Julian Rodgers",
+      "format": "article",
+      "formatLabel": "文章",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "2026 年 4 月",
+      "summary": "用內建 Renderer 範本建 session，涵蓋 I/O 設定、耳機雙耳監聽、bed 與 object。還談到 Atmos 沒有 mix bus 處理這個結構差異，內容很新。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "setup",
+        "session",
+        "process",
+        "mix",
+        "spatial",
+        "atmos"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch58a-DolbyAtmos架構與Renderer連接",
+        "PT-Ch58b-Object控制與空間Automation",
+        "PT-Ch58c-ADM交換與Atmos交付"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "五、專業領域：Atmos 與混音",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Pro Tools: Getting Started In Atmos（Sound On Sound）"
+        }
+      ]
+    },
+    {
+      "id": "resource-c7784598d8",
+      "title": "Mix Rescue 系列（Sound On Sound）",
+      "url": "https://www.soundonsound.com/techniques/mix-rescue",
+      "links": [],
+      "provider": "Sound On Sound；作者 Mike Senior",
+      "format": "practice",
+      "formatLabel": "文章＋素材",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate"
+      ],
+      "version": "此篇 2012 年 10 月；系列自 2007 年起，搜尋摘要可見 2024 年的文章",
+      "summary": "讀者作品的真實修救案例，部分附前後對比音檔與原始多軌。專案檔是 Reaper 格式，不過多軌可以匯入 Pro Tools 對照著做。",
+      "rights": "多軌與專案檔的使用條款未標示，請看原始條款",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（此篇；系列其他篇只看到搜尋摘要）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "五、專業領域：Atmos 與混音",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Mix Rescue 系列（Sound On Sound）"
+        }
+      ]
+    },
+    {
+      "id": "resource-3b8ce05366",
+      "title": "SoundFlow",
+      "url": "https://soundflow.org/",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://soundflow.org/pricing/personal"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://forum.soundflow.org/"
+        }
+      ],
+      "provider": "SoundFlow",
+      "format": "tool",
+      "formatLabel": "工具（商業軟體，非開源）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "mixed",
+      "costLabel": "部分免費／試用",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "官方建議搭配 Pro Tools 2025.10，並內建於該版；Avid Edition 已於 2025 年秋由 Free 取代",
+      "summary": "Pro Tools 自動化的主流平台，支援巨集、JavaScript、Stream Deck。使用者若仍在 2023.3，新整合功能可能用不到，要先確認版本。",
+      "rights": "商業授權，請看原始條款。Free 的具體功能範圍無法從頁面讀出。",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（論壇首頁讀不到貼文；活躍度來自搜尋摘要，可見 2026 年 3、5 月的討論串）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "automation"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch11b-儲存備份與工程交接",
+        "PT-Ch13b-建立編輯與管理Track",
+        "PT-Ch22-媒體管理與跨版本相容性"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "六、自動化與快捷鍵工具",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "SoundFlow"
+        }
+      ]
+    },
+    {
+      "id": "resource-a0d516378d",
+      "title": "py-ptsl",
+      "url": "https://github.com/iluvcapra/py-ptsl",
+      "links": [],
+      "provider": "iluvcapra（愛好者專案，非 Avid 官方）",
+      "format": "tool",
+      "formatLabel": "工具（開源 Python 函式庫）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "advanced"
+      ],
+      "version": "最新 commit 2026-10-07，未封存，73 stars；版本對照表最新到 Pro Tools 2025.10，未列 2026.4",
+      "summary": "這是這次查到最成熟且仍在維護的開源 PTSL 專案，適合用 Python 批次處理 session，例如 marker 與匯入。",
+      "rights": "BSD-3-Clause",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認（含 GitHub API）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "session",
+        "process",
+        "automation"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch11b-儲存備份與工程交接",
+        "PT-Ch13b-建立編輯與管理Track",
+        "PT-Ch22-媒體管理與跨版本相容性"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "六、自動化與快捷鍵工具",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "py-ptsl"
+        }
+      ]
+    },
+    {
+      "id": "resource-989ff23e77",
+      "title": "ptulsconv",
+      "url": "https://github.com/iluvcapra/ptulsconv",
+      "links": [],
+      "provider": "iluvcapra",
+      "format": "tool",
+      "formatLabel": "工具（開源）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "intermediate",
+        "advanced"
+      ],
+      "version": "最新 push 2026-09-20，未封存，11 stars",
+      "summary": "把 Pro Tools 文字匯出檔轉成 PDF ADR 報表與 JSON。可以看懂 ADR 流程的文書環節，不需要寫 PTSL。",
+      "rights": "MIT",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認（含 GitHub API）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "post",
+        "automation"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch11b-儲存備份與工程交接",
+        "PT-Ch13b-建立編輯與管理Track",
+        "PT-Ch22-媒體管理與跨版本相容性"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "六、自動化與快捷鍵工具",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "ptulsconv"
+        }
+      ]
+    },
+    {
+      "id": "resource-7a9a751925",
+      "title": "Pro Tools Shortcuts Trainer",
+      "url": "https://apps.apple.com/us/app/id1325156417",
+      "links": [],
+      "provider": "Steve Arms（Xensori）",
+      "format": "tool",
+      "formatLabel": "工具（快捷鍵測驗 App）",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "mixed",
+      "costLabel": "部分免費／試用",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "快捷鍵更新到 Pro Tools 2022.12；App 版本 1.9.5，日期標示 03/12/2023（月日順序不明）。支援 iPad、iPhone、M1 以上 Mac。",
+      "summary": "這是唯一找到的互動式練習工具，有螢幕鍵盤測驗，分 10 個主題，可切 Mac／PC，涵蓋 228 個快捷鍵。內容年代接近使用者的 2023.3 筆記。",
+      "rights": "App Store 標準授權，非開源",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "mix"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch50a-混音Track與訊號流",
+        "PT-Ch51a-PlugInInsert與SideChain",
+        "PT-Ch53a-Automation模式與資料層",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "六、自動化與快捷鍵工具",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Pro Tools Shortcuts Trainer"
+        }
+      ]
+    },
+    {
+      "id": "resource-6b88048f7e",
+      "title": "Sound On Sound 數位音訊與增益結構文章",
+      "url": "https://www.soundonsound.com/sound-advice/all-about-digital-audio-part-1",
+      "links": [
+        {
+          "label": "延伸連結 1",
+          "url": "https://www.soundonsound.com/sound-advice/all-about-digital-audio-part-2"
+        },
+        {
+          "label": "延伸連結 2",
+          "url": "https://www.soundonsound.com/techniques/digital-problems-practical-solutions"
+        },
+        {
+          "label": "延伸連結 3",
+          "url": "https://www.soundonsound.com/techniques/gain-staging-your-daw-software"
+        },
+        {
+          "label": "延伸連結 4",
+          "url": "https://www.soundonsound.com/glossary/gain-staging"
+        }
+      ],
+      "provider": "Sound On Sound；Digital 系列作者 Hugh Robjohns。Gain Staging 一文的署名不一致（標頭 Matt Houghton、文末 Hugh Robjohns）。",
+      "format": "article",
+      "formatLabel": "文章",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "Part 1、2 為 1998 年；Digital Problems 為 2008 年 2 月；Gain Staging 為 2013 年 9 月",
+      "summary": "取樣、量化、dither、headroom 的原理講得紮實。建議先讀 Digital Problems 與 Gain Staging，1998 系列只需要 Part 1、2，後面談 DAT、MiniDisc 等舊媒體。",
+      "rights": "不適用",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "limited",
+        "label": "原清單記錄：已開啟確認（以上各篇；1998 系列的 Part 3 到 6 只看到搜尋摘要）",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "post",
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch63a-Video匯入與AVE設定",
+        "PT-Ch60c-Spot與TimeStamp定位音效",
+        "PT-Ch44a-ClipGain與音量整理",
+        "PT-Ch54-Mixdown與交付檔案"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "七、音訊基礎",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Sound On Sound 數位音訊與增益結構文章"
+        }
+      ]
+    },
+    {
+      "id": "resource-c29ff2e9d8",
+      "title": "Digital Show & Tell（Xiph.Org）",
+      "url": "https://xiph.org/video/vid2.shtml",
+      "links": [],
+      "provider": "Xiph.Org Foundation",
+      "format": "video",
+      "formatLabel": "教學影片",
+      "language": "en",
+      "languageLabel": "英文（有多語 VTT 字幕，頁面未列中文）",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "未標示",
+      "summary": "用實體儀器實際示範取樣與位元深度，能破除「數位是階梯狀」這類常見誤解。示範原始碼也有公開。",
+      "rights": "CC BY-SA",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch02a-Session與訊號流的基本積木",
+        "PT-Ch11a-建立Session與媒體格式",
+        "PT-Ch06a-I-O與Path地圖"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "七、音訊基礎",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "Digital Show & Tell（Xiph.Org）"
+        }
+      ]
+    },
+    {
+      "id": "resource-96502dcc05",
+      "title": "MIT OpenCourseWare 21M.380：Recording Techniques and Audio Production",
+      "url": "https://ocw.mit.edu/courses/21m-380-music-and-technology-recording-techniques-and-audio-production-fall-2016/",
+      "links": [],
+      "provider": "MIT；授課 Dr. Florian Hollerweger",
+      "format": "course",
+      "formatLabel": "大學開放課程",
+      "language": "en",
+      "languageLabel": "英文",
+      "cost": "free",
+      "costLabel": "免費",
+      "levels": [
+        "beginner",
+        "intermediate"
+      ],
+      "version": "2016 年秋季（封存課程）",
+      "summary": "一整學期的講義、考題解答與示範音訊，從聲音物理、麥克風到混音與母帶。最接近有結構的錄音原理教材。",
+      "rights": "CC BY-NC-SA 4.0",
+      "rightsScope": "原蒐集筆記摘要；使用素材前請自行閱讀提供者現行條款。",
+      "verification": {
+        "status": "source-reviewed",
+        "label": "原清單記錄：已開啟確認",
+        "scope": "user-research",
+        "checkedAt": "2026-11-01"
+      },
+      "topics": [
+        "record",
+        "process",
+        "mix",
+        "foundations"
+      ],
+      "relatedNoteIds": [
+        "PT-Ch24b-Input-Monitoring與Latency",
+        "PT-Ch25a-Audio錄音與補錄範圍",
+        "PT-Ch33a-用Playlist保留版本與合成Take"
+      ],
+      "sourceGroup": "practice",
+      "sourceGroups": [
+        "practice"
+      ],
+      "sourceSection": "七、音訊基礎",
+      "sourceRefs": [
+        {
+          "file": "04-練習素材與進階資源.md",
+          "heading": "MIT OpenCourseWare 21M.380：Recording Techniques and Audio Production"
+        }
+      ]
+    }
+  ],
+  "learningPaths": [
+    {
+      "id": "first-session",
+      "title": "完成第一個可交接的 Session",
+      "description": "從引擎與 I/O 到錄音、存檔和交接，先建立可以重開且能發聲的工程。",
+      "level": "beginner",
+      "steps": [
+        {
+          "title": "先理解 Session 與路由",
+          "noteIds": [
+            "PT-Ch02a-Session與訊號流的基本積木",
+            "PT-Ch07a-PlaybackEngine與低延遲",
+            "PT-Ch06a-I-O與Path地圖"
+          ],
+          "resourceIds": [
+            "resource-ebc6e4cd6f"
+          ],
+          "checkpoint": "列出你的 Playback Engine、Input 與 Output；確認訊號走向。",
+          "id": "first-session-step-01"
+        },
+        {
+          "title": "建立可追溯的工程",
+          "noteIds": [
+            "PT-Ch11a-建立Session與媒體格式",
+            "PT-Ch11b-儲存備份與工程交接",
+            "PT-Ch13a-Track類型與Metering"
+          ],
+          "resourceIds": [
+            "resource-a29f2d28bd"
+          ],
+          "checkpoint": "建立命名清楚的 Session，保存一份可重開的備份。",
+          "id": "first-session-step-02"
+        },
+        {
+          "title": "跟著示範完成一次錄放",
+          "noteIds": [
+            "PT-Ch24b-Input-Monitoring與Latency",
+            "PT-Ch25a-Audio錄音與補錄範圍"
+          ],
+          "resourceIds": [
+            "resource-a681ffa6bd"
+          ],
+          "checkpoint": "錄下一段自己的聲音，切換錄放並說明監聽差異。",
+          "id": "first-session-step-03"
+        },
+        {
+          "title": "用繁中內容回查操作",
+          "noteIds": [
+            "PT-Ch13b-建立編輯與管理Track",
+            "PT-Ch54-Mixdown與交付檔案"
+          ],
+          "resourceIds": [
+            "resource-f6e2a94af5"
+          ],
+          "checkpoint": "輸出測試音檔，重開 Session 確認素材沒有遺失。",
+          "id": "first-session-step-04"
+        }
+      ]
+    },
+    {
+      "id": "vocal-edit",
+      "title": "整理人聲 Take 並完成 Comping",
+      "description": "保留原始演唱，先做選 Take 與接縫，再整理電平和音準。",
+      "level": "intermediate",
+      "steps": [
+        {
+          "title": "準備錄音和低延遲監聽",
+          "noteIds": [
+            "PT-Ch24b-Input-Monitoring與Latency",
+            "PT-Ch25a-Audio錄音與補錄範圍"
+          ],
+          "resourceIds": [
+            "resource-098cfd1f6e"
+          ],
+          "checkpoint": "用自己的短錄音確認 Input Monitoring 與 Playback 的切換。",
+          "id": "vocal-edit-step-01"
+        },
+        {
+          "title": "保留版本，建立 Comp",
+          "noteIds": [
+            "PT-Ch33a-用Playlist保留版本與合成Take",
+            "PT-Ch33b-Target與Matches的進階工作流",
+            "PT-Ch32a-Fade形狀與Crossfade判斷"
+          ],
+          "resourceIds": [
+            "resource-f90b633097"
+          ],
+          "checkpoint": "保留原始 Playlist，建立一份 Comp，檢查所有接縫。",
+          "id": "vocal-edit-step-02"
+        },
+        {
+          "title": "先整理 Clip Gain，再理解修音",
+          "noteIds": [
+            "PT-Ch44a-ClipGain與音量整理",
+            "PT-Ch46-Melodyne整合與Audio轉MIDI"
+          ],
+          "resourceIds": [
+            "resource-309c49029a"
+          ],
+          "checkpoint": "在複製的素材上整理字句電平，記錄音準修正前後差異。",
+          "id": "vocal-edit-step-03"
+        },
+        {
+          "title": "留下可回頭修改的交付",
+          "noteIds": [
+            "PT-Ch47a-Commit固定處理與交接",
+            "PT-Ch54-Mixdown與交付檔案"
+          ],
+          "resourceIds": [
+            "resource-a29f2d28bd"
+          ],
+          "checkpoint": "保留未處理版本，匯出帶清楚版本名稱的音檔。",
+          "id": "vocal-edit-step-04"
+        }
+      ]
+    },
+    {
+      "id": "drum-timing",
+      "title": "剪好一段鼓，維持相位與自然感",
+      "description": "先學選取和 Grid，再做多軌節奏修正與 Crossfade。",
+      "level": "intermediate",
+      "steps": [
+        {
+          "title": "挑選可用的練習素材",
+          "noteIds": [
+            "PT-Ch11a-建立Session與媒體格式",
+            "PT-Ch13b-建立編輯與管理Track"
+          ],
+          "resourceIds": [
+            "resource-0834fd8b1f"
+          ],
+          "checkpoint": "閱讀素材條款後取得練習檔；先只做個人練習，不預設可公開成品。",
+          "id": "drum-timing-step-01"
+        },
+        {
+          "title": "建立編輯尺度",
+          "noteIds": [
+            "PT-Ch29a-Edit Mode與Grid的選擇",
+            "PT-Ch29b-工具切換與精準觀察"
+          ],
+          "resourceIds": [
+            "resource-f90b633097"
+          ],
+          "checkpoint": "在複本中以不同 Grid 和工具選同一組瞬態。",
+          "id": "drum-timing-step-02"
+        },
+        {
+          "title": "做一段多軌節奏修正",
+          "noteIds": [
+            "PT-Ch34a-BeatDetective偵測與TempoMap",
+            "PT-Ch34b-多軌鼓對拍與接縫平滑"
+          ],
+          "resourceIds": [
+            "resource-f90b633097"
+          ],
+          "checkpoint": "修正一個短段落，保持相關鼓軌的編輯關係。",
+          "id": "drum-timing-step-03"
+        },
+        {
+          "title": "檢查接縫和前後對比",
+          "noteIds": [
+            "PT-Ch32a-Fade形狀與Crossfade判斷",
+            "PT-Ch45b-Warp與Analysis的時間修正"
+          ],
+          "resourceIds": [
+            "resource-c7784598d8"
+          ],
+          "checkpoint": "逐段聽 Crossfade 和鼓尾；記錄哪些修正改善節奏、哪些損失自然感。",
+          "id": "drum-timing-step-04"
+        }
+      ]
+    },
+    {
+      "id": "dialogue-post",
+      "title": "從對白剪輯進入影視後製",
+      "description": "先對齊畫面與時間碼，再整理對白與 Automation，保留交接資訊。",
+      "level": "intermediate",
+      "steps": [
+        {
+          "title": "建立畫面與時間座標",
+          "noteIds": [
+            "PT-Ch63a-Video匯入與AVE設定",
+            "PT-Ch60a-Synchronization與SessionSetup"
+          ],
+          "resourceIds": [
+            "resource-149cedafb8"
+          ],
+          "checkpoint": "用自己的短片建立工程，記錄影像格式與時間碼設定。",
+          "id": "dialogue-post-step-01"
+        },
+        {
+          "title": "練習定位和對白剪輯",
+          "noteIds": [
+            "PT-Ch60c-Spot與TimeStamp定位音效",
+            "PT-Ch29a-Edit Mode與Grid的選擇",
+            "PT-Ch44a-ClipGain與音量整理"
+          ],
+          "resourceIds": [
+            "resource-0e068d1b5f",
+            "resource-f182416d21"
+          ],
+          "checkpoint": "用有權使用的錄音剪出一段對白，區分音量不均與背景噪音。",
+          "id": "dialogue-post-step-02"
+        },
+        {
+          "title": "用 Automation 維持敘事",
+          "noteIds": [
+            "PT-Ch53a-Automation模式與資料層",
+            "PT-Ch53b-Automation錄寫與保護"
+          ],
+          "resourceIds": [
+            "resource-26c0f251f1"
+          ],
+          "checkpoint": "在副本中整理對白電平，保留原始音訊與可取消的 Automation。",
+          "id": "dialogue-post-step-03"
+        },
+        {
+          "title": "做交付前檢查",
+          "noteIds": [
+            "PT-Ch54-Mixdown與交付檔案",
+            "PT-Ch22-媒體管理與跨版本相容性"
+          ],
+          "resourceIds": [
+            "resource-a82d4cdb50"
+          ],
+          "checkpoint": "先確認交付對象及適用規格；Netflix 品牌內容規格不能套用至所有作品。",
+          "id": "dialogue-post-step-04"
+        }
+      ]
+    },
+    {
+      "id": "atmos-foundation",
+      "title": "看懂 Atmos 的 Bed、Object 與 Renderer",
+      "description": "先確認版本與授權條件，再建立最小路由範例和交換概念。",
+      "level": "advanced",
+      "steps": [
+        {
+          "title": "確認自己的工具條件",
+          "noteIds": [
+            "PT-Ch55-Surround設定與Channel順序",
+            "PT-Ch56-Multichannel路由與Stem",
+            "PT-Ch58a-DolbyAtmos架構與Renderer連接"
+          ],
+          "resourceIds": [
+            "resource-be882344c7"
+          ],
+          "checkpoint": "用官方 FAQ 核對你的 Pro Tools 版本、方案及 Renderer 條件。",
+          "id": "atmos-foundation-step-01"
+        },
+        {
+          "title": "建立可追蹤的空間路由",
+          "noteIds": [
+            "PT-Ch57-SurroundPanner與移動聲像",
+            "PT-Ch58a-DolbyAtmos架構與Renderer連接"
+          ],
+          "resourceIds": [
+            "resource-8dc7ba395d"
+          ],
+          "checkpoint": "建立一條 Bed 和一條 Object 測試路徑，說明兩者在 Renderer 的分工。",
+          "id": "atmos-foundation-step-02"
+        },
+        {
+          "title": "控制移動與監聽",
+          "noteIds": [
+            "PT-Ch58b-Object控制與空間Automation"
+          ],
+          "resourceIds": [
+            "resource-e5c4a546b5"
+          ],
+          "checkpoint": "只用一個簡單音源測試位置 Automation，記錄監聽模式。",
+          "id": "atmos-foundation-step-03"
+        },
+        {
+          "title": "理解交換與交付",
+          "noteIds": [
+            "PT-Ch58c-ADM交換與Atmos交付",
+            "PT-Ch54-Mixdown與交付檔案"
+          ],
+          "resourceIds": [
+            "resource-be882344c7"
+          ],
+          "checkpoint": "列出交付檔案、Renderer 設定與版本依賴，核對接收方需求。",
+          "id": "atmos-foundation-step-04"
+        }
+      ]
+    },
+    {
+      "id": "delivery-check",
+      "title": "先選交付規範，再做 Mixdown",
+      "description": "把響度量測、交付格式與版本文件整理成可回查的檢查表。",
+      "level": "advanced",
+      "steps": [
+        {
+          "title": "理解量測方法與交付目標的差別",
+          "noteIds": [
+            "PT-Ch50d-DelayCompensation與Dither"
+          ],
+          "resourceIds": [
+            "resource-703cc458a6"
+          ],
+          "checkpoint": "分清 Integrated loudness、True Peak 與交付方指定的量測條件。",
+          "id": "delivery-check-step-01"
+        },
+        {
+          "title": "確認適用的標準版本",
+          "noteIds": [
+            "PT-Ch54-Mixdown與交付檔案"
+          ],
+          "resourceIds": [
+            "resource-07128e734d",
+            "resource-f22de08a49"
+          ],
+          "checkpoint": "選一份真的適用於工作對象的規格，記錄版次、聲道、目標與容差。",
+          "id": "delivery-check-step-02"
+        },
+        {
+          "title": "完成帶文件的輸出",
+          "noteIds": [
+            "PT-Ch47b-Freeze與TrackBounce的使用時機",
+            "PT-Ch54-Mixdown與交付檔案"
+          ],
+          "resourceIds": [
+            "resource-a29f2d28bd"
+          ],
+          "checkpoint": "記錄 Sample Rate、Bit Depth、命名、量測值與必要的交接檔案。",
+          "id": "delivery-check-step-03"
+        },
+        {
+          "title": "用可追溯版本回聽",
+          "noteIds": [
+            "PT-Ch11b-儲存備份與工程交接",
+            "PT-Ch22-媒體管理與跨版本相容性"
+          ],
+          "resourceIds": [
+            "resource-4aaa47e57c"
+          ],
+          "checkpoint": "保留工程與輸出版本關係，重開交付包檢查素材及監聽。",
+          "id": "delivery-check-step-04"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "pro-tools-learning-workbench-zh-tw",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "description": "An interactive Traditional Chinese Pro Tools reference workbench",
   "scripts": {
@@ -8,14 +8,17 @@
     "build": "python3 scripts/build_data.py && python3 scripts/build_site.py",
     "build:data": "python3 scripts/build_data.py",
     "build:site": "python3 scripts/build_site.py",
-    "check": "node --check dist/app.js && node scripts/check.mjs && node scripts/smoke.mjs && node scripts/check-diagrams.mjs && python3 scripts/build_site.py --check",
+    "check": "node --check dist/app.js && node scripts/check.mjs && node scripts/check-learning.mjs && node scripts/check-rights.mjs && node scripts/smoke.mjs && node scripts/check-diagrams.mjs && python3 scripts/build_site.py --check",
     "package": "python3 scripts/package_release.py",
-    "check:diagrams": "node scripts/check-diagrams.mjs"
+    "check:diagrams": "node scripts/check-diagrams.mjs",
+    "check:learning": "node scripts/check-learning.mjs",
+    "check:rights": "node scripts/check-rights.mjs"
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
     "jsdom": "26.1.0"
-  }
+  },
+  "license": "UNLICENSED"
 }
